@@ -1,0 +1,302 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Comment highlight",
+  "desc": "Featured comment card with like counter.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el38cf77c",
+        "type": "text",
+        "name": "Comment · kicker",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an8e47fbc",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an4431245",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "COMMENT OF THE DAY",
+          "font": "sans",
+          "size": 44,
+          "weight": "800",
+          "color": "#fbbf24",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10.56,
+          "shadowX": 0,
+          "shadowY": 2.86
+        },
+        "w": 900,
+        "h": 55,
+        "x": 90,
+        "y": 250
+      },
+      {
+        "id": "el4d4829e",
+        "type": "rect",
+        "name": "Comment · bubble",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an73b0770",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "an9b3a8ba",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(251,191,36,0.4)",
+          "borderW": 2,
+          "radius": 36
+        },
+        "w": 900,
+        "h": 620,
+        "x": 90,
+        "y": 380
+      },
+      {
+        "id": "elac5b6e5",
+        "type": "icon",
+        "name": "Comment · icon",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anfe8bc9e",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "anf9b38ae",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "chat",
+          "color": "#fbbf24",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 70,
+        "h": 70,
+        "x": 150,
+        "y": 440
+      },
+      {
+        "id": "elfcd94f3",
+        "type": "text",
+        "name": "Comment · body",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an3746e0f",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "anf5b8f77",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "“This channel went from my guilty pleasure\nto my actual study material.\nNo notes.”",
+          "font": "sans",
+          "size": 44,
+          "weight": "500",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.45,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10.56,
+          "shadowX": 0,
+          "shadowY": 2.86
+        },
+        "w": 780,
+        "h": 191,
+        "x": 150,
+        "y": 560
+      },
+      {
+        "id": "elc57dd5f",
+        "type": "text",
+        "name": "Comment · author",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an431d547",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anfce941e",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "— @jules.mp4",
+          "font": "sans",
+          "size": 36,
+          "weight": "700",
+          "color": "#c9d4ff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 500,
+        "h": 45,
+        "x": 150,
+        "y": 850
+      },
+      {
+        "id": "elc2d878a",
+        "type": "icon",
+        "name": "Comment · like",
+        "rot": 180,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an04df67f",
+            "type": "bounce",
+            "dir": "in",
+            "start": 1.15,
+            "duration": 0.9,
+            "easing": "ease"
+          },
+          {
+            "id": "ancc3f5e9",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "like",
+          "color": "#34d399",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 66,
+        "h": 66,
+        "x": 480,
+        "y": 1105
+      },
+      {
+        "id": "el986f5cb",
+        "type": "counter",
+        "name": "Comment · likes",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an167fb03",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.25,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anf31082c",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 3421,
+          "dec": 0,
+          "prefix": "",
+          "suffix": "",
+          "font": "sans",
+          "size": 60,
+          "weight": "900",
+          "color": "#34d399",
+          "align": "left",
+          "lh": 1.1,
+          "ls": 0,
+          "countDur": 1.4,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 14.4,
+          "shadowX": 0,
+          "shadowY": 3.9
+        },
+        "w": 300,
+        "h": 66,
+        "x": 580,
+        "y": 1115
+      }
+    ]
+  }
+}

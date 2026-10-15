@@ -1,0 +1,1070 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Pricing table",
+  "desc": "Three plan cards with prices, features and a trial CTA.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elbdad156",
+        "type": "text",
+        "name": "Pricing · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an526c71e",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "an487547a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "CHOOSE YOUR PLAN",
+          "font": "sans",
+          "size": 62,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 14.88,
+          "shadowX": 0,
+          "shadowY": 4.03
+        },
+        "w": 900,
+        "h": 78,
+        "x": 90,
+        "y": 236
+      },
+      {
+        "id": "el2ff5da5",
+        "type": "line",
+        "name": "Pricing · line",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ancfcbb44",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.2,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "anb4e0a8d",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "color": "#7c6cff",
+          "width": 8,
+          "caps": true
+        },
+        "w": 300,
+        "h": 10,
+        "x": 390,
+        "y": 330
+      },
+      {
+        "id": "el8b4c767",
+        "type": "rect",
+        "name": "Pricing · card BASIC",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anff37e60",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "ana203b3c",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 28
+        },
+        "w": 180,
+        "h": 560,
+        "x": 90,
+        "y": 400
+      },
+      {
+        "id": "el06f1f7e",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf43a522",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an8898532",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "BASIC",
+          "font": "sans",
+          "size": 34,
+          "weight": "800",
+          "color": "#34d399",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 4,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 180,
+        "h": 42,
+        "x": 90,
+        "y": 442
+      },
+      {
+        "id": "el927985d",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ane65be30",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.75,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an6a8b093",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "$9",
+          "font": "sans",
+          "size": 84,
+          "weight": "900",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 20.16,
+          "shadowX": 0,
+          "shadowY": 5.46
+        },
+        "w": 180,
+        "h": 105,
+        "x": 90,
+        "y": 540
+      },
+      {
+        "id": "el3a8bd20",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anc1c6438",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.8,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an2aa8602",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "/mo",
+          "font": "sans",
+          "size": 30,
+          "weight": "600",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 180,
+        "h": 38,
+        "x": 90,
+        "y": 660
+      },
+      {
+        "id": "el380c51e",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an0837739",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.85,
+            "duration": 0.35,
+            "easing": "ease"
+          },
+          {
+            "id": "an6da9d68",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Basic set",
+          "font": "sans",
+          "size": 26,
+          "weight": "500",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.24,
+          "shadowX": 0,
+          "shadowY": 1.69
+        },
+        "w": 164,
+        "h": 32,
+        "x": 98,
+        "y": 736
+      },
+      {
+        "id": "el2689631",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an41ae653",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.93,
+            "duration": 0.35,
+            "easing": "ease"
+          },
+          {
+            "id": "anacae126",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "HD exports",
+          "font": "sans",
+          "size": 26,
+          "weight": "500",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.24,
+          "shadowX": 0,
+          "shadowY": 1.69
+        },
+        "w": 164,
+        "h": 32,
+        "x": 98,
+        "y": 810
+      },
+      {
+        "id": "ele87f1bf",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an1a4c297",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.01,
+            "duration": 0.35,
+            "easing": "ease"
+          },
+          {
+            "id": "an4962a66",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Email support",
+          "font": "sans",
+          "size": 26,
+          "weight": "500",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.24,
+          "shadowX": 0,
+          "shadowY": 1.69
+        },
+        "w": 164,
+        "h": 32,
+        "x": 98,
+        "y": 884
+      },
+      {
+        "id": "ela6effa5",
+        "type": "rect",
+        "name": "Pricing · card PRO",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and978a40",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "an855d809",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(124,108,255,0.20)",
+          "border": "rgba(124,108,255,0.5)",
+          "borderW": 2,
+          "radius": 28
+        },
+        "w": 180,
+        "h": 560,
+        "x": 450,
+        "y": 400
+      },
+      {
+        "id": "elfb6f918",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf778e7f",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an7a87e58",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "PRO",
+          "font": "sans",
+          "size": 34,
+          "weight": "800",
+          "color": "#7c6cff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 4,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 180,
+        "h": 42,
+        "x": 450,
+        "y": 442
+      },
+      {
+        "id": "el5fee7b7",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anc87c471",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "ancb33031",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "$29",
+          "font": "sans",
+          "size": 84,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 20.16,
+          "shadowX": 0,
+          "shadowY": 5.46
+        },
+        "w": 180,
+        "h": 105,
+        "x": 450,
+        "y": 540
+      },
+      {
+        "id": "el1aa738d",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anc44682b",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an63e9648",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "/mo",
+          "font": "sans",
+          "size": 30,
+          "weight": "600",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 180,
+        "h": 38,
+        "x": 450,
+        "y": 660
+      },
+      {
+        "id": "elb26b8c9",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an743d2cd",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.65,
+            "duration": 0.35,
+            "easing": "ease"
+          },
+          {
+            "id": "anf2b9072",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "All templates",
+          "font": "sans",
+          "size": 26,
+          "weight": "500",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.24,
+          "shadowX": 0,
+          "shadowY": 1.69
+        },
+        "w": 164,
+        "h": 32,
+        "x": 458,
+        "y": 736
+      },
+      {
+        "id": "el4b0d6df",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an045013d",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.73,
+            "duration": 0.35,
+            "easing": "ease"
+          },
+          {
+            "id": "an8244548",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "HD exports",
+          "font": "sans",
+          "size": 26,
+          "weight": "500",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.24,
+          "shadowX": 0,
+          "shadowY": 1.69
+        },
+        "w": 164,
+        "h": 32,
+        "x": 458,
+        "y": 810
+      },
+      {
+        "id": "elb1e356a",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ancdca981",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.81,
+            "duration": 0.35,
+            "easing": "ease"
+          },
+          {
+            "id": "an17fbf56",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Priority support",
+          "font": "sans",
+          "size": 26,
+          "weight": "500",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.24,
+          "shadowX": 0,
+          "shadowY": 1.69
+        },
+        "w": 164,
+        "h": 32,
+        "x": 458,
+        "y": 884
+      },
+      {
+        "id": "el790ac2d",
+        "type": "rect",
+        "name": "Pricing · card MAX",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an6520491",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.75,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "an110c905",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 28
+        },
+        "w": 180,
+        "h": 560,
+        "x": 810,
+        "y": 400
+      },
+      {
+        "id": "el9621769",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an88a83e7",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anad0b00a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "MAX",
+          "font": "sans",
+          "size": 34,
+          "weight": "800",
+          "color": "#fbbf24",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 4,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 180,
+        "h": 42,
+        "x": 810,
+        "y": 442
+      },
+      {
+        "id": "el5ea097a",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and1fd0af",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "ane522adf",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "$99",
+          "font": "sans",
+          "size": 84,
+          "weight": "900",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 20.16,
+          "shadowX": 0,
+          "shadowY": 5.46
+        },
+        "w": 180,
+        "h": 105,
+        "x": 810,
+        "y": 540
+      },
+      {
+        "id": "el2062bc7",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and913e98",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.0,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anf22be9f",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "/mo",
+          "font": "sans",
+          "size": 30,
+          "weight": "600",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 180,
+        "h": 38,
+        "x": 810,
+        "y": 660
+      },
+      {
+        "id": "el2a93b3b",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4410b00",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.05,
+            "duration": 0.35,
+            "easing": "ease"
+          },
+          {
+            "id": "an2706e11",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Basic set",
+          "font": "sans",
+          "size": 26,
+          "weight": "500",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.24,
+          "shadowX": 0,
+          "shadowY": 1.69
+        },
+        "w": 164,
+        "h": 32,
+        "x": 818,
+        "y": 736
+      },
+      {
+        "id": "el1f45e11",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4525cbb",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.13,
+            "duration": 0.35,
+            "easing": "ease"
+          },
+          {
+            "id": "an134ff54",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "HD exports",
+          "font": "sans",
+          "size": 26,
+          "weight": "500",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.24,
+          "shadowX": 0,
+          "shadowY": 1.69
+        },
+        "w": 164,
+        "h": 32,
+        "x": 818,
+        "y": 810
+      },
+      {
+        "id": "el1dcde54",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an41475c7",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.21,
+            "duration": 0.35,
+            "easing": "ease"
+          },
+          {
+            "id": "an7ffbd84",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Email support",
+          "font": "sans",
+          "size": 26,
+          "weight": "500",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.24,
+          "shadowX": 0,
+          "shadowY": 1.69
+        },
+        "w": 164,
+        "h": 32,
+        "x": 818,
+        "y": 884
+      },
+      {
+        "id": "el4ad60b0",
+        "type": "rect",
+        "name": "Pricing · cta card",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an2a36593",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "anfee0a37",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(52,211,153,0.16)",
+          "border": "rgba(52,211,153,0.55)",
+          "borderW": 2,
+          "radius": 52
+        },
+        "w": 340,
+        "h": 104,
+        "x": 370,
+        "y": 1020
+      },
+      {
+        "id": "ela7160b3",
+        "type": "text",
+        "name": "Pricing · cta",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ancff6364",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.05,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an34f23b6",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "START FREE TRIAL",
+          "font": "sans",
+          "size": 34,
+          "weight": "800",
+          "color": "#34d399",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 340,
+        "h": 42,
+        "x": 370,
+        "y": 1054
+      }
+    ]
+  }
+}

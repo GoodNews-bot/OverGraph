@@ -1,0 +1,329 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "How-to steps",
+  "desc": "Three checkable steps on a vertical rail, staggered entries.",
+  "savedAt": "2026-10-02T09:00:22.984Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el1nq7zld",
+        "type": "text",
+        "name": "Steps · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elnbfkzi7",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "els708etn",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "HOW IT WORKS",
+          "font": "sans",
+          "size": 89,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 950,
+        "h": 111,
+        "x": 65,
+        "y": 230
+      },
+      {
+        "id": "eltgj0son",
+        "type": "rect",
+        "name": "Steps · rail",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elfp5d4zo",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.8,
+            "easing": "ease"
+          },
+          {
+            "id": "el3cgm2lx",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(124,108,255,0.45)",
+          "border": "none",
+          "borderW": 0,
+          "radius": 6
+        },
+        "w": 11,
+        "h": 845,
+        "x": 97,
+        "y": 370
+      },
+      {
+        "id": "eldgm457z",
+        "type": "circle",
+        "name": "Steps · dot 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ellbncw98",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "eljvtym08",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "rgba(14,17,26,0.9)",
+          "borderW": 6
+        },
+        "w": 82,
+        "h": 82,
+        "x": 62,
+        "y": 470
+      },
+      {
+        "id": "eluykavbm",
+        "type": "text",
+        "name": "Steps · text 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elybo3kyb",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.65,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "elp970aqn",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Choose your format",
+          "font": "sans",
+          "size": 50,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 778,
+        "h": 63,
+        "x": 164,
+        "y": 479
+      },
+      {
+        "id": "el39rzk2x",
+        "type": "circle",
+        "name": "Steps · dot 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el47x4on1",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.8,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "el6iqx35j",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#22d3ee",
+          "border": "rgba(14,17,26,0.9)",
+          "borderW": 6
+        },
+        "w": 82,
+        "h": 82,
+        "x": 62,
+        "y": 752
+      },
+      {
+        "id": "eljdp41gb",
+        "type": "text",
+        "name": "Steps · text 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "els33ikhi",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.9500000000000001,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "elcgwic9i",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Add text and charts",
+          "font": "sans",
+          "size": 50,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 778,
+        "h": 63,
+        "x": 164,
+        "y": 761
+      },
+      {
+        "id": "elpw2seo9",
+        "type": "circle",
+        "name": "Steps · dot 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ellu8qyci",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.1,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "el34ig0tl",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#34d399",
+          "border": "rgba(14,17,26,0.9)",
+          "borderW": 6
+        },
+        "w": 82,
+        "h": 82,
+        "x": 62,
+        "y": 1033
+      },
+      {
+        "id": "el9x4xu8r",
+        "type": "text",
+        "name": "Steps · text 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elsc7wwj7",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 1.25,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "el0kk62aj",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Export & overlay your video",
+          "font": "sans",
+          "size": 50,
+          "weight": "700",
+          "color": "#34d399",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 778,
+        "h": 125,
+        "x": 164,
+        "y": 1012
+      }
+    ]
+  }
+}

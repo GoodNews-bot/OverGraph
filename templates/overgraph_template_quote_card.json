@@ -1,0 +1,183 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Quote card",
+  "desc": "Elegant serif quote with big quotation mark and author line.",
+  "savedAt": "2026-10-02T09:00:22.854Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el595h0dx",
+        "type": "rect",
+        "name": "Quote · card",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el5rndohx",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.55,
+            "easing": "back"
+          },
+          {
+            "id": "elr5n0vtv",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.78)",
+          "border": "#7c6cff",
+          "borderW": 3,
+          "radius": 26
+        },
+        "w": 950,
+        "h": 806,
+        "x": 65,
+        "y": 422
+      },
+      {
+        "id": "elie6jn8a",
+        "type": "text",
+        "name": "Quote · mark",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elc0paimx",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "elpx8tuy5",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "“",
+          "font": "serif",
+          "size": 248,
+          "weight": "800",
+          "color": "#7c6cff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 894,
+        "h": 310,
+        "x": 93,
+        "y": 331
+      },
+      {
+        "id": "eljnyg18t",
+        "type": "text",
+        "name": "Quote · text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elrl3ybo3",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "ellhx2mcz",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "The best way to predict the future is to invent it.",
+          "font": "serif",
+          "size": 54,
+          "weight": "600",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.32,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 833,
+        "h": 143,
+        "x": 123,
+        "y": 526
+      },
+      {
+        "id": "elmu5k7qr",
+        "type": "text",
+        "name": "Quote · author",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elokufqpd",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.05,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "eleba8p53",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "— Alan Kay",
+          "font": "sans",
+          "size": 37,
+          "weight": "700",
+          "color": "#22d3ee",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 833,
+        "h": 46,
+        "x": 123,
+        "y": 1129
+      }
+    ]
+  }
+}

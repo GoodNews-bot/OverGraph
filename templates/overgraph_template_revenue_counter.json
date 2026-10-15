@@ -1,0 +1,305 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Revenue counter",
+  "desc": "Counting quarterly revenue with growth chart and delta badge.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el9783c5b",
+        "type": "text",
+        "name": "Revenue · label",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ancae6ca9",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anef4f883",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "REVENUE THIS QUARTER",
+          "font": "sans",
+          "size": 44,
+          "weight": "800",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10.56,
+          "shadowX": 0,
+          "shadowY": 2.86
+        },
+        "w": 900,
+        "h": 55,
+        "x": 90,
+        "y": 250
+      },
+      {
+        "id": "ele0c8730",
+        "type": "counter",
+        "name": "Revenue · counter",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an13103e8",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.65,
+            "easing": "back"
+          },
+          {
+            "id": "anc76fef7",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 482000,
+          "dec": 0,
+          "prefix": "$",
+          "suffix": "",
+          "font": "sans",
+          "size": 158,
+          "weight": "900",
+          "color": "#34d399",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "countDur": 2.2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 37.92,
+          "shadowX": 0,
+          "shadowY": 10.27
+        },
+        "w": 960,
+        "h": 174,
+        "x": 60,
+        "y": 350
+      },
+      {
+        "id": "elc76e3f8",
+        "type": "lineChart",
+        "name": "Revenue · chart",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an564e8cf",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.7,
+            "easing": "ease"
+          },
+          {
+            "id": "an59aee0e",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "data": "18, 26, 22, 38, 34, 52, 48",
+          "color": "#34d399",
+          "width": 7,
+          "fillDur": 1.5,
+          "dots": true,
+          "area": true,
+          "areaOpacity": 18
+        },
+        "w": 900,
+        "h": 420,
+        "x": 90,
+        "y": 620
+      },
+      {
+        "id": "elc2d82a3",
+        "type": "rect",
+        "name": "Revenue · delta card",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anc90f562",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.15,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an841a275",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(52,211,153,0.14)",
+          "border": "rgba(52,211,153,0.5)",
+          "borderW": 2,
+          "radius": 60
+        },
+        "w": 420,
+        "h": 120,
+        "x": 330,
+        "y": 1130
+      },
+      {
+        "id": "elf7394b5",
+        "type": "icon",
+        "name": "Icon trend",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an84e6c6c",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.25,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "andba6ce4",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "trend",
+          "color": "#34d399",
+          "strokeW": 2.5,
+          "fill": false
+        },
+        "w": 52,
+        "h": 52,
+        "x": 378,
+        "y": 1164
+      },
+      {
+        "id": "elc6b671b",
+        "type": "text",
+        "name": "Revenue · delta",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and0d2adc",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.3,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anb0b65f5",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "+38% vs last quarter",
+          "font": "sans",
+          "size": 38,
+          "weight": "800",
+          "color": "#34d399",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.12,
+          "shadowX": 0,
+          "shadowY": 2.47
+        },
+        "w": 280,
+        "h": 48,
+        "x": 448,
+        "y": 1168
+      },
+      {
+        "id": "elfa592b7",
+        "type": "text",
+        "name": "Revenue · note",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an0a0e5d8",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.5,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an56a42fa",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Q3 consolidated · all channels",
+          "font": "sans",
+          "size": 30,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 900,
+        "h": 38,
+        "x": 90,
+        "y": 1330
+      }
+    ]
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Myth vs fact",
+  "desc": "Red myth card against green fact card.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el7c3bbb2",
+        "type": "text",
+        "name": "MF · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ane07b32f",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anf8a866c",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "MYTH VS FACT",
+          "font": "sans",
+          "size": 64,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.36,
+          "shadowX": 0,
+          "shadowY": 4.16
+        },
+        "w": 900,
+        "h": 80,
+        "x": 90,
+        "y": 240
+      },
+      {
+        "id": "eled0fb28",
+        "type": "rect",
+        "name": "MF · myth card",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ane612ed1",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "an5095d1a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(248,113,113,0.13)",
+          "border": "rgba(248,113,113,0.5)",
+          "borderW": 2,
+          "radius": 32
+        },
+        "w": 900,
+        "h": 400,
+        "x": 90,
+        "y": 400
+      },
+      {
+        "id": "el064a40c",
+        "type": "icon",
+        "name": "MF · x",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf67e64e",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "ane4843bd",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "x",
+          "color": "#f87171",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 64,
+        "h": 64,
+        "x": 150,
+        "y": 450
+      },
+      {
+        "id": "elc3be887",
+        "type": "text",
+        "name": "MF · myth lab",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an109c7b3",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.45,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "andf6b1e9",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "MYTH",
+          "font": "sans",
+          "size": 44,
+          "weight": "900",
+          "color": "#f87171",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10.56,
+          "shadowX": 0,
+          "shadowY": 2.86
+        },
+        "w": 300,
+        "h": 55,
+        "x": 240,
+        "y": 452
+      },
+      {
+        "id": "el69ec23e",
+        "type": "text",
+        "name": "MF · myth txt",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anb322ba0",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an118e97e",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Posting more always grows\nyour account faster.",
+          "font": "sans",
+          "size": 40,
+          "weight": "500",
+          "color": "#b9c2dd",
+          "align": "left",
+          "lh": 1.35,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 780,
+        "h": 108,
+        "x": 150,
+        "y": 560
+      },
+      {
+        "id": "ele00b6d7",
+        "type": "rect",
+        "name": "MF · fact card",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an8c34492",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "an9ba82e7",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(52,211,153,0.13)",
+          "border": "rgba(52,211,153,0.5)",
+          "borderW": 2,
+          "radius": 32
+        },
+        "w": 900,
+        "h": 400,
+        "x": 90,
+        "y": 880
+      },
+      {
+        "id": "el5d78531",
+        "type": "icon",
+        "name": "MF · check",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an3d3ebec",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an49c7a46",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "check",
+          "color": "#34d399",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 64,
+        "h": 64,
+        "x": 150,
+        "y": 930
+      },
+      {
+        "id": "el365ced3",
+        "type": "text",
+        "name": "MF · fact lab",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an18f234f",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.85,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anecd2f0e",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "FACT",
+          "font": "sans",
+          "size": 44,
+          "weight": "900",
+          "color": "#34d399",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10.56,
+          "shadowX": 0,
+          "shadowY": 2.86
+        },
+        "w": 300,
+        "h": 55,
+        "x": 240,
+        "y": 932
+      },
+      {
+        "id": "el1a0fef6",
+        "type": "text",
+        "name": "MF · fact txt",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an1af9fbb",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anfcceb25",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Retention per video beats raw\nposting volume every time.",
+          "font": "sans",
+          "size": 40,
+          "weight": "500",
+          "color": "#c9d4ff",
+          "align": "left",
+          "lh": 1.35,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 780,
+        "h": 108,
+        "x": 150,
+        "y": 1040
+      }
+    ]
+  }
+}

@@ -1,0 +1,753 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Recipe card",
+  "desc": "Recipe with rating stars, time and ingredients.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elb2ae736",
+        "type": "text",
+        "name": "Rec · kicker",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an636cc90",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an8cf9ef9",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "TONIGHT’S DINNER",
+          "font": "sans",
+          "size": 40,
+          "weight": "800",
+          "color": "#fb923c",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 4,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 900,
+        "h": 50,
+        "x": 90,
+        "y": 250
+      },
+      {
+        "id": "eldc430be",
+        "type": "text",
+        "name": "Rec · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7641ed9",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "ana18aea7",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Creamy Tuscan\nPasta",
+          "font": "sans",
+          "size": 88,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.15,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 21.12,
+          "shadowX": 0,
+          "shadowY": 5.72
+        },
+        "w": 900,
+        "h": 202,
+        "x": 90,
+        "y": 340
+      },
+      {
+        "id": "el3739078",
+        "type": "icon",
+        "name": "Rec · star 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anfa81400",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.65,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an9263d60",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "star",
+          "color": "#fbbf24",
+          "strokeW": 1.5,
+          "fill": true
+        },
+        "w": 72,
+        "h": 72,
+        "x": 300,
+        "y": 640
+      },
+      {
+        "id": "elbf86c35",
+        "type": "icon",
+        "name": "Rec · star 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an1c4a2ca",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.73,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "and3a1fa9",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "star",
+          "color": "#fbbf24",
+          "strokeW": 1.5,
+          "fill": true
+        },
+        "w": 72,
+        "h": 72,
+        "x": 400,
+        "y": 640
+      },
+      {
+        "id": "ela619fc5",
+        "type": "icon",
+        "name": "Rec · star 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an62efd6e",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.81,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "ane536636",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "star",
+          "color": "#fbbf24",
+          "strokeW": 1.5,
+          "fill": true
+        },
+        "w": 72,
+        "h": 72,
+        "x": 500,
+        "y": 640
+      },
+      {
+        "id": "elbeb08be",
+        "type": "icon",
+        "name": "Rec · star 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an213d92a",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.89,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "ancac01d2",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "star",
+          "color": "#fbbf24",
+          "strokeW": 1.5,
+          "fill": true
+        },
+        "w": 72,
+        "h": 72,
+        "x": 600,
+        "y": 640
+      },
+      {
+        "id": "elfe7bed1",
+        "type": "icon",
+        "name": "Rec · star 4",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an319f819",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.97,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an5eca451",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "star",
+          "color": "#fbbf24",
+          "strokeW": 1.5,
+          "fill": true
+        },
+        "w": 72,
+        "h": 72,
+        "x": 700,
+        "y": 640
+      },
+      {
+        "id": "el8adcd69",
+        "type": "icon",
+        "name": "Rec · clock",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf5a4983",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.0,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an1e08d79",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "clock",
+          "color": "#22d3ee",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 56,
+        "h": 56,
+        "x": 150,
+        "y": 800
+      },
+      {
+        "id": "el131c298",
+        "type": "text",
+        "name": "Rec · meta 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4f111a0",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 1.05,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an6e71c9b",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "25 min",
+          "font": "sans",
+          "size": 34,
+          "weight": "700",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 220,
+        "h": 42,
+        "x": 70,
+        "y": 880
+      },
+      {
+        "id": "el04721f5",
+        "type": "icon",
+        "name": "Rec · bolt",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an66d68fc",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.12,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "anf8ae672",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "bolt",
+          "color": "#34d399",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 56,
+        "h": 56,
+        "x": 430,
+        "y": 800
+      },
+      {
+        "id": "elb1e36f5",
+        "type": "text",
+        "name": "Rec · meta 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an0f545dc",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 1.17,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an528f3b6",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Easy",
+          "font": "sans",
+          "size": 34,
+          "weight": "700",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 220,
+        "h": 42,
+        "x": 350,
+        "y": 880
+      },
+      {
+        "id": "el74e4369",
+        "type": "icon",
+        "name": "Rec · user",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an60631bd",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.24,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an92e9c06",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "user",
+          "color": "#f472b6",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 56,
+        "h": 56,
+        "x": 710,
+        "y": 800
+      },
+      {
+        "id": "el0f4d4ff",
+        "type": "text",
+        "name": "Rec · meta 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anc6e8eff",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 1.29,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "ana8c171d",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Serves 4",
+          "font": "sans",
+          "size": 34,
+          "weight": "700",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 220,
+        "h": 42,
+        "x": 630,
+        "y": 880
+      },
+      {
+        "id": "el736d207",
+        "type": "icon",
+        "name": "Rec · check 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an79b01fa",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.3,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "ana166dc5",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "check",
+          "color": "#fb923c",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 44,
+        "h": 44,
+        "x": 250,
+        "y": 1030
+      },
+      {
+        "id": "el5162d5a",
+        "type": "text",
+        "name": "Rec · ing 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anef3eb37",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.35,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an2129b15",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Pasta · Spinach · Cream",
+          "font": "sans",
+          "size": 36,
+          "weight": "600",
+          "color": "#b9c2dd",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 600,
+        "h": 45,
+        "x": 320,
+        "y": 1036
+      },
+      {
+        "id": "el6f260bf",
+        "type": "icon",
+        "name": "Rec · check 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ana590d23",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.42,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an33f9a3e",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "check",
+          "color": "#fb923c",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 44,
+        "h": 44,
+        "x": 250,
+        "y": 1126
+      },
+      {
+        "id": "eldbabdd4",
+        "type": "text",
+        "name": "Rec · ing 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf72d013",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.47,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an8b9b330",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Sun-dried tomatoes",
+          "font": "sans",
+          "size": 36,
+          "weight": "600",
+          "color": "#b9c2dd",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 600,
+        "h": 45,
+        "x": 320,
+        "y": 1132
+      },
+      {
+        "id": "elfbc51e0",
+        "type": "icon",
+        "name": "Rec · check 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7c9d6e2",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.54,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an0ab50a4",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "check",
+          "color": "#fb923c",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 44,
+        "h": 44,
+        "x": 250,
+        "y": 1222
+      },
+      {
+        "id": "el93e430e",
+        "type": "text",
+        "name": "Rec · ing 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an026acc3",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.59,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "anfeb2aa7",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Parmesan · Garlic",
+          "font": "sans",
+          "size": 36,
+          "weight": "600",
+          "color": "#b9c2dd",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 600,
+        "h": 45,
+        "x": 320,
+        "y": 1228
+      }
+    ]
+  }
+}

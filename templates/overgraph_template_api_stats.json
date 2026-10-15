@@ -1,0 +1,523 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "API stats",
+  "desc": "Three metric cards for an API service.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el5cd7699",
+        "type": "icon",
+        "name": "API · icon",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an5045684",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.15,
+            "duration": 0.9,
+            "easing": "ease"
+          },
+          {
+            "id": "an69e6999",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "bolt",
+          "color": "#22d3ee",
+          "strokeW": 1.7,
+          "fill": false
+        },
+        "w": 140,
+        "h": 140,
+        "x": 470,
+        "y": 220
+      },
+      {
+        "id": "el3935e50",
+        "type": "text",
+        "name": "API · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ane5b3802",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an6f0f57e",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "API AT A GLANCE",
+          "font": "sans",
+          "size": 46,
+          "weight": "800",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 11.04,
+          "shadowX": 0,
+          "shadowY": 2.99
+        },
+        "w": 900,
+        "h": 58,
+        "x": 90,
+        "y": 420
+      },
+      {
+        "id": "elc42d699",
+        "type": "rect",
+        "name": "API · card 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anfe121c7",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an068aefe",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 28
+        },
+        "w": 900,
+        "h": 200,
+        "x": 90,
+        "y": 560
+      },
+      {
+        "id": "elec1195b",
+        "type": "text",
+        "name": "API · lab 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an152ca8e",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.65,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "ana2282b8",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Requests / sec",
+          "font": "sans",
+          "size": 34,
+          "weight": "600",
+          "color": "#8b93b8",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 480,
+        "h": 42,
+        "x": 140,
+        "y": 604
+      },
+      {
+        "id": "eld22a70b",
+        "type": "counter",
+        "name": "API · val 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an1d8065d",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.65,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "ancaa2671",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 12400,
+          "dec": 0,
+          "prefix": "",
+          "suffix": "",
+          "font": "sans",
+          "size": 84,
+          "weight": "900",
+          "color": "#22d3ee",
+          "align": "right",
+          "lh": 1.1,
+          "ls": 0,
+          "countDur": 1.6,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 20.16,
+          "shadowX": 0,
+          "shadowY": 5.46
+        },
+        "w": 380,
+        "h": 92,
+        "x": 560,
+        "y": 604
+      },
+      {
+        "id": "el95299ea",
+        "type": "rect",
+        "name": "API · card 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an07ecdef",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.73,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an59f4e31",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 28
+        },
+        "w": 900,
+        "h": 200,
+        "x": 90,
+        "y": 810
+      },
+      {
+        "id": "elbae492c",
+        "type": "text",
+        "name": "API · lab 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an6b20d6a",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.83,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an0594386",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Avg latency (ms)",
+          "font": "sans",
+          "size": 34,
+          "weight": "600",
+          "color": "#8b93b8",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 480,
+        "h": 42,
+        "x": 140,
+        "y": 854
+      },
+      {
+        "id": "el77465a6",
+        "type": "counter",
+        "name": "API · val 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an3bacf76",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.83,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anc3ebcef",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 87,
+          "dec": 0,
+          "prefix": "",
+          "suffix": "",
+          "font": "sans",
+          "size": 84,
+          "weight": "900",
+          "color": "#7c6cff",
+          "align": "right",
+          "lh": 1.1,
+          "ls": 0,
+          "countDur": 1.6,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 20.16,
+          "shadowX": 0,
+          "shadowY": 5.46
+        },
+        "w": 380,
+        "h": 92,
+        "x": 560,
+        "y": 854
+      },
+      {
+        "id": "el33ffd0d",
+        "type": "rect",
+        "name": "API · card 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an45a5eba",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.91,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an714e4d5",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 28
+        },
+        "w": 900,
+        "h": 200,
+        "x": 90,
+        "y": 1060
+      },
+      {
+        "id": "el415a246",
+        "type": "text",
+        "name": "API · lab 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an5b1e341",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.01,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an58d2df5",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Uptime (days)",
+          "font": "sans",
+          "size": 34,
+          "weight": "600",
+          "color": "#8b93b8",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 480,
+        "h": 42,
+        "x": 140,
+        "y": 1104
+      },
+      {
+        "id": "el2e3fa5b",
+        "type": "counter",
+        "name": "API · val 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an32c48ee",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.01,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an75b6734",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 365,
+          "dec": 0,
+          "prefix": "",
+          "suffix": "",
+          "font": "sans",
+          "size": 84,
+          "weight": "900",
+          "color": "#34d399",
+          "align": "right",
+          "lh": 1.1,
+          "ls": 0,
+          "countDur": 1.6,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 20.16,
+          "shadowX": 0,
+          "shadowY": 5.46
+        },
+        "w": 380,
+        "h": 92,
+        "x": 560,
+        "y": 1104
+      },
+      {
+        "id": "el37c32af",
+        "type": "text",
+        "name": "API · note",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and22dc69",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.5,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an68edd0b",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Rolling 30-day window",
+          "font": "sans",
+          "size": 28,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.72,
+          "shadowX": 0,
+          "shadowY": 1.82
+        },
+        "w": 900,
+        "h": 35,
+        "x": 90,
+        "y": 1360
+      }
+    ]
+  }
+}

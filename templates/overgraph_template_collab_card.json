@@ -1,0 +1,332 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Collab card",
+  "desc": "Two creators announcement with drop date badge.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el35204aa",
+        "type": "text",
+        "name": "Collab · kicker",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an3171626",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an6c6ff79",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "NEW COLLAB",
+          "font": "sans",
+          "size": 44,
+          "weight": "800",
+          "color": "#f472b6",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 6,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10.56,
+          "shadowX": 0,
+          "shadowY": 2.86
+        },
+        "w": 900,
+        "h": 55,
+        "x": 90,
+        "y": 250
+      },
+      {
+        "id": "el3e54ad5",
+        "type": "icon",
+        "name": "Collab · user a",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anebf8d4b",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "an737d66c",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "user",
+          "color": "#22d3ee",
+          "strokeW": 1.8,
+          "fill": false
+        },
+        "w": 190,
+        "h": 190,
+        "x": 250,
+        "y": 370
+      },
+      {
+        "id": "elaa5d539",
+        "type": "icon",
+        "name": "Collab · user b",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ana72f01b",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "anb6885fd",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "user",
+          "color": "#f472b6",
+          "strokeW": 1.8,
+          "fill": false
+        },
+        "w": 190,
+        "h": 190,
+        "x": 640,
+        "y": 370
+      },
+      {
+        "id": "el7ac5d64",
+        "type": "icon",
+        "name": "Collab · x",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an0f0f533",
+            "type": "rotate",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an6eb5eef",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "x",
+          "color": "#8b93b8",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 64,
+        "h": 64,
+        "x": 508,
+        "y": 430
+      },
+      {
+        "id": "el147b5ca",
+        "type": "text",
+        "name": "Collab · names",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an65cce83",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.75,
+            "duration": 0.55,
+            "easing": "back"
+          },
+          {
+            "id": "an3d11e77",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "@studio.lena  ×  @marc.builds",
+          "font": "sans",
+          "size": 46,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 11.04,
+          "shadowX": 0,
+          "shadowY": 2.99
+        },
+        "w": 960,
+        "h": 58,
+        "x": 60,
+        "y": 630
+      },
+      {
+        "id": "el8999a8d",
+        "type": "rect",
+        "name": "Collab · badge",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and26502c",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.0,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "anb5d23b3",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(244,114,182,0.15)",
+          "border": "rgba(244,114,182,0.5)",
+          "borderW": 2,
+          "radius": 54
+        },
+        "w": 600,
+        "h": 108,
+        "x": 240,
+        "y": 780
+      },
+      {
+        "id": "el886d2e5",
+        "type": "text",
+        "name": "Collab · when",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an705e1dc",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.1,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an85e8285",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "DROPPING FRIDAY",
+          "font": "sans",
+          "size": 34,
+          "weight": "800",
+          "color": "#f472b6",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 600,
+        "h": 42,
+        "x": 240,
+        "y": 810
+      },
+      {
+        "id": "el89f1273",
+        "type": "text",
+        "name": "Collab · teaser",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an888149f",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.3,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anef776f4",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Two studios, one build. You do not want to miss this one.",
+          "font": "sans",
+          "size": 34,
+          "weight": "500",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 840,
+        "h": 42,
+        "x": 120,
+        "y": 990
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Motivation",
+  "desc": "Bold quote with fire icon and hashtag.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el96fa797",
+        "type": "icon",
+        "name": "Mot · fire",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7346487",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.15,
+            "duration": 1.0,
+            "easing": "ease"
+          },
+          {
+            "id": "an49ec855",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "fire",
+          "color": "#fb923c",
+          "strokeW": 1.6,
+          "fill": false
+        },
+        "w": 140,
+        "h": 140,
+        "x": 470,
+        "y": 230
+      },
+      {
+        "id": "el936d61b",
+        "type": "text",
+        "name": "Mot · quote",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ana9516bc",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.45,
+            "duration": 0.7,
+            "easing": "ease"
+          },
+          {
+            "id": "anfb6164b",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Discipline is choosing\nwhat you want most\nover what you want now.",
+          "font": "sans",
+          "size": 58,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.35,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 13.92,
+          "shadowX": 0,
+          "shadowY": 3.77
+        },
+        "w": 960,
+        "h": 235,
+        "x": 60,
+        "y": 440
+      },
+      {
+        "id": "elbf15710",
+        "type": "line",
+        "name": "Mot · line",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an1492c38",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.0,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "anb323de4",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "color": "#fb923c",
+          "width": 10,
+          "caps": true
+        },
+        "w": 280,
+        "h": 12,
+        "x": 400,
+        "y": 900
+      },
+      {
+        "id": "el92c2a2c",
+        "type": "text",
+        "name": "Mot · tag",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anda055f9",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.2,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "ana244470",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "#MONDAYMINDSET",
+          "font": "sans",
+          "size": 42,
+          "weight": "800",
+          "color": "#fb923c",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10.08,
+          "shadowX": 0,
+          "shadowY": 2.73
+        },
+        "w": 900,
+        "h": 52,
+        "x": 90,
+        "y": 980
+      }
+    ]
+  }
+}

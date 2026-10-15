@@ -1,0 +1,455 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Webinar invite",
+  "desc": "Webinar announcement with date rows and seat CTA.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el090fac9",
+        "type": "icon",
+        "name": "Web · icon",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an2ae84f4",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.15,
+            "duration": 0.9,
+            "easing": "ease"
+          },
+          {
+            "id": "an67818a7",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "calendar",
+          "color": "#60a5fa",
+          "strokeW": 1.7,
+          "fill": false
+        },
+        "w": 170,
+        "h": 170,
+        "x": 455,
+        "y": 220
+      },
+      {
+        "id": "elbd98134",
+        "type": "text",
+        "name": "Web · kicker",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an07e3d9b",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an2193027",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "FREE WEBINAR",
+          "font": "sans",
+          "size": 46,
+          "weight": "800",
+          "color": "#60a5fa",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 5,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 11.04,
+          "shadowX": 0,
+          "shadowY": 2.99
+        },
+        "w": 900,
+        "h": 58,
+        "x": 90,
+        "y": 450
+      },
+      {
+        "id": "elfd94f1a",
+        "type": "text",
+        "name": "Web · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anc0ecab7",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "an8c5eb6b",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Motion design\nthat converts",
+          "font": "sans",
+          "size": 76,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.18,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 18.24,
+          "shadowX": 0,
+          "shadowY": 4.94
+        },
+        "w": 900,
+        "h": 179,
+        "x": 90,
+        "y": 540
+      },
+      {
+        "id": "el1bd16cd",
+        "type": "icon",
+        "name": "Web · calendar",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an677884a",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.85,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an451075c",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "calendar",
+          "color": "#22d3ee",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 56,
+        "h": 56,
+        "x": 240,
+        "y": 800
+      },
+      {
+        "id": "el3405f67",
+        "type": "text",
+        "name": "Web · row 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an8dfeac6",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "and4b45e1",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "THU, OCT 15",
+          "font": "sans",
+          "size": 40,
+          "weight": "700",
+          "color": "#c9d4ff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 620,
+        "h": 50,
+        "x": 330,
+        "y": 808
+      },
+      {
+        "id": "el540f9b3",
+        "type": "icon",
+        "name": "Web · clock",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ane2b65fc",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.0,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an9b30576",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "clock",
+          "color": "#22d3ee",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 56,
+        "h": 56,
+        "x": 240,
+        "y": 920
+      },
+      {
+        "id": "el8100278",
+        "type": "text",
+        "name": "Web · row 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4d07295",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.05,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "ancb92ddc",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "18:00 – 19:30 CET",
+          "font": "sans",
+          "size": 40,
+          "weight": "700",
+          "color": "#c9d4ff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 620,
+        "h": 50,
+        "x": 330,
+        "y": 928
+      },
+      {
+        "id": "el0cf7dea",
+        "type": "icon",
+        "name": "Web · chat",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an6cc2a8e",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.15,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an9024305",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "chat",
+          "color": "#22d3ee",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 56,
+        "h": 56,
+        "x": 240,
+        "y": 1040
+      },
+      {
+        "id": "elde395fc",
+        "type": "text",
+        "name": "Web · row 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an239aca4",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.2,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "ana25f9d5",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Live + Q&A",
+          "font": "sans",
+          "size": 40,
+          "weight": "700",
+          "color": "#c9d4ff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 620,
+        "h": 50,
+        "x": 330,
+        "y": 1048
+      },
+      {
+        "id": "el126ed80",
+        "type": "rect",
+        "name": "Web · cta card",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anae7668e",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.5,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an7b2bec6",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(96,165,250,0.16)",
+          "border": "rgba(96,165,250,0.55)",
+          "borderW": 2,
+          "radius": 53
+        },
+        "w": 500,
+        "h": 106,
+        "x": 290,
+        "y": 1240
+      },
+      {
+        "id": "el19e336a",
+        "type": "text",
+        "name": "Web · cta",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4187d9d",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.6,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an6399ebb",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "SAVE MY SEAT",
+          "font": "sans",
+          "size": 34,
+          "weight": "800",
+          "color": "#60a5fa",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 500,
+        "h": 42,
+        "x": 290,
+        "y": 1271
+      }
+    ]
+  }
+}

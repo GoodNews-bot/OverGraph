@@ -1,0 +1,608 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Budget allocation",
+  "desc": "Horizontal bars splitting a budget across departments.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elc4a87bb",
+        "type": "text",
+        "name": "Budget · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an82ea325",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "an05be4c0",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "BUDGET ALLOCATION",
+          "font": "sans",
+          "size": 56,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 13.44,
+          "shadowX": 0,
+          "shadowY": 3.64
+        },
+        "w": 900,
+        "h": 70,
+        "x": 90,
+        "y": 240
+      },
+      {
+        "id": "el6574b91",
+        "type": "text",
+        "name": "Budget · Engineering",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf066ef9",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.25,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "anbb84798",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Engineering",
+          "font": "sans",
+          "size": 40,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 560,
+        "h": 50,
+        "x": 90,
+        "y": 400
+      },
+      {
+        "id": "el1212bac",
+        "type": "text",
+        "name": "Budget · Engineering pct",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ane134b54",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anf578988",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "42%",
+          "font": "sans",
+          "size": 40,
+          "weight": "800",
+          "color": "#7c6cff",
+          "align": "right",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 340,
+        "h": 50,
+        "x": 650,
+        "y": 400
+      },
+      {
+        "id": "el8d8d4b2",
+        "type": "progress",
+        "name": "Budget · bar Engineering",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an28099ec",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an20e7671",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "dir": "h",
+          "pct": 42,
+          "track": "#3a4160",
+          "fill": "#7c6cff",
+          "fillDur": 1.2,
+          "round": true,
+          "showPct": false
+        },
+        "w": 900,
+        "h": 34,
+        "x": 90,
+        "y": 478
+      },
+      {
+        "id": "el28d2a09",
+        "type": "text",
+        "name": "Budget · Marketing",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anab7aa1f",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.4,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an0d45af2",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Marketing",
+          "font": "sans",
+          "size": 40,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 560,
+        "h": 50,
+        "x": 90,
+        "y": 650
+      },
+      {
+        "id": "elc956d8f",
+        "type": "text",
+        "name": "Budget · Marketing pct",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and8555e2",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an0ca2354",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "27%",
+          "font": "sans",
+          "size": 40,
+          "weight": "800",
+          "color": "#22d3ee",
+          "align": "right",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 340,
+        "h": 50,
+        "x": 650,
+        "y": 650
+      },
+      {
+        "id": "elefcf991",
+        "type": "progress",
+        "name": "Budget · bar Marketing",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an6fda94f",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.45,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an102a0db",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "dir": "h",
+          "pct": 27,
+          "track": "#3a4160",
+          "fill": "#22d3ee",
+          "fillDur": 1.2,
+          "round": true,
+          "showPct": false
+        },
+        "w": 900,
+        "h": 34,
+        "x": 90,
+        "y": 728
+      },
+      {
+        "id": "el08b8266",
+        "type": "text",
+        "name": "Budget · Operations",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7481f3e",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "anf56ae0f",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Operations",
+          "font": "sans",
+          "size": 40,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 560,
+        "h": 50,
+        "x": 90,
+        "y": 900
+      },
+      {
+        "id": "el6eb5213",
+        "type": "text",
+        "name": "Budget · Operations pct",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an42f16da",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.65,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an9f63b9e",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "19%",
+          "font": "sans",
+          "size": 40,
+          "weight": "800",
+          "color": "#fbbf24",
+          "align": "right",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 340,
+        "h": 50,
+        "x": 650,
+        "y": 900
+      },
+      {
+        "id": "elb7697e8",
+        "type": "progress",
+        "name": "Budget · bar Operations",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "andff1397",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anbb20875",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "dir": "h",
+          "pct": 19,
+          "track": "#3a4160",
+          "fill": "#fbbf24",
+          "fillDur": 1.2,
+          "round": true,
+          "showPct": false
+        },
+        "w": 900,
+        "h": 34,
+        "x": 90,
+        "y": 978
+      },
+      {
+        "id": "elf363a78",
+        "type": "text",
+        "name": "Budget · R&D",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an85ab6cb",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an330fad3",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "R&D",
+          "font": "sans",
+          "size": 40,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 560,
+        "h": 50,
+        "x": 90,
+        "y": 1150
+      },
+      {
+        "id": "el25316be",
+        "type": "text",
+        "name": "Budget · R&D pct",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an1ed8b87",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.8,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an9b3607b",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "12%",
+          "font": "sans",
+          "size": 40,
+          "weight": "800",
+          "color": "#34d399",
+          "align": "right",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 340,
+        "h": 50,
+        "x": 650,
+        "y": 1150
+      },
+      {
+        "id": "elc9d1b5a",
+        "type": "progress",
+        "name": "Budget · bar R&D",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anc7bd425",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.75,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an8def7a1",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "dir": "h",
+          "pct": 12,
+          "track": "#3a4160",
+          "fill": "#34d399",
+          "fillDur": 1.2,
+          "round": true,
+          "showPct": false
+        },
+        "w": 900,
+        "h": 34,
+        "x": 90,
+        "y": 1228
+      },
+      {
+        "id": "el021771c",
+        "type": "text",
+        "name": "Budget · note",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and3e5073",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.4,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an5dc3575",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "2026 plan · $1.2M total",
+          "font": "sans",
+          "size": 30,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 900,
+        "h": 38,
+        "x": 90,
+        "y": 1470
+      }
+    ]
+  }
+}

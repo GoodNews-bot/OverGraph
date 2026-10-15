@@ -1,0 +1,141 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Bar comparison",
+  "desc": "Animated bar chart with title, values and a takeaway line.",
+  "savedAt": "2026-10-02T09:00:23.319Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elcr3ggez",
+        "type": "text",
+        "name": "Bars · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elyvesshs",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "elvv465ba",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "REVENUE BY QUARTER",
+          "font": "sans",
+          "size": 67,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 950,
+        "h": 84,
+        "x": 65,
+        "y": 230
+      },
+      {
+        "id": "el5n49jgj",
+        "type": "barChart",
+        "name": "Bars · chart",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elew84g0o",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.65,
+            "easing": "ease"
+          },
+          {
+            "id": "elee0ipkf",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "data": "42, 31, 38, 24, 55",
+          "color": "#7c6cff",
+          "multi": true,
+          "gap": 17,
+          "fillDur": 1.6,
+          "showValues": true
+        },
+        "w": 907,
+        "h": 653,
+        "x": 87,
+        "y": 422
+      },
+      {
+        "id": "elg3hxl29",
+        "type": "text",
+        "name": "Bars · caption",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elt2503eg",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "elu8cwe6p",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Q5 is on track to beat every previous quarter",
+          "font": "sans",
+          "size": 39,
+          "weight": "700",
+          "color": "#34d399",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 864,
+        "h": 98,
+        "x": 108,
+        "y": 1127
+      }
+    ]
+  }
+}

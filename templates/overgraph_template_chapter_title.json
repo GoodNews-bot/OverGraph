@@ -1,0 +1,182 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Chapter title",
+  "desc": "Elegant chapter card: number, rule line, big title and subtitle.",
+  "savedAt": "2026-10-02T09:00:23.199Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el7opz4gf",
+        "type": "text",
+        "name": "Chapter · kicker",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el7mrx86s",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "elrtkjb99",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "CHAPTER 01",
+          "font": "sans",
+          "size": 39,
+          "weight": "700",
+          "color": "#22d3ee",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 9,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 864,
+        "h": 49,
+        "x": 108,
+        "y": 614
+      },
+      {
+        "id": "elcp4iqdb",
+        "type": "line",
+        "name": "Chapter · line",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elpm58co1",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "ellseazqv",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "color": "#7c6cff",
+          "width": 6,
+          "caps": true
+        },
+        "w": 281,
+        "h": 11,
+        "x": 400,
+        "y": 683
+      },
+      {
+        "id": "elz1vh1pq",
+        "type": "text",
+        "name": "Chapter · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "eliu0u5wz",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.65,
+            "easing": "ease"
+          },
+          {
+            "id": "elr437f5a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.45,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Getting Started",
+          "font": "sans",
+          "size": 104,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 907,
+        "h": 260,
+        "x": 86,
+        "y": 768
+      },
+      {
+        "id": "elwcckmeu",
+        "type": "text",
+        "name": "Chapter · subtitle",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "eltbtt32h",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "el7ut6zur",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Everything you need to know before diving in.",
+          "font": "sans",
+          "size": 37,
+          "weight": "400",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 821,
+        "h": 93,
+        "x": 130,
+        "y": 930
+      }
+    ]
+  }
+}

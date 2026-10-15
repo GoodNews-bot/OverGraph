@@ -1,0 +1,355 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Shoutout",
+  "desc": "Community shoutout with engagement counter.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "ela51562f",
+        "type": "icon",
+        "name": "Shout · heart",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anb419f96",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.15,
+            "duration": 1.0,
+            "easing": "ease"
+          },
+          {
+            "id": "an551756f",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "heart",
+          "color": "#f472b6",
+          "strokeW": 1.6,
+          "fill": false
+        },
+        "w": 180,
+        "h": 180,
+        "x": 450,
+        "y": 240
+      },
+      {
+        "id": "el1a56d86",
+        "type": "text",
+        "name": "Shout · kicker",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an852339d",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.4,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an752e890",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "COMMUNITY SHOUTOUT",
+          "font": "sans",
+          "size": 42,
+          "weight": "800",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 4,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10.08,
+          "shadowX": 0,
+          "shadowY": 2.73
+        },
+        "w": 900,
+        "h": 52,
+        "x": 90,
+        "y": 470
+      },
+      {
+        "id": "el8baa518",
+        "type": "text",
+        "name": "Shout · name",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an0b8336f",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "an4093c8b",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "@alex.codes",
+          "font": "sans",
+          "size": 96,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 23.04,
+          "shadowX": 0,
+          "shadowY": 6.24
+        },
+        "w": 900,
+        "h": 120,
+        "x": 90,
+        "y": 560
+      },
+      {
+        "id": "el067d35b",
+        "type": "text",
+        "name": "Shout · why",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anb3b5614",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.75,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an0f0ab2a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "for the insane support this week",
+          "font": "sans",
+          "size": 40,
+          "weight": "600",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 900,
+        "h": 50,
+        "x": 90,
+        "y": 700
+      },
+      {
+        "id": "elf36bc50",
+        "type": "rect",
+        "name": "Shout · stat card",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an792cc21",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.2,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an4d3cd41",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(244,114,182,0.13)",
+          "border": "rgba(244,114,182,0.5)",
+          "borderW": 2,
+          "radius": 32
+        },
+        "w": 480,
+        "h": 130,
+        "x": 300,
+        "y": 850
+      },
+      {
+        "id": "el81ee82a",
+        "type": "counter",
+        "name": "Shout · count",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7434e7b",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.15,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an4de3b5d",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 1200,
+          "dec": 0,
+          "prefix": "",
+          "suffix": "",
+          "font": "sans",
+          "size": 76,
+          "weight": "900",
+          "color": "#f472b6",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "countDur": 1.5,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 18.24,
+          "shadowX": 0,
+          "shadowY": 4.94
+        },
+        "w": 310,
+        "h": 84,
+        "x": 280,
+        "y": 880
+      },
+      {
+        "id": "el245c247",
+        "type": "text",
+        "name": "Shout · count label",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an77aa116",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.2,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an133475f",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "comments\nthis month",
+          "font": "sans",
+          "size": 26,
+          "weight": "600",
+          "color": "#b9c2dd",
+          "align": "left",
+          "lh": 1.3,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.24,
+          "shadowX": 0,
+          "shadowY": 1.69
+        },
+        "w": 170,
+        "h": 68,
+        "x": 610,
+        "y": 878
+      },
+      {
+        "id": "el6de317f",
+        "type": "text",
+        "name": "Shout · cta",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an90dd228",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.5,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an81cb76e",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Tag someone who deserves the next one →",
+          "font": "sans",
+          "size": 32,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.68,
+          "shadowX": 0,
+          "shadowY": 2.08
+        },
+        "w": 900,
+        "h": 40,
+        "x": 90,
+        "y": 1090
+      }
+    ]
+  }
+}

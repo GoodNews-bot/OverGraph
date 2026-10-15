@@ -1,0 +1,401 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Book quote",
+  "desc": "Quote card with big quote mark and rating stars.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el5735af4",
+        "type": "text",
+        "name": "Book · mark",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "andcbb046",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.15,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an7e9992f",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "“",
+          "font": "sans",
+          "size": 220,
+          "weight": "900",
+          "color": "#7c6cff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 52.8,
+          "shadowX": 0,
+          "shadowY": 14.3
+        },
+        "w": 280,
+        "h": 250,
+        "x": 400,
+        "y": 280
+      },
+      {
+        "id": "ele0e6aaa",
+        "type": "text",
+        "name": "Book · quote",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an3490848",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.4,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "an1a240e0",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "The obstacle is\nthe way.",
+          "font": "sans",
+          "size": 84,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 20.16,
+          "shadowX": 0,
+          "shadowY": 5.46
+        },
+        "w": 900,
+        "h": 210,
+        "x": 90,
+        "y": 560
+      },
+      {
+        "id": "el004df85",
+        "type": "line",
+        "name": "Book · line",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4d4eeff",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an3492131",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "color": "#7c6cff",
+          "width": 8,
+          "caps": true
+        },
+        "w": 300,
+        "h": 10,
+        "x": 390,
+        "y": 850
+      },
+      {
+        "id": "el7376fc4",
+        "type": "text",
+        "name": "Book · author",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an09f2d62",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an79c71f3",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Marcus Aurelius — Meditations",
+          "font": "sans",
+          "size": 36,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 900,
+        "h": 45,
+        "x": 90,
+        "y": 910
+      },
+      {
+        "id": "el7389cf2",
+        "type": "icon",
+        "name": "Book · star 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an8984800",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.1,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an431b51a",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "star",
+          "color": "#fbbf24",
+          "strokeW": 1.5,
+          "fill": true
+        },
+        "w": 68,
+        "h": 68,
+        "x": 300,
+        "y": 1030
+      },
+      {
+        "id": "el657fae6",
+        "type": "icon",
+        "name": "Book · star 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an56f7e57",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.18,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an8e8092a",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "star",
+          "color": "#fbbf24",
+          "strokeW": 1.5,
+          "fill": true
+        },
+        "w": 68,
+        "h": 68,
+        "x": 400,
+        "y": 1030
+      },
+      {
+        "id": "elbbc2e32",
+        "type": "icon",
+        "name": "Book · star 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and4bfc33",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.26,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "ancea3f61",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "star",
+          "color": "#fbbf24",
+          "strokeW": 1.5,
+          "fill": true
+        },
+        "w": 68,
+        "h": 68,
+        "x": 500,
+        "y": 1030
+      },
+      {
+        "id": "el7702fba",
+        "type": "icon",
+        "name": "Book · star 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an155e526",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.34,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an6d377ac",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "star",
+          "color": "#fbbf24",
+          "strokeW": 1.5,
+          "fill": true
+        },
+        "w": 68,
+        "h": 68,
+        "x": 600,
+        "y": 1030
+      },
+      {
+        "id": "elb197ba7",
+        "type": "icon",
+        "name": "Book · star 4",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an6f6b429",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.42,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an47374e7",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "star",
+          "color": "#fbbf24",
+          "strokeW": 1.5,
+          "fill": true
+        },
+        "w": 68,
+        "h": 68,
+        "x": 700,
+        "y": 1030
+      },
+      {
+        "id": "eldfdf392",
+        "type": "text",
+        "name": "Book · note",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anb9883d5",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.5,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an01cf148",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Book of the month — 5/5",
+          "font": "sans",
+          "size": 32,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.68,
+          "shadowX": 0,
+          "shadowY": 2.08
+        },
+        "w": 900,
+        "h": 40,
+        "x": 90,
+        "y": 1170
+      }
+    ]
+  }
+}

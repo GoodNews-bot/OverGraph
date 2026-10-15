@@ -1,0 +1,571 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "A/B test",
+  "desc": "Two variant cards with a crowned winner and conversion lift.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "eld571058",
+        "type": "text",
+        "name": "AB · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an52eec62",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an42e6f45",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "A/B TEST RESULTS",
+          "font": "sans",
+          "size": 54,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 12.96,
+          "shadowX": 0,
+          "shadowY": 3.51
+        },
+        "w": 900,
+        "h": 68,
+        "x": 90,
+        "y": 240
+      },
+      {
+        "id": "el3291a66",
+        "type": "rect",
+        "name": "AB · card A",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an15f23a1",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "an732b7ea",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 32
+        },
+        "w": 430,
+        "h": 560,
+        "x": 90,
+        "y": 400
+      },
+      {
+        "id": "el5d1269f",
+        "type": "text",
+        "name": "AB · lab A",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7902a5d",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anac6a6b2",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "VARIANT A",
+          "font": "sans",
+          "size": 32,
+          "weight": "800",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.68,
+          "shadowX": 0,
+          "shadowY": 2.08
+        },
+        "w": 430,
+        "h": 40,
+        "x": 90,
+        "y": 452
+      },
+      {
+        "id": "el4576877",
+        "type": "text",
+        "name": "AB · copy A",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4e13b44",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anba8aaca",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "“Start free”",
+          "font": "sans",
+          "size": 40,
+          "weight": "700",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 430,
+        "h": 50,
+        "x": 90,
+        "y": 520
+      },
+      {
+        "id": "elee7d844",
+        "type": "counter",
+        "name": "AB · conv A",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "aneb03aa2",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "ana67f0c9",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 4.2,
+          "dec": 1,
+          "prefix": "",
+          "suffix": "%",
+          "font": "sans",
+          "size": 96,
+          "weight": "900",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "countDur": 1.2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 23.04,
+          "shadowX": 0,
+          "shadowY": 6.24
+        },
+        "w": 390,
+        "h": 106,
+        "x": 110,
+        "y": 620
+      },
+      {
+        "id": "eledb4c67",
+        "type": "text",
+        "name": "AB · sub A",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and12498c",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.8,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anbced5ae",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "conversion rate",
+          "font": "sans",
+          "size": 28,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.72,
+          "shadowX": 0,
+          "shadowY": 1.82
+        },
+        "w": 430,
+        "h": 35,
+        "x": 90,
+        "y": 750
+      },
+      {
+        "id": "el3a1a360",
+        "type": "rect",
+        "name": "AB · card B",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an495b903",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "and922a47",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(52,211,153,0.12)",
+          "border": "rgba(52,211,153,0.6)",
+          "borderW": 3,
+          "radius": 32
+        },
+        "w": 430,
+        "h": 560,
+        "x": 560,
+        "y": 400
+      },
+      {
+        "id": "el0c624d0",
+        "type": "icon",
+        "name": "AB · crown",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anee8246d",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.9,
+            "easing": "ease"
+          },
+          {
+            "id": "an2e0e616",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "crown",
+          "color": "#fbbf24",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 60,
+        "h": 60,
+        "x": 745,
+        "y": 440
+      },
+      {
+        "id": "el691c0d2",
+        "type": "text",
+        "name": "AB · lab B",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ancc64ede",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an94e4ccb",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "VARIANT B",
+          "font": "sans",
+          "size": 32,
+          "weight": "800",
+          "color": "#34d399",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.68,
+          "shadowX": 0,
+          "shadowY": 2.08
+        },
+        "w": 430,
+        "h": 40,
+        "x": 560,
+        "y": 532
+      },
+      {
+        "id": "el45a12cd",
+        "type": "text",
+        "name": "AB · copy B",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an88ef233",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.8,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anc3f58a0",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "“Build yours”",
+          "font": "sans",
+          "size": 40,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 430,
+        "h": 50,
+        "x": 560,
+        "y": 600
+      },
+      {
+        "id": "elf5c3f36",
+        "type": "counter",
+        "name": "AB · conv B",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an15fcadd",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an8a5a1a6",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 7.1,
+          "dec": 1,
+          "prefix": "",
+          "suffix": "%",
+          "font": "sans",
+          "size": 96,
+          "weight": "900",
+          "color": "#34d399",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "countDur": 1.2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 23.04,
+          "shadowX": 0,
+          "shadowY": 6.24
+        },
+        "w": 390,
+        "h": 106,
+        "x": 580,
+        "y": 620
+      },
+      {
+        "id": "el4985b99",
+        "type": "text",
+        "name": "AB · sub B",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ana791f09",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.0,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an23e8586",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "conversion rate",
+          "font": "sans",
+          "size": 28,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.72,
+          "shadowX": 0,
+          "shadowY": 1.82
+        },
+        "w": 430,
+        "h": 35,
+        "x": 560,
+        "y": 750
+      },
+      {
+        "id": "el069d96b",
+        "type": "text",
+        "name": "AB · verdict",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7a20e4d",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 1.35,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an779fa94",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Variant B wins with +69% relative lift.",
+          "font": "sans",
+          "size": 34,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 900,
+        "h": 42,
+        "x": 90,
+        "y": 1050
+      }
+    ]
+  }
+}

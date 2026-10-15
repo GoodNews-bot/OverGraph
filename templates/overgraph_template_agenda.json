@@ -1,0 +1,558 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Agenda",
+  "desc": "Numbered three-point agenda with staggered entries.",
+  "savedAt": "2026-10-02T09:00:23.855Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elyzjhzmk",
+        "type": "text",
+        "name": "Agenda · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elf6zbip5",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "el8404p39",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "IN THIS VIDEO",
+          "font": "sans",
+          "size": 82,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 950,
+        "h": 103,
+        "x": 65,
+        "y": 250
+      },
+      {
+        "id": "elpgmhnob",
+        "type": "circle",
+        "name": "Agenda · number 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el6mrlywn",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.4,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "elniht5g8",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.9)",
+          "border": "#7c6cff",
+          "borderW": 4
+        },
+        "w": 119,
+        "h": 119,
+        "x": 86,
+        "y": 532
+      },
+      {
+        "id": "el8zmeany",
+        "type": "text",
+        "name": "Agenda · digit 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elvfgyxos",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.35,
+            "easing": "ease"
+          },
+          {
+            "id": "elfoo37w6",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.25,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "1",
+          "font": "sans",
+          "size": 60,
+          "weight": "900",
+          "color": "#7c6cff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": false,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 119,
+        "h": 75,
+        "x": 86,
+        "y": 554
+      },
+      {
+        "id": "elxzkcvii",
+        "type": "text",
+        "name": "Agenda · head 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elrv3eqp2",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.6000000000000001,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "elpcui9ij",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "The problem",
+          "font": "sans",
+          "size": 52,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 810,
+        "h": 65,
+        "x": 253,
+        "y": 536
+      },
+      {
+        "id": "elaeo4c41",
+        "type": "text",
+        "name": "Agenda · sub 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ellezqfbo",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "elz2yqivy",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Why most edits take too long",
+          "font": "sans",
+          "size": 35,
+          "weight": "500",
+          "color": "#b9c2dd",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 810,
+        "h": 44,
+        "x": 253,
+        "y": 610
+      },
+      {
+        "id": "el5ll2wel",
+        "type": "circle",
+        "name": "Agenda · number 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elhd2ojvw",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "elgkc80ur",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.3,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.9)",
+          "border": "#22d3ee",
+          "borderW": 4
+        },
+        "w": 119,
+        "h": 119,
+        "x": 86,
+        "y": 753
+      },
+      {
+        "id": "el3fbwwdu",
+        "type": "text",
+        "name": "Agenda · digit 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elsl66xxr",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.85,
+            "duration": 0.35,
+            "easing": "ease"
+          },
+          {
+            "id": "el5dom8z6",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.3,
+            "duration": 0.25,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "2",
+          "font": "sans",
+          "size": 60,
+          "weight": "900",
+          "color": "#22d3ee",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": false,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 119,
+        "h": 75,
+        "x": 86,
+        "y": 775
+      },
+      {
+        "id": "elgoulzsa",
+        "type": "text",
+        "name": "Agenda · head 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el87krtqc",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.8999999999999999,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "elvpqh0xw",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.3,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "The method",
+          "font": "sans",
+          "size": 52,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 810,
+        "h": 65,
+        "x": 253,
+        "y": 757
+      },
+      {
+        "id": "ela6e16fp",
+        "type": "text",
+        "name": "Agenda · sub 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el0bksahs",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "elh23f36q",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.3,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Three steps, zero rework",
+          "font": "sans",
+          "size": 35,
+          "weight": "500",
+          "color": "#b9c2dd",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 810,
+        "h": 44,
+        "x": 253,
+        "y": 831
+      },
+      {
+        "id": "elk15kd7b",
+        "type": "circle",
+        "name": "Agenda · number 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elit9adnk",
+            "type": "pop",
+            "dir": "in",
+            "start": 1,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "elnf9l702",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.35,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.9)",
+          "border": "#34d399",
+          "borderW": 4
+        },
+        "w": 119,
+        "h": 119,
+        "x": 86,
+        "y": 974
+      },
+      {
+        "id": "elwpvy3mq",
+        "type": "text",
+        "name": "Agenda · digit 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elfsoivcy",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.15,
+            "duration": 0.35,
+            "easing": "ease"
+          },
+          {
+            "id": "eltgx7itc",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.35,
+            "duration": 0.25,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "3",
+          "font": "sans",
+          "size": 60,
+          "weight": "900",
+          "color": "#34d399",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": false,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 119,
+        "h": 75,
+        "x": 86,
+        "y": 996
+      },
+      {
+        "id": "el39jgsym",
+        "type": "text",
+        "name": "Agenda · head 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elf0r89bo",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 1.2,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "elvwvu54k",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.35,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "The result",
+          "font": "sans",
+          "size": 52,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 810,
+        "h": 65,
+        "x": 253,
+        "y": 978
+      },
+      {
+        "id": "elj4x2l7z",
+        "type": "text",
+        "name": "Agenda · sub 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elkxbrpbw",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 1.3,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "elmd2utr6",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.35,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Publish 3× faster",
+          "font": "sans",
+          "size": 35,
+          "weight": "500",
+          "color": "#b9c2dd",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 810,
+        "h": 44,
+        "x": 253,
+        "y": 1052
+      }
+    ]
+  }
+}

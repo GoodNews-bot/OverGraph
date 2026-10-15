@@ -1,0 +1,607 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Quarterly results",
+  "desc": "Bar chart of the four quarters with best-quarter badge.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el07892bd",
+        "type": "text",
+        "name": "Quarter · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an0442083",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "anb27812b",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "QUARTERLY RESULTS",
+          "font": "sans",
+          "size": 60,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 14.4,
+          "shadowX": 0,
+          "shadowY": 3.9
+        },
+        "w": 900,
+        "h": 75,
+        "x": 90,
+        "y": 232
+      },
+      {
+        "id": "elc234252",
+        "type": "barChart",
+        "name": "Quarter · chart",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anb7da5fd",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "anca2359b",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "data": "52, 68, 61, 92",
+          "color": "#7c6cff",
+          "multi": true,
+          "gap": 26,
+          "fillDur": 1.1,
+          "showValues": true
+        },
+        "w": 900,
+        "h": 520,
+        "x": 90,
+        "y": 380
+      },
+      {
+        "id": "elfb140c4",
+        "type": "text",
+        "name": "Quarter · Q1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "aneabe242",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.35,
+            "easing": "ease"
+          },
+          {
+            "id": "anda996cb",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Q1",
+          "font": "sans",
+          "size": 30,
+          "weight": "700",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 180,
+        "h": 38,
+        "x": 105,
+        "y": 930
+      },
+      {
+        "id": "el57ffd62",
+        "type": "text",
+        "name": "Quarter · Q1 val",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anb602330",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "anbf4ca87",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "52K",
+          "font": "sans",
+          "size": 34,
+          "weight": "800",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 180,
+        "h": 42,
+        "x": 105,
+        "y": 972
+      },
+      {
+        "id": "elb9a29e3",
+        "type": "text",
+        "name": "Quarter · Q2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an083ffcc",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.35,
+            "easing": "ease"
+          },
+          {
+            "id": "an057ca1a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Q2",
+          "font": "sans",
+          "size": 30,
+          "weight": "700",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 180,
+        "h": 38,
+        "x": 330,
+        "y": 930
+      },
+      {
+        "id": "eladb292d",
+        "type": "text",
+        "name": "Quarter · Q2 val",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anfbdeaec",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.65,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an20ae5e8",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "68K",
+          "font": "sans",
+          "size": 34,
+          "weight": "800",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 180,
+        "h": 42,
+        "x": 330,
+        "y": 972
+      },
+      {
+        "id": "el02bfb6e",
+        "type": "text",
+        "name": "Quarter · Q3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7abab97",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.35,
+            "easing": "ease"
+          },
+          {
+            "id": "and6a7822",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Q3",
+          "font": "sans",
+          "size": 30,
+          "weight": "700",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 180,
+        "h": 38,
+        "x": 555,
+        "y": 930
+      },
+      {
+        "id": "elb8f698a",
+        "type": "text",
+        "name": "Quarter · Q3 val",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anc10edc0",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.75,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "anb265a1b",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "61K",
+          "font": "sans",
+          "size": 34,
+          "weight": "800",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 180,
+        "h": 42,
+        "x": 555,
+        "y": 972
+      },
+      {
+        "id": "el3436bf6",
+        "type": "text",
+        "name": "Quarter · Q4",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an361c4a3",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.8,
+            "duration": 0.35,
+            "easing": "ease"
+          },
+          {
+            "id": "an1529fe9",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Q4",
+          "font": "sans",
+          "size": 30,
+          "weight": "700",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 180,
+        "h": 38,
+        "x": 780,
+        "y": 930
+      },
+      {
+        "id": "el004cdd7",
+        "type": "text",
+        "name": "Quarter · Q4 val",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anc817e45",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.85,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "ane1dd234",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "92K",
+          "font": "sans",
+          "size": 34,
+          "weight": "800",
+          "color": "#34d399",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 180,
+        "h": 42,
+        "x": 780,
+        "y": 972
+      },
+      {
+        "id": "elfdefcb5",
+        "type": "rect",
+        "name": "Quarter · badge",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an814ec1e",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.3,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an88c35f4",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(52,211,153,0.13)",
+          "border": "rgba(52,211,153,0.5)",
+          "borderW": 2,
+          "radius": 65
+        },
+        "w": 600,
+        "h": 130,
+        "x": 240,
+        "y": 1120
+      },
+      {
+        "id": "elba33e12",
+        "type": "icon",
+        "name": "Icon trend",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ana858af2",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.4,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an22f7c1f",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "trend",
+          "color": "#34d399",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 58,
+        "h": 58,
+        "x": 306,
+        "y": 1156
+      },
+      {
+        "id": "elf637028",
+        "type": "text",
+        "name": "Quarter · takeaway",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an5bed156",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.45,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "ana9d7c57",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Best quarter ever",
+          "font": "sans",
+          "size": 40,
+          "weight": "800",
+          "color": "#34d399",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 420,
+        "h": 50,
+        "x": 386,
+        "y": 1160
+      },
+      {
+        "id": "elb886257",
+        "type": "text",
+        "name": "Quarter · note",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an0de39cb",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.6,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anaf2a7ac",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Revenue in thousands of dollars, 2026",
+          "font": "sans",
+          "size": 28,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.72,
+          "shadowX": 0,
+          "shadowY": 1.82
+        },
+        "w": 900,
+        "h": 35,
+        "x": 90,
+        "y": 1320
+      }
+    ]
+  }
+}

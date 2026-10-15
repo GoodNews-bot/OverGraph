@@ -1,0 +1,582 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Timeline history",
+  "desc": "Vertical timeline of milestones and years.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el76f59f9",
+        "type": "text",
+        "name": "Hist · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an6d53287",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anf478102",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "HOW WE GOT HERE",
+          "font": "sans",
+          "size": 54,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 12.96,
+          "shadowX": 0,
+          "shadowY": 3.51
+        },
+        "w": 900,
+        "h": 68,
+        "x": 90,
+        "y": 236
+      },
+      {
+        "id": "elb681141",
+        "type": "line",
+        "name": "Hist · spine",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ancd0c5c1",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 0.8,
+            "easing": "ease"
+          },
+          {
+            "id": "and63b51d",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "color": "rgba(255,255,255,0.2)",
+          "width": 6,
+          "caps": true
+        },
+        "w": 6,
+        "h": 980,
+        "x": 538,
+        "y": 380
+      },
+      {
+        "id": "elb4614c8",
+        "type": "circle",
+        "name": "Hist · dot 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anc4fc611",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an99b1008",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#22d3ee",
+          "border": "none",
+          "borderW": 0
+        },
+        "w": 44,
+        "h": 44,
+        "x": 516,
+        "y": 430
+      },
+      {
+        "id": "el2e96ec7",
+        "type": "text",
+        "name": "Hist · year 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf676453",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an546c0af",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "2019",
+          "font": "sans",
+          "size": 48,
+          "weight": "900",
+          "color": "#22d3ee",
+          "align": "right",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 11.52,
+          "shadowX": 0,
+          "shadowY": 3.12
+        },
+        "w": 340,
+        "h": 60,
+        "x": 120,
+        "y": 422
+      },
+      {
+        "id": "el317c2b2",
+        "type": "text",
+        "name": "Hist · ev 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anb98a9a9",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an81f0b6a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "First prototype shipped",
+          "font": "sans",
+          "size": 36,
+          "weight": "600",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 380,
+        "h": 45,
+        "x": 600,
+        "y": 432
+      },
+      {
+        "id": "el6034ec7",
+        "type": "circle",
+        "name": "Hist · dot 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an852f957",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "anefaabde",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "none",
+          "borderW": 0
+        },
+        "w": 44,
+        "h": 44,
+        "x": 516,
+        "y": 670
+      },
+      {
+        "id": "el8fc986e",
+        "type": "text",
+        "name": "Hist · year 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an9d6476b",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.75,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anc3fb24a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "2021",
+          "font": "sans",
+          "size": 48,
+          "weight": "900",
+          "color": "#7c6cff",
+          "align": "right",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 11.52,
+          "shadowX": 0,
+          "shadowY": 3.12
+        },
+        "w": 340,
+        "h": 60,
+        "x": 120,
+        "y": 662
+      },
+      {
+        "id": "el43b0fdf",
+        "type": "text",
+        "name": "Hist · ev 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an20548fd",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.8,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an6978204",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "10K users milestone",
+          "font": "sans",
+          "size": 36,
+          "weight": "600",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 380,
+        "h": 45,
+        "x": 600,
+        "y": 672
+      },
+      {
+        "id": "el4cda8cc",
+        "type": "circle",
+        "name": "Hist · dot 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and8516b9",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an5205ff4",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#34d399",
+          "border": "none",
+          "borderW": 0
+        },
+        "w": 44,
+        "h": 44,
+        "x": 516,
+        "y": 910
+      },
+      {
+        "id": "el3393a1b",
+        "type": "text",
+        "name": "Hist · year 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anb4512ba",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an9711409",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "2024",
+          "font": "sans",
+          "size": 48,
+          "weight": "900",
+          "color": "#34d399",
+          "align": "right",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 11.52,
+          "shadowX": 0,
+          "shadowY": 3.12
+        },
+        "w": 340,
+        "h": 60,
+        "x": 120,
+        "y": 902
+      },
+      {
+        "id": "el12f9d24",
+        "type": "text",
+        "name": "Hist · ev 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ane2acc9e",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.0,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an8ee1b17",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Studio launch",
+          "font": "sans",
+          "size": 36,
+          "weight": "600",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 380,
+        "h": 45,
+        "x": 600,
+        "y": 912
+      },
+      {
+        "id": "ele10dc44",
+        "type": "circle",
+        "name": "Hist · dot 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an8317912",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.1,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "ana6d057d",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#fbbf24",
+          "border": "none",
+          "borderW": 0
+        },
+        "w": 44,
+        "h": 44,
+        "x": 516,
+        "y": 1150
+      },
+      {
+        "id": "elb3a1b47",
+        "type": "text",
+        "name": "Hist · year 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an29aadce",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 1.15,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an61dfa9e",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "2026",
+          "font": "sans",
+          "size": 48,
+          "weight": "900",
+          "color": "#fbbf24",
+          "align": "right",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 11.52,
+          "shadowX": 0,
+          "shadowY": 3.12
+        },
+        "w": 340,
+        "h": 60,
+        "x": 120,
+        "y": 1142
+      },
+      {
+        "id": "el519160e",
+        "type": "text",
+        "name": "Hist · ev 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an87df4d2",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.2,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "ane0cf71a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "1M exports",
+          "font": "sans",
+          "size": 36,
+          "weight": "600",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 380,
+        "h": 45,
+        "x": 600,
+        "y": 1152
+      }
+    ]
+  }
+}

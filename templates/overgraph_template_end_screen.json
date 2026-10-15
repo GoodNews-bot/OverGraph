@@ -1,0 +1,345 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "End screen",
+  "desc": "Thanks-for-watching card with like, bell and share icon pills.",
+  "savedAt": "2026-10-02T09:00:23.784Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elsay73xu",
+        "type": "text",
+        "name": "End · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "eleqrhf7e",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "elrgterhb",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.45,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "THANKS FOR WATCHING",
+          "font": "sans",
+          "size": 91,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 929,
+        "h": 228,
+        "x": 76,
+        "y": 576
+      },
+      {
+        "id": "eldqbw2qa",
+        "type": "text",
+        "name": "End · sub",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elr2b52na",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "elpevq403",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "If this helped, a like goes a long way",
+          "font": "sans",
+          "size": 39,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 821,
+        "h": 49,
+        "x": 130,
+        "y": 819
+      },
+      {
+        "id": "elfmx024f",
+        "type": "circle",
+        "name": "End · pill 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elt4fevn0",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.75,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "eluctrqeh",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.8)",
+          "border": "#f87171",
+          "borderW": 4
+        },
+        "w": 184,
+        "h": 184,
+        "x": 214,
+        "y": 965
+      },
+      {
+        "id": "el75fdkox",
+        "type": "icon",
+        "name": "End · icon 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elscik3el",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.7,
+            "easing": "ease"
+          },
+          {
+            "id": "elj36umkd",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "like",
+          "color": "#f87171",
+          "strokeW": 2.2,
+          "fill": true
+        },
+        "w": 92,
+        "h": 92,
+        "x": 260,
+        "y": 1011
+      },
+      {
+        "id": "eluoln6dc",
+        "type": "circle",
+        "name": "End · pill 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "eld3j4igi",
+            "type": "pop",
+            "dir": "in",
+            "start": 1,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "elt6ldl8x",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.8)",
+          "border": "#fbbf24",
+          "borderW": 4
+        },
+        "w": 184,
+        "h": 184,
+        "x": 448,
+        "y": 965
+      },
+      {
+        "id": "elifk4nxz",
+        "type": "icon",
+        "name": "End · icon 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elrc5k38z",
+            "type": "bounce",
+            "dir": "in",
+            "start": 1.2,
+            "duration": 0.7,
+            "easing": "ease"
+          },
+          {
+            "id": "eld9nfki3",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "bell",
+          "color": "#fbbf24",
+          "strokeW": 2.2,
+          "fill": true
+        },
+        "w": 92,
+        "h": 92,
+        "x": 494,
+        "y": 1011
+      },
+      {
+        "id": "el87flpbo",
+        "type": "circle",
+        "name": "End · pill 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "eldq1cjei",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.25,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "ela1sjpc2",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.8)",
+          "border": "#22d3ee",
+          "borderW": 4
+        },
+        "w": 184,
+        "h": 184,
+        "x": 682,
+        "y": 965
+      },
+      {
+        "id": "elxmas1om",
+        "type": "icon",
+        "name": "End · icon 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ely1maonu",
+            "type": "bounce",
+            "dir": "in",
+            "start": 1.45,
+            "duration": 0.7,
+            "easing": "ease"
+          },
+          {
+            "id": "elgzpsbza",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "share",
+          "color": "#22d3ee",
+          "strokeW": 2.2,
+          "fill": true
+        },
+        "w": 92,
+        "h": 92,
+        "x": 728,
+        "y": 1011
+      },
+      {
+        "id": "elu6ntsy2",
+        "type": "line",
+        "name": "End · line",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el4r01mrz",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.5,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "el3ibhlk6",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "color": "#7c6cff",
+          "width": 6,
+          "caps": true
+        },
+        "w": 324,
+        "h": 11,
+        "x": 378,
+        "y": 1235
+      }
+    ]
+  }
+}

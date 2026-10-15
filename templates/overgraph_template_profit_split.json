@@ -1,0 +1,472 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Profit split",
+  "desc": "Donut splitting income between costs and net profit.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el8afa556",
+        "type": "text",
+        "name": "Profit · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anebb0fba",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "an0e3038a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "WHERE THE MONEY GOES",
+          "font": "sans",
+          "size": 54,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 12.96,
+          "shadowX": 0,
+          "shadowY": 3.51
+        },
+        "w": 900,
+        "h": 68,
+        "x": 90,
+        "y": 240
+      },
+      {
+        "id": "el6ee7e6e",
+        "type": "pie",
+        "name": "Profit · pie",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an72861ca",
+            "type": "rotate",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 0.7,
+            "easing": "ease"
+          },
+          {
+            "id": "and062723",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "data": "62, 38",
+          "color": "#22d3ee",
+          "multi": true,
+          "thickness": 76,
+          "fillDur": 1.4
+        },
+        "w": 420,
+        "h": 420,
+        "x": 330,
+        "y": 380
+      },
+      {
+        "id": "eld199489",
+        "type": "text",
+        "name": "Profit · center",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an389ad2c",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.0,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an481eb12",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "62%",
+          "font": "sans",
+          "size": 74,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 17.76,
+          "shadowX": 0,
+          "shadowY": 4.81
+        },
+        "w": 240,
+        "h": 92,
+        "x": 420,
+        "y": 528
+      },
+      {
+        "id": "el00b1b31",
+        "type": "text",
+        "name": "Profit · center 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an3b2603a",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "andce6689",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "38%",
+          "font": "sans",
+          "size": 74,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 17.76,
+          "shadowX": 0,
+          "shadowY": 4.81
+        },
+        "w": 240,
+        "h": 92,
+        "x": 420,
+        "y": 620
+      },
+      {
+        "id": "el05cac4f",
+        "type": "circle",
+        "name": "Dot",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anda3cad5",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.2,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an4c5263e",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#22d3ee",
+          "border": "none",
+          "borderW": 0
+        },
+        "w": 34,
+        "h": 34,
+        "x": 190,
+        "y": 950
+      },
+      {
+        "id": "el385b35f",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ane8ea066",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 1.25,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "anfd75a54",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Operating costs",
+          "font": "sans",
+          "size": 40,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 460,
+        "h": 50,
+        "x": 250,
+        "y": 940
+      },
+      {
+        "id": "elc8eff4d",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an9f8a5b0",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.3,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "anbbadf69",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "62%",
+          "font": "sans",
+          "size": 40,
+          "weight": "800",
+          "color": "#22d3ee",
+          "align": "right",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 160,
+        "h": 50,
+        "x": 730,
+        "y": 940
+      },
+      {
+        "id": "eld48478c",
+        "type": "circle",
+        "name": "Dot",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an8f272e3",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.4,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an4f2979b",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#34d399",
+          "border": "none",
+          "borderW": 0
+        },
+        "w": 34,
+        "h": 34,
+        "x": 190,
+        "y": 1110
+      },
+      {
+        "id": "el9965085",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ana4e0f8b",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 1.45,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an6b1476d",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Net profit",
+          "font": "sans",
+          "size": 40,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 460,
+        "h": 50,
+        "x": 250,
+        "y": 1100
+      },
+      {
+        "id": "eld17a3e1",
+        "type": "text",
+        "name": "Text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and23d471",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.5,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "anbb40116",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "38%",
+          "font": "sans",
+          "size": 40,
+          "weight": "800",
+          "color": "#34d399",
+          "align": "right",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 160,
+        "h": 50,
+        "x": 730,
+        "y": 1100
+      },
+      {
+        "id": "el1fe0f22",
+        "type": "text",
+        "name": "Profit · note",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anc1d2452",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.7,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "ane07a075",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Every euro is tracked and reported monthly.",
+          "font": "sans",
+          "size": 30,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 900,
+        "h": 38,
+        "x": 90,
+        "y": 1300
+      }
+    ]
+  }
+}

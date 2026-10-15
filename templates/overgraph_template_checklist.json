@@ -1,0 +1,516 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Checklist",
+  "desc": "Four tasks with check icons ticking in one by one.",
+  "savedAt": "2026-10-02T09:00:23.106Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elgiaedan",
+        "type": "text",
+        "name": "Checklist · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el1kdpmw3",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "el7b2ot53",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "YOUR CHECKLIST",
+          "font": "sans",
+          "size": 78,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 950,
+        "h": 98,
+        "x": 65,
+        "y": 269
+      },
+      {
+        "id": "el7i87lzj",
+        "type": "rect",
+        "name": "Checklist · row 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elabntmy0",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.4,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "el4e743q4",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.66)",
+          "border": "rgba(124,108,255,0.5)",
+          "borderW": 3,
+          "radius": 19
+        },
+        "w": 929,
+        "h": 130,
+        "x": 76,
+        "y": 538
+      },
+      {
+        "id": "el6q1ug52",
+        "type": "icon",
+        "name": "Checklist · check 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elhonqc7a",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.6000000000000001,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "el2f7aehl",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "check",
+          "color": "#34d399",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 91,
+        "h": 91,
+        "x": 104,
+        "y": 558
+      },
+      {
+        "id": "elcd4ivds",
+        "type": "text",
+        "name": "Checklist · text 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el4mb1ydw",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.65,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "elmz53cu0",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Set your goal",
+          "font": "sans",
+          "size": 48,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 756,
+        "h": 60,
+        "x": 219,
+        "y": 573
+      },
+      {
+        "id": "elb56nplf",
+        "type": "rect",
+        "name": "Checklist · row 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "eleogx792",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "eltbda7ud",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.31,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.66)",
+          "border": "rgba(124,108,255,0.5)",
+          "borderW": 3,
+          "radius": 19
+        },
+        "w": 929,
+        "h": 130,
+        "x": 76,
+        "y": 696
+      },
+      {
+        "id": "elfh3s101",
+        "type": "icon",
+        "name": "Checklist · check 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elsq8orxj",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.8999999999999999,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "elu4jahvx",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.31,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "check",
+          "color": "#34d399",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 91,
+        "h": 91,
+        "x": 104,
+        "y": 716
+      },
+      {
+        "id": "elazcvjav",
+        "type": "text",
+        "name": "Checklist · text 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el0dah3c1",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "el68x0f8i",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.31,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Plan the shoot",
+          "font": "sans",
+          "size": 48,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 756,
+        "h": 60,
+        "x": 219,
+        "y": 731
+      },
+      {
+        "id": "elgfarqvx",
+        "type": "rect",
+        "name": "Checklist · row 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elf3f0fsc",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "eltk5e4p1",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.37,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.66)",
+          "border": "rgba(124,108,255,0.5)",
+          "borderW": 3,
+          "radius": 19
+        },
+        "w": 929,
+        "h": 130,
+        "x": 76,
+        "y": 854
+      },
+      {
+        "id": "elgpclau0",
+        "type": "icon",
+        "name": "Checklist · check 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elyge7u4a",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.2,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "ela0mrgc8",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.37,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "check",
+          "color": "#34d399",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 91,
+        "h": 91,
+        "x": 104,
+        "y": 874
+      },
+      {
+        "id": "elqyp1lsk",
+        "type": "text",
+        "name": "Checklist · text 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el8v4e9fe",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.25,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "elxsht2dt",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.37,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Record & edit",
+          "font": "sans",
+          "size": 48,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 756,
+        "h": 60,
+        "x": 219,
+        "y": 889
+      },
+      {
+        "id": "elqaztlhe",
+        "type": "rect",
+        "name": "Checklist · row 4",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elfgtsul4",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 1.2999999999999998,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "el6vah169",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.43,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.66)",
+          "border": "#34d399",
+          "borderW": 3,
+          "radius": 19
+        },
+        "w": 929,
+        "h": 130,
+        "x": 76,
+        "y": 1012
+      },
+      {
+        "id": "el9k4o9wv",
+        "type": "icon",
+        "name": "Checklist · check 4",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elcw3b8sr",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.4999999999999998,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "el2ua2s15",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.43,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "check",
+          "color": "#34d399",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 91,
+        "h": 91,
+        "x": 104,
+        "y": 1032
+      },
+      {
+        "id": "elwgarlkl",
+        "type": "text",
+        "name": "Checklist · text 4",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el5u73dy4",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.5499999999999998,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "elfw417lp",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.43,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Publish & track",
+          "font": "sans",
+          "size": 48,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 756,
+        "h": 60,
+        "x": 219,
+        "y": 1047
+      }
+    ]
+  }
+}

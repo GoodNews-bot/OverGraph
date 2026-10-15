@@ -1,0 +1,460 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Funding round",
+  "desc": "Series A announcement with amount counter and milestone list.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el239183d",
+        "type": "icon",
+        "name": "Funding · icon",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an3478cdf",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.15,
+            "duration": 0.9,
+            "easing": "ease"
+          },
+          {
+            "id": "an7637f42",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "rocket",
+          "color": "#7c6cff",
+          "strokeW": 1.8,
+          "fill": false
+        },
+        "w": 150,
+        "h": 150,
+        "x": 465,
+        "y": 250
+      },
+      {
+        "id": "elb386d55",
+        "type": "text",
+        "name": "Funding · kicker",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anfccfa3c",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.4,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an50f2acd",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "WE RAISED",
+          "font": "sans",
+          "size": 48,
+          "weight": "700",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 6,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 11.52,
+          "shadowX": 0,
+          "shadowY": 3.12
+        },
+        "w": 900,
+        "h": 60,
+        "x": 90,
+        "y": 460
+      },
+      {
+        "id": "el7b68089",
+        "type": "counter",
+        "name": "Funding · amount",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an528b48a",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "an979df9c",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 12000000,
+          "dec": 0,
+          "prefix": "$",
+          "suffix": "",
+          "font": "sans",
+          "size": 130,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "countDur": 2.0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 31.2,
+          "shadowX": 0,
+          "shadowY": 8.45
+        },
+        "w": 960,
+        "h": 143,
+        "x": 60,
+        "y": 530
+      },
+      {
+        "id": "el2fb4371",
+        "type": "rect",
+        "name": "Funding · series badge",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an37cbb66",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.1,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an119a45c",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(124,108,255,0.18)",
+          "border": "rgba(124,108,255,0.5)",
+          "borderW": 2,
+          "radius": 48
+        },
+        "w": 420,
+        "h": 96,
+        "x": 330,
+        "y": 760
+      },
+      {
+        "id": "ele717c49",
+        "type": "text",
+        "name": "Funding · series",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an3a0b699",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.15,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an824debe",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "SERIES A",
+          "font": "sans",
+          "size": 38,
+          "weight": "800",
+          "color": "#7c6cff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 4,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.12,
+          "shadowX": 0,
+          "shadowY": 2.47
+        },
+        "w": 420,
+        "h": 48,
+        "x": 330,
+        "y": 786
+      },
+      {
+        "id": "ele323fec",
+        "type": "icon",
+        "name": "Funding · check 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ana484223",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.3,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an19d38ab",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "check",
+          "color": "#34d399",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 44,
+        "h": 44,
+        "x": 250,
+        "y": 970
+      },
+      {
+        "id": "el46d13bc",
+        "type": "text",
+        "name": "Funding · point 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an813f8d1",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.35,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "anf720f2a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Led by Northline Ventures",
+          "font": "sans",
+          "size": 36,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 620,
+        "h": 45,
+        "x": 320,
+        "y": 974
+      },
+      {
+        "id": "elfcffbce",
+        "type": "icon",
+        "name": "Funding · check 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an9bc34f6",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.45,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an1ab3181",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "check",
+          "color": "#34d399",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 44,
+        "h": 44,
+        "x": 250,
+        "y": 1070
+      },
+      {
+        "id": "el5549412",
+        "type": "text",
+        "name": "Funding · point 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4dda5d0",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.5,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an983ca72",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "12,000 founders onboard",
+          "font": "sans",
+          "size": 36,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 620,
+        "h": 45,
+        "x": 320,
+        "y": 1074
+      },
+      {
+        "id": "el2bc56e8",
+        "type": "icon",
+        "name": "Funding · check 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anb451d7f",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.6,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an64cee48",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "check",
+          "color": "#34d399",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 44,
+        "h": 44,
+        "x": 250,
+        "y": 1170
+      },
+      {
+        "id": "elca74b2d",
+        "type": "text",
+        "name": "Funding · point 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anbf49f20",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.65,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "anf03c309",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Expanding to 3 new markets",
+          "font": "sans",
+          "size": 36,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 620,
+        "h": 45,
+        "x": 320,
+        "y": 1174
+      }
+    ]
+  }
+}

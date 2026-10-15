@@ -1,0 +1,208 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Feature callout",
+  "desc": "Curved arrow pointing at a highlight bubble with an icon.",
+  "savedAt": "2026-10-02T09:00:23.363Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "eltcs5kc7",
+        "type": "rect",
+        "name": "Callout · bubble",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elr067mwx",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.15,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "elu81jnp0",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(124,108,255,0.3)",
+          "border": "#7c6cff",
+          "borderW": 3,
+          "radius": 76
+        },
+        "w": 691,
+        "h": 151,
+        "x": 86,
+        "y": 307
+      },
+      {
+        "id": "el270wnmz",
+        "type": "icon",
+        "name": "Callout · icon",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elhaunb8z",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.4,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "elhjwn9rf",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "bolt",
+          "color": "#22d3ee",
+          "strokeW": 2.5,
+          "fill": true
+        },
+        "w": 78,
+        "h": 78,
+        "x": 129,
+        "y": 344
+      },
+      {
+        "id": "elu2i7e1x",
+        "type": "text",
+        "name": "Callout · text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elnnw8tcn",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "eldr3kze7",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "One-click export",
+          "font": "sans",
+          "size": 56,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 518,
+        "h": 70,
+        "x": 226,
+        "y": 348
+      },
+      {
+        "id": "eld2mqyg3",
+        "type": "arrow",
+        "name": "Callout · arrow",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ellmnla8l",
+            "type": "rotate",
+            "dir": "in",
+            "start": 0.8,
+            "duration": 0.7,
+            "easing": "ease"
+          },
+          {
+            "id": "elmoygld7",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "style": "curved",
+          "color": "#fbbf24",
+          "width": 8
+        },
+        "w": 281,
+        "h": 216,
+        "x": 376,
+        "y": 490
+      },
+      {
+        "id": "elt9v2zih",
+        "type": "text",
+        "name": "Callout · hint",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elizdns7l",
+            "type": "bounce",
+            "dir": "in",
+            "start": 1.35,
+            "duration": 0.7,
+            "easing": "ease"
+          },
+          {
+            "id": "elzkza96y",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "right here",
+          "font": "sans",
+          "size": 37,
+          "weight": "700",
+          "color": "#fbbf24",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 864,
+        "h": 46,
+        "x": 108,
+        "y": 728
+      }
+    ]
+  }
+}

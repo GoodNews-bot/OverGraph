@@ -1,0 +1,444 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Social stats row",
+  "desc": "Handle with three animated counters (followers, likes, views).",
+  "savedAt": "2026-10-02T09:00:22.911Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elmsjz5fl",
+        "type": "text",
+        "name": "Social · handle",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "eljzi2s32",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "elczvd8cx",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "@yourbrand",
+          "font": "sans",
+          "size": 78,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 907,
+        "h": 98,
+        "x": 86,
+        "y": 307
+      },
+      {
+        "id": "elhmkl9uh",
+        "type": "icon",
+        "name": "Social · followers icon",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el81ab6tl",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.8,
+            "easing": "ease"
+          },
+          {
+            "id": "elzbn364j",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "user",
+          "color": "#7c6cff",
+          "strokeW": 2.4,
+          "fill": true
+        },
+        "w": 91,
+        "h": 91,
+        "x": 165,
+        "y": 653
+      },
+      {
+        "id": "elhpc7mrs",
+        "type": "counter",
+        "name": "Social · followers count",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el1guesiv",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "el6h6myub",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 12.4,
+          "dec": 1,
+          "prefix": "",
+          "suffix": "K",
+          "font": "sans",
+          "size": 71,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 19.44,
+          "shadowX": 0,
+          "shadowY": 4.32,
+          "countDur": 1.6
+        },
+        "w": 292,
+        "h": 78,
+        "x": 64,
+        "y": 772
+      },
+      {
+        "id": "eltyszoxs",
+        "type": "text",
+        "name": "Social · followers label",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "eleez9d7z",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "eltvtyklh",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "followers",
+          "font": "sans",
+          "size": 32,
+          "weight": "600",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 292,
+        "h": 40,
+        "x": 64,
+        "y": 861
+      },
+      {
+        "id": "el89za4yx",
+        "type": "icon",
+        "name": "Social · likes icon",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elbj7e3y2",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.63,
+            "duration": 0.8,
+            "easing": "ease"
+          },
+          {
+            "id": "el7551b64",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "heart",
+          "color": "#f87171",
+          "strokeW": 2.4,
+          "fill": true
+        },
+        "w": 91,
+        "h": 91,
+        "x": 495,
+        "y": 653
+      },
+      {
+        "id": "eljrpfgnw",
+        "type": "counter",
+        "name": "Social · likes count",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elry761ys",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.78,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "el2a3ql5k",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 48.2,
+          "dec": 1,
+          "prefix": "",
+          "suffix": "K",
+          "font": "sans",
+          "size": 71,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 19.44,
+          "shadowX": 0,
+          "shadowY": 4.32,
+          "countDur": 1.6
+        },
+        "w": 292,
+        "h": 78,
+        "x": 394,
+        "y": 772
+      },
+      {
+        "id": "elcqwnbm5",
+        "type": "text",
+        "name": "Social · likes label",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el3gg5int",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.98,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "el3v2hw8b",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "likes",
+          "font": "sans",
+          "size": 32,
+          "weight": "600",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 292,
+        "h": 40,
+        "x": 394,
+        "y": 861
+      },
+      {
+        "id": "el8hkyu2i",
+        "type": "icon",
+        "name": "Social · views icon",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elh5zmd3u",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.91,
+            "duration": 0.8,
+            "easing": "ease"
+          },
+          {
+            "id": "elr636r8a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "eye",
+          "color": "#22d3ee",
+          "strokeW": 2.4,
+          "fill": true
+        },
+        "w": 91,
+        "h": 91,
+        "x": 825,
+        "y": 653
+      },
+      {
+        "id": "el1goob1n",
+        "type": "counter",
+        "name": "Social · views count",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elmcqtrko",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.06,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "elkzdree7",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 1.2,
+          "dec": 1,
+          "prefix": "",
+          "suffix": "M",
+          "font": "sans",
+          "size": 71,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 19.44,
+          "shadowX": 0,
+          "shadowY": 4.32,
+          "countDur": 1.6
+        },
+        "w": 292,
+        "h": 78,
+        "x": 724,
+        "y": 772
+      },
+      {
+        "id": "el6reciqd",
+        "type": "text",
+        "name": "Social · views label",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elq85x8p6",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 1.26,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "elb3wv8t5",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "views",
+          "font": "sans",
+          "size": 32,
+          "weight": "600",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 292,
+        "h": 40,
+        "x": 724,
+        "y": 861
+      }
+    ]
+  }
+}

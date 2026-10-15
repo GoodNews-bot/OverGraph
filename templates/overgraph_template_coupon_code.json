@@ -1,0 +1,183 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Coupon code",
+  "desc": "Dashed promo card with a big code and a call to action.",
+  "savedAt": "2026-10-02T09:00:23.489Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elgbj3lkr",
+        "type": "rect",
+        "name": "Coupon · card",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elzynvnvp",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.55,
+            "easing": "back"
+          },
+          {
+            "id": "elhixdtva",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(52,211,153,0.14)",
+          "border": "#34d399",
+          "borderW": 4,
+          "radius": 26
+        },
+        "w": 821,
+        "h": 384,
+        "x": 130,
+        "y": 576
+      },
+      {
+        "id": "elf1bxef1",
+        "type": "text",
+        "name": "Coupon · intro",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elei1m01a",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "elzmcon9g",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "EXCLUSIVE OFFER — 20 % OFF",
+          "font": "sans",
+          "size": 35,
+          "weight": "700",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 821,
+        "h": 44,
+        "x": 130,
+        "y": 637
+      },
+      {
+        "id": "elxlt0ygx",
+        "type": "text",
+        "name": "Coupon · code",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elnoqkcx4",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "elowy6dzv",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "SAVE20",
+          "font": "mono",
+          "size": 119,
+          "weight": "900",
+          "color": "#34d399",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 11,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 821,
+        "h": 149,
+        "x": 130,
+        "y": 714
+      },
+      {
+        "id": "el9hiqjx6",
+        "type": "text",
+        "name": "Coupon · cta",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el7yvu6jg",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "elkmjp7zc",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Use it at checkout — ends Sunday",
+          "font": "sans",
+          "size": 32,
+          "weight": "600",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 821,
+        "h": 40,
+        "x": 130,
+        "y": 876
+      }
+    ]
+  }
+}

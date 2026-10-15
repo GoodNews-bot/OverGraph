@@ -1,0 +1,340 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Versus battle",
+  "desc": "Two facing team cards with a golden VS badge that pops in.",
+  "savedAt": "2026-10-02T09:00:23.019Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el4qkuxwj",
+        "type": "rect",
+        "name": "VS · card A",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elfq4dd98",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "elye6y9dt",
+            "type": "slideLeft",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(248,113,113,0.16)",
+          "border": "#f87171",
+          "borderW": 4,
+          "radius": 26
+        },
+        "w": 454,
+        "h": 365,
+        "x": 59,
+        "y": 576
+      },
+      {
+        "id": "elyuah29u",
+        "type": "rect",
+        "name": "VS · card B",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elccq0pkb",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.2,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "el7wi6weq",
+            "type": "slideRight",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(96,165,250,0.16)",
+          "border": "#60a5fa",
+          "borderW": 4,
+          "radius": 26
+        },
+        "w": 454,
+        "h": 365,
+        "x": 567,
+        "y": 576
+      },
+      {
+        "id": "el06zzixq",
+        "type": "text",
+        "name": "VS · team A",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "eln81r0j1",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "el9kfx3cs",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "TEAM A",
+          "font": "sans",
+          "size": 60,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 419,
+        "h": 75,
+        "x": 76,
+        "y": 686
+      },
+      {
+        "id": "eltkz6rut",
+        "type": "text",
+        "name": "VS · team B",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elfdtjbv8",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.45,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "el82p0ri1",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "TEAM B",
+          "font": "sans",
+          "size": 60,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 419,
+        "h": 75,
+        "x": 584,
+        "y": 686
+      },
+      {
+        "id": "ell0b0uri",
+        "type": "text",
+        "name": "VS · sub A",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "eltxypjkg",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "elt8772x7",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Challenger",
+          "font": "sans",
+          "size": 32,
+          "weight": "600",
+          "color": "#f87171",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 428,
+        "h": 40,
+        "x": 72,
+        "y": 767
+      },
+      {
+        "id": "el4sfhi0j",
+        "type": "text",
+        "name": "VS · sub B",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el7srcy4d",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "elnorc90j",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Defender",
+          "font": "sans",
+          "size": 32,
+          "weight": "600",
+          "color": "#60a5fa",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 428,
+        "h": 40,
+        "x": 580,
+        "y": 767
+      },
+      {
+        "id": "el4wbdccs",
+        "type": "circle",
+        "name": "VS · badge",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el6aan41p",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.8,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "el609101d",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.95)",
+          "border": "#fbbf24",
+          "borderW": 6
+        },
+        "w": 140,
+        "h": 140,
+        "x": 470,
+        "y": 689
+      },
+      {
+        "id": "elrxy3314",
+        "type": "text",
+        "name": "VS · label",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ell0e4njx",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "elx7l7j48",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "VS",
+          "font": "sans",
+          "size": 60,
+          "weight": "900",
+          "color": "#fbbf24",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": false,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 140,
+        "h": 75,
+        "x": 470,
+        "y": 722
+      }
+    ]
+  }
+}

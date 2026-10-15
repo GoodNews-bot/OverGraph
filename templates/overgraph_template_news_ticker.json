@@ -1,0 +1,208 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "News ticker",
+  "desc": "Red BREAKING banner with a white scrolling-style headline strip.",
+  "savedAt": "2026-10-02T09:00:23.432Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elmfvsu8j",
+        "type": "rect",
+        "name": "Ticker · strip",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elv4yih6p",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "elexq16np",
+            "type": "slideBottom",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#f8fafc",
+          "border": "none",
+          "borderW": 0,
+          "radius": 0
+        },
+        "w": 1080,
+        "h": 130,
+        "x": 0,
+        "y": 1498
+      },
+      {
+        "id": "elxv29zw5",
+        "type": "rect",
+        "name": "Ticker · badge",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el3k39x3c",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.25,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "el3kvy9rf",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#ef4444",
+          "border": "rgba(255,255,255,.4)",
+          "borderW": 2,
+          "radius": 0
+        },
+        "w": 367,
+        "h": 130,
+        "x": 0,
+        "y": 1498
+      },
+      {
+        "id": "elmjporpc",
+        "type": "text",
+        "name": "Ticker · label",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elgdmr7s4",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.4,
+            "duration": 0.35,
+            "easing": "ease"
+          },
+          {
+            "id": "elyrdvy9k",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "BREAKING",
+          "font": "sans",
+          "size": 63,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": false,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 302,
+        "h": 79,
+        "x": 32,
+        "y": 1524
+      },
+      {
+        "id": "eljglz9lj",
+        "type": "text",
+        "name": "Ticker · headline",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elupjwjf3",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "elqu42pwi",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Big announcement just dropped",
+          "font": "sans",
+          "size": 52,
+          "weight": "800",
+          "color": "#0f172a",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": false,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 626,
+        "h": 130,
+        "x": 410,
+        "y": 1498
+      },
+      {
+        "id": "elbm10yua",
+        "type": "line",
+        "name": "Ticker · underline",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elr4rplzu",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.65,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "elvwdhnad",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "color": "#ef4444",
+          "width": 9,
+          "caps": false
+        },
+        "w": 1080,
+        "h": 11,
+        "x": 0,
+        "y": 1628
+      }
+    ]
+  }
+}

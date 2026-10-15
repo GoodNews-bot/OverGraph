@@ -1,0 +1,754 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Flash sale",
+  "desc": "Red hero card, countdown tiles and promo code.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el5f948fa",
+        "type": "rect",
+        "name": "Flash · hero card",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7aa2039",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.55,
+            "easing": "back"
+          },
+          {
+            "id": "an9c7587f",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(248,113,113,0.14)",
+          "border": "rgba(248,113,113,0.5)",
+          "borderW": 3,
+          "radius": 40
+        },
+        "w": 900,
+        "h": 460,
+        "x": 90,
+        "y": 280
+      },
+      {
+        "id": "elf7cface",
+        "type": "text",
+        "name": "Flash · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7944f6e",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.25,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an1abcc40",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "FLASH SALE",
+          "font": "sans",
+          "size": 96,
+          "weight": "900",
+          "color": "#f87171",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 23.04,
+          "shadowX": 0,
+          "shadowY": 6.24
+        },
+        "w": 900,
+        "h": 120,
+        "x": 90,
+        "y": 330
+      },
+      {
+        "id": "el1f9b93c",
+        "type": "text",
+        "name": "Flash · pct",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an377d2d6",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.45,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "an4011475",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "-50%",
+          "font": "sans",
+          "size": 190,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 45.6,
+          "shadowX": 0,
+          "shadowY": 12.35
+        },
+        "w": 900,
+        "h": 238,
+        "x": 90,
+        "y": 450
+      },
+      {
+        "id": "el5c5379f",
+        "type": "text",
+        "name": "Flash · sub",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an663dd69",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.75,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an18079e1",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "EVERYTHING MUST GO",
+          "font": "sans",
+          "size": 40,
+          "weight": "800",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 4,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 900,
+        "h": 50,
+        "x": 90,
+        "y": 800
+      },
+      {
+        "id": "el8c3ddb0",
+        "type": "rect",
+        "name": "Flash · tile 04",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an65cc7b6",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 1.0,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an1a7f8cb",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 28
+        },
+        "w": 170,
+        "h": 200,
+        "x": 150,
+        "y": 950
+      },
+      {
+        "id": "el41f20d2",
+        "type": "text",
+        "name": "Flash · 04",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an70a37dc",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.1,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an6684751",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "04",
+          "font": "sans",
+          "size": 92,
+          "weight": "900",
+          "color": "#f87171",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 22.08,
+          "shadowX": 0,
+          "shadowY": 5.98
+        },
+        "w": 170,
+        "h": 115,
+        "x": 150,
+        "y": 988
+      },
+      {
+        "id": "el8ffe997",
+        "type": "text",
+        "name": "Flash · unit 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an1d5abf9",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.15,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "ane1ba278",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "HRS",
+          "font": "sans",
+          "size": 26,
+          "weight": "700",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.24,
+          "shadowX": 0,
+          "shadowY": 1.69
+        },
+        "w": 170,
+        "h": 32,
+        "x": 150,
+        "y": 1096
+      },
+      {
+        "id": "el4cda3c5",
+        "type": "rect",
+        "name": "Flash · tile 12",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ane740e68",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 1.12,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anddbc52a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 28
+        },
+        "w": 170,
+        "h": 200,
+        "x": 360,
+        "y": 950
+      },
+      {
+        "id": "el185ba04",
+        "type": "text",
+        "name": "Flash · 12",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an2223345",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.22,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "ancc6323c",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "12",
+          "font": "sans",
+          "size": 92,
+          "weight": "900",
+          "color": "#f87171",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 22.08,
+          "shadowX": 0,
+          "shadowY": 5.98
+        },
+        "w": 170,
+        "h": 115,
+        "x": 360,
+        "y": 988
+      },
+      {
+        "id": "elaf4f2da",
+        "type": "text",
+        "name": "Flash · unit 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an90f023c",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.27,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an05f49ce",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "MIN",
+          "font": "sans",
+          "size": 26,
+          "weight": "700",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.24,
+          "shadowX": 0,
+          "shadowY": 1.69
+        },
+        "w": 170,
+        "h": 32,
+        "x": 360,
+        "y": 1096
+      },
+      {
+        "id": "el8c0e4c7",
+        "type": "rect",
+        "name": "Flash · tile 37",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an0c8e963",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 1.24,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an0a753cb",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 28
+        },
+        "w": 170,
+        "h": 200,
+        "x": 570,
+        "y": 950
+      },
+      {
+        "id": "el7c95ef4",
+        "type": "text",
+        "name": "Flash · 37",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an54d8ca5",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.34,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "anf4a1314",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "37",
+          "font": "sans",
+          "size": 92,
+          "weight": "900",
+          "color": "#f87171",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 22.08,
+          "shadowX": 0,
+          "shadowY": 5.98
+        },
+        "w": 170,
+        "h": 115,
+        "x": 570,
+        "y": 988
+      },
+      {
+        "id": "ele129e1f",
+        "type": "text",
+        "name": "Flash · unit 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anaf8ff9d",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.39,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an1df0d56",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "SEC",
+          "font": "sans",
+          "size": 26,
+          "weight": "700",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.24,
+          "shadowX": 0,
+          "shadowY": 1.69
+        },
+        "w": 170,
+        "h": 32,
+        "x": 570,
+        "y": 1096
+      },
+      {
+        "id": "eld2a41c3",
+        "type": "rect",
+        "name": "Flash · tile 52",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an0f03e26",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 1.36,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an9e179cc",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 28
+        },
+        "w": 170,
+        "h": 200,
+        "x": 780,
+        "y": 950
+      },
+      {
+        "id": "el7e4ec1a",
+        "type": "text",
+        "name": "Flash · 52",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7965410",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.46,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an013a0c7",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "52",
+          "font": "sans",
+          "size": 92,
+          "weight": "900",
+          "color": "#f87171",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 22.08,
+          "shadowX": 0,
+          "shadowY": 5.98
+        },
+        "w": 170,
+        "h": 115,
+        "x": 780,
+        "y": 988
+      },
+      {
+        "id": "ele5113b1",
+        "type": "text",
+        "name": "Flash · unit 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7e80ab8",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.51,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anc0c2c80",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "MS",
+          "font": "sans",
+          "size": 26,
+          "weight": "700",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.24,
+          "shadowX": 0,
+          "shadowY": 1.69
+        },
+        "w": 170,
+        "h": 32,
+        "x": 780,
+        "y": 1096
+      },
+      {
+        "id": "el277f4b2",
+        "type": "rect",
+        "name": "Flash · code card",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and7a09db",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.6,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an5911b4f",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(248,113,113,0.15)",
+          "border": "rgba(248,113,113,0.55)",
+          "borderW": 2,
+          "radius": 52
+        },
+        "w": 480,
+        "h": 104,
+        "x": 300,
+        "y": 1240
+      },
+      {
+        "id": "ele83e4dd",
+        "type": "text",
+        "name": "Flash · code",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anc1ccf5c",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.75,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an8c6b6d8",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "CODE: FLASH50",
+          "font": "sans",
+          "size": 36,
+          "weight": "800",
+          "color": "#f87171",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 480,
+        "h": 45,
+        "x": 300,
+        "y": 1271
+      }
+    ]
+  }
+}

@@ -1,0 +1,894 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Content calendar",
+  "desc": "Weekly posting schedule with colored day cards.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el11b45a0",
+        "type": "text",
+        "name": "Cal · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "aneabf5bb",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an516c8da",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "THIS WEEK",
+          "font": "sans",
+          "size": 56,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 13.44,
+          "shadowX": 0,
+          "shadowY": 3.64
+        },
+        "w": 900,
+        "h": 70,
+        "x": 90,
+        "y": 236
+      },
+      {
+        "id": "el1d741e5",
+        "type": "text",
+        "name": "Cal · sub",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an37ea224",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.2,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an1648cf5",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Content schedule",
+          "font": "sans",
+          "size": 34,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 900,
+        "h": 42,
+        "x": 90,
+        "y": 320
+      },
+      {
+        "id": "el834a11d",
+        "type": "rect",
+        "name": "Cal · card MON",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an0e6ea29",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an3b61091",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 26
+        },
+        "w": 900,
+        "h": 170,
+        "x": 90,
+        "y": 440
+      },
+      {
+        "id": "el218bd34",
+        "type": "rect",
+        "name": "Cal · mark MON",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anaf7be1c",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.45,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anf0b6702",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#22d3ee",
+          "border": "none",
+          "borderW": 0,
+          "radius": 6
+        },
+        "w": 12,
+        "h": 170,
+        "x": 90,
+        "y": 440
+      },
+      {
+        "id": "el2cf58f8",
+        "type": "text",
+        "name": "Cal · MON",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an407b243",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.47,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "ana31238b",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "MON",
+          "font": "sans",
+          "size": 36,
+          "weight": "800",
+          "color": "#22d3ee",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 200,
+        "h": 45,
+        "x": 150,
+        "y": 480
+      },
+      {
+        "id": "eldf00f6f",
+        "type": "text",
+        "name": "Cal · MON what",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an5409db9",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an8324674",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Reel: desk setup",
+          "font": "sans",
+          "size": 38,
+          "weight": "600",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.12,
+          "shadowX": 0,
+          "shadowY": 2.47
+        },
+        "w": 560,
+        "h": 48,
+        "x": 380,
+        "y": 476
+      },
+      {
+        "id": "elcd68cda",
+        "type": "rect",
+        "name": "Cal · card TUE",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an40dc928",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anb76f895",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 26
+        },
+        "w": 900,
+        "h": 170,
+        "x": 90,
+        "y": 650
+      },
+      {
+        "id": "el7826021",
+        "type": "rect",
+        "name": "Cal · mark TUE",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "aneb2f3c8",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an1d2bb69",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "none",
+          "borderW": 0,
+          "radius": 6
+        },
+        "w": 12,
+        "h": 170,
+        "x": 90,
+        "y": 650
+      },
+      {
+        "id": "elaacc0b9",
+        "type": "text",
+        "name": "Cal · TUE",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4b358d8",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.62,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an54e25ed",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "TUE",
+          "font": "sans",
+          "size": 36,
+          "weight": "800",
+          "color": "#7c6cff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 200,
+        "h": 45,
+        "x": 150,
+        "y": 690
+      },
+      {
+        "id": "elc1f7cdf",
+        "type": "text",
+        "name": "Cal · TUE what",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4856e1f",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.65,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an9dfdb4a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Post: Q&A thread",
+          "font": "sans",
+          "size": 38,
+          "weight": "600",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.12,
+          "shadowX": 0,
+          "shadowY": 2.47
+        },
+        "w": 560,
+        "h": 48,
+        "x": 380,
+        "y": 686
+      },
+      {
+        "id": "el0d58d78",
+        "type": "rect",
+        "name": "Cal · card WED",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ane91b304",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.65,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anfdc7dd5",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 26
+        },
+        "w": 900,
+        "h": 170,
+        "x": 90,
+        "y": 860
+      },
+      {
+        "id": "el7d8ba10",
+        "type": "rect",
+        "name": "Cal · mark WED",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an082a0a6",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.75,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anec2ac0b",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#34d399",
+          "border": "none",
+          "borderW": 0,
+          "radius": 6
+        },
+        "w": 12,
+        "h": 170,
+        "x": 90,
+        "y": 860
+      },
+      {
+        "id": "elcf1cc1f",
+        "type": "text",
+        "name": "Cal · WED",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an8358002",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.77,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an9e3d25f",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "WED",
+          "font": "sans",
+          "size": 36,
+          "weight": "800",
+          "color": "#34d399",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 200,
+        "h": 45,
+        "x": 150,
+        "y": 900
+      },
+      {
+        "id": "eld50df91",
+        "type": "text",
+        "name": "Cal · WED what",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an36af29d",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.8,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an5dc330e",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Short: 3 tips",
+          "font": "sans",
+          "size": 38,
+          "weight": "600",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.12,
+          "shadowX": 0,
+          "shadowY": 2.47
+        },
+        "w": 560,
+        "h": 48,
+        "x": 380,
+        "y": 896
+      },
+      {
+        "id": "el8730ed6",
+        "type": "rect",
+        "name": "Cal · card THU",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "andd159a7",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.8,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anf2cb4fe",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 26
+        },
+        "w": 900,
+        "h": 170,
+        "x": 90,
+        "y": 1070
+      },
+      {
+        "id": "elba06f74",
+        "type": "rect",
+        "name": "Cal · mark THU",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf54d634",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an7ab3a91",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(255,255,255,0.12)",
+          "border": "none",
+          "borderW": 0,
+          "radius": 6
+        },
+        "w": 12,
+        "h": 170,
+        "x": 90,
+        "y": 1070
+      },
+      {
+        "id": "el12254e4",
+        "type": "text",
+        "name": "Cal · THU",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "andc19237",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.92,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anb630e2f",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "THU",
+          "font": "sans",
+          "size": 36,
+          "weight": "800",
+          "color": "#8b93b8",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 200,
+        "h": 45,
+        "x": 150,
+        "y": 1110
+      },
+      {
+        "id": "el39ae36f",
+        "type": "text",
+        "name": "Cal · THU what",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an0f6967b",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an68fe953",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Rest day",
+          "font": "sans",
+          "size": 38,
+          "weight": "600",
+          "color": "#b9c2dd",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.12,
+          "shadowX": 0,
+          "shadowY": 2.47
+        },
+        "w": 560,
+        "h": 48,
+        "x": 380,
+        "y": 1106
+      },
+      {
+        "id": "el8128de8",
+        "type": "rect",
+        "name": "Cal · card FRI",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an046d17a",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "and1a3f11",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 26
+        },
+        "w": 900,
+        "h": 170,
+        "x": 90,
+        "y": 1280
+      },
+      {
+        "id": "el15ef32c",
+        "type": "rect",
+        "name": "Cal · mark FRI",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an2508c32",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 1.05,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anca96d32",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#fbbf24",
+          "border": "none",
+          "borderW": 0,
+          "radius": 6
+        },
+        "w": 12,
+        "h": 170,
+        "x": 90,
+        "y": 1280
+      },
+      {
+        "id": "ela2442b8",
+        "type": "text",
+        "name": "Cal · FRI",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and95b381",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.07,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an95efde6",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "FRI",
+          "font": "sans",
+          "size": 36,
+          "weight": "800",
+          "color": "#fbbf24",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 200,
+        "h": 45,
+        "x": 150,
+        "y": 1320
+      },
+      {
+        "id": "elf9884c5",
+        "type": "text",
+        "name": "Cal · FRI what",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an0b9830a",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.1,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an38fcbaa",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Reel: vlog #12",
+          "font": "sans",
+          "size": 38,
+          "weight": "600",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.12,
+          "shadowX": 0,
+          "shadowY": 2.47
+        },
+        "w": 560,
+        "h": 48,
+        "x": 380,
+        "y": 1316
+      }
+    ]
+  }
+}

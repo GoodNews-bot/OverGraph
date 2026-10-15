@@ -1,0 +1,252 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "We are live",
+  "desc": "Red LIVE pill with pulsing dot and a rocket taking off.",
+  "savedAt": "2026-10-02T09:00:23.464Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elg9oglvk",
+        "type": "rect",
+        "name": "Live · pill",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el4vg5cjn",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.55,
+            "easing": "back"
+          },
+          {
+            "id": "el9vik20m",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#ef4444",
+          "border": "rgba(255,255,255,.45)",
+          "borderW": 3,
+          "radius": 52
+        },
+        "w": 346,
+        "h": 104,
+        "x": 367,
+        "y": 269
+      },
+      {
+        "id": "el8rp7fal",
+        "type": "circle",
+        "name": "Live · dot",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ell807gov",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 0.3,
+            "easing": "ease"
+          },
+          {
+            "id": "elmwde1h8",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.25,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#ffffff",
+          "border": "none",
+          "borderW": 0
+        },
+        "w": 37,
+        "h": 37,
+        "x": 419,
+        "y": 303
+      },
+      {
+        "id": "eldpv42h6",
+        "type": "text",
+        "name": "Live · label",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "eltwlvot4",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.4,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "eldeb4w87",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "LIVE",
+          "font": "sans",
+          "size": 54,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 6,
+          "shadow": false,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 211,
+        "h": 68,
+        "x": 481,
+        "y": 287
+      },
+      {
+        "id": "elpleoyz4",
+        "type": "icon",
+        "name": "Live · rocket",
+        "rot": -20,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ele29zo7w",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.9,
+            "easing": "ease"
+          },
+          {
+            "id": "elclfbomf",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "rocket",
+          "color": "#f87171",
+          "strokeW": 2.2,
+          "fill": true
+        },
+        "w": 205,
+        "h": 205,
+        "x": 438,
+        "y": 614
+      },
+      {
+        "id": "el17l9efj",
+        "type": "text",
+        "name": "Live · headline",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el3ti7j7u",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 1,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "el95iayhz",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "WE’RE LIVE!",
+          "font": "sans",
+          "size": 104,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 907,
+        "h": 130,
+        "x": 86,
+        "y": 895
+      },
+      {
+        "id": "el1kx5t2x",
+        "type": "text",
+        "name": "Live · sub",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elytsp6cf",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.4,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "el8w8fpse",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Drop your questions in the comments",
+          "font": "sans",
+          "size": 39,
+          "weight": "600",
+          "color": "#22d3ee",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 821,
+        "h": 98,
+        "x": 130,
+        "y": 1042
+      }
+    ]
+  }
+}

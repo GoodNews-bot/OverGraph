@@ -1,0 +1,296 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Before / After",
+  "desc": "Split screen with two labels and a big arrow between them.",
+  "savedAt": "2026-10-02T09:00:23.707Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elgqkeejy",
+        "type": "rect",
+        "name": "Before/After · before",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elpnj4stp",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "ely9p2sk3",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(248,113,113,0.16)",
+          "border": "#f87171",
+          "borderW": 4,
+          "radius": 28
+        },
+        "w": 475,
+        "h": 998,
+        "x": 43,
+        "y": 384
+      },
+      {
+        "id": "elts6389x",
+        "type": "rect",
+        "name": "Before/After · after",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elztjuj6t",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.2,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "elq1h9cbw",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(52,211,153,0.16)",
+          "border": "#34d399",
+          "borderW": 4,
+          "radius": 28
+        },
+        "w": 475,
+        "h": 998,
+        "x": 561,
+        "y": 384
+      },
+      {
+        "id": "elypige13",
+        "type": "text",
+        "name": "Before/After · before label",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elhr80ai3",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.4,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "elrvhdjhm",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "BEFORE",
+          "font": "sans",
+          "size": 69,
+          "weight": "900",
+          "color": "#f87171",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 475,
+        "h": 86,
+        "x": 43,
+        "y": 783
+      },
+      {
+        "id": "el8vmi1x1",
+        "type": "text",
+        "name": "Before/After · after label",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el501m67a",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "elh4x3kwe",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "AFTER",
+          "font": "sans",
+          "size": 69,
+          "weight": "900",
+          "color": "#34d399",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 475,
+        "h": 86,
+        "x": 561,
+        "y": 783
+      },
+      {
+        "id": "elv6c8uky",
+        "type": "text",
+        "name": "Before/After · before sub",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "eldkhykax",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.75,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "el3aesy6v",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "messy workflow",
+          "font": "sans",
+          "size": 35,
+          "weight": "600",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 423,
+        "h": 44,
+        "x": 69,
+        "y": 882
+      },
+      {
+        "id": "elwddwm3q",
+        "type": "text",
+        "name": "Before/After · after sub",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el0ro0jol",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "eln91v4nk",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "one-click magic",
+          "font": "sans",
+          "size": 35,
+          "weight": "600",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 423,
+        "h": 44,
+        "x": 587,
+        "y": 882
+      },
+      {
+        "id": "el44bh0n7",
+        "type": "arrow",
+        "name": "Before/After · arrow",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elcsnyjr2",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.05,
+            "duration": 0.55,
+            "easing": "back"
+          },
+          {
+            "id": "elnehmrbw",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "style": "block",
+          "color": "#fbbf24",
+          "width": 2
+        },
+        "w": 130,
+        "h": 97,
+        "x": 475,
+        "y": 803
+      }
+    ]
+  }
+}

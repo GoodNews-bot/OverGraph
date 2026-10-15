@@ -1,0 +1,811 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Server status",
+  "desc": "Per-service status page with colored health dots.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "eld7c9343",
+        "type": "text",
+        "name": "Stat · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an8e26af3",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an941cdfa",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "SYSTEM STATUS",
+          "font": "sans",
+          "size": 58,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 13.92,
+          "shadowX": 0,
+          "shadowY": 3.77
+        },
+        "w": 900,
+        "h": 72,
+        "x": 90,
+        "y": 236
+      },
+      {
+        "id": "el91e4a0d",
+        "type": "rect",
+        "name": "Stat · all good",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anb99e311",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "anbf5fa9c",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(52,211,153,0.14)",
+          "border": "rgba(52,211,153,0.5)",
+          "borderW": 2,
+          "radius": 55
+        },
+        "w": 600,
+        "h": 110,
+        "x": 240,
+        "y": 360
+      },
+      {
+        "id": "el9cd1802",
+        "type": "text",
+        "name": "Stat · banner",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4c247d9",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.45,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "anfe3061f",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "ALL SYSTEMS OPERATIONAL",
+          "font": "sans",
+          "size": 32,
+          "weight": "800",
+          "color": "#34d399",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 1,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.68,
+          "shadowX": 0,
+          "shadowY": 2.08
+        },
+        "w": 600,
+        "h": 40,
+        "x": 240,
+        "y": 394
+      },
+      {
+        "id": "el32c4efb",
+        "type": "rect",
+        "name": "Stat · card API",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an3245b44",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.65,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an45eecc8",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 26
+        },
+        "w": 900,
+        "h": 150,
+        "x": 90,
+        "y": 560
+      },
+      {
+        "id": "el89cf6b7",
+        "type": "text",
+        "name": "Stat · API",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "andb75016",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.75,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "ane9956b6",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "API",
+          "font": "sans",
+          "size": 42,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10.08,
+          "shadowX": 0,
+          "shadowY": 2.73
+        },
+        "w": 500,
+        "h": 52,
+        "x": 150,
+        "y": 608
+      },
+      {
+        "id": "el8f6f985",
+        "type": "circle",
+        "name": "Stat · dot API",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "andd89c51",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.8,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an9e134fc",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#34d399",
+          "border": "none",
+          "borderW": 0
+        },
+        "w": 34,
+        "h": 34,
+        "x": 745,
+        "y": 618
+      },
+      {
+        "id": "ele194fbd",
+        "type": "text",
+        "name": "Stat · st API",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf41f8c9",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.85,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anb24d085",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "online",
+          "font": "sans",
+          "size": 28,
+          "weight": "600",
+          "color": "#34d399",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.72,
+          "shadowX": 0,
+          "shadowY": 1.82
+        },
+        "w": 180,
+        "h": 35,
+        "x": 800,
+        "y": 620
+      },
+      {
+        "id": "el1dec382",
+        "type": "rect",
+        "name": "Stat · card Web app",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4a8dc67",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.8,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an27344f4",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 26
+        },
+        "w": 900,
+        "h": 150,
+        "x": 90,
+        "y": 750
+      },
+      {
+        "id": "el2b77242",
+        "type": "text",
+        "name": "Stat · Web app",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an51f74f0",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "ane55bb2c",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Web app",
+          "font": "sans",
+          "size": 42,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10.08,
+          "shadowX": 0,
+          "shadowY": 2.73
+        },
+        "w": 500,
+        "h": 52,
+        "x": 150,
+        "y": 798
+      },
+      {
+        "id": "elcd52479",
+        "type": "circle",
+        "name": "Stat · dot Web app",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and625548",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an6651c24",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#34d399",
+          "border": "none",
+          "borderW": 0
+        },
+        "w": 34,
+        "h": 34,
+        "x": 745,
+        "y": 808
+      },
+      {
+        "id": "elc8943f4",
+        "type": "text",
+        "name": "Stat · st Web app",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anac4f40d",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.0,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an87690d4",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "online",
+          "font": "sans",
+          "size": 28,
+          "weight": "600",
+          "color": "#34d399",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.72,
+          "shadowX": 0,
+          "shadowY": 1.82
+        },
+        "w": 180,
+        "h": 35,
+        "x": 800,
+        "y": 810
+      },
+      {
+        "id": "el81785c6",
+        "type": "rect",
+        "name": "Stat · card Exports",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf67ce40",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "andc18e34",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 26
+        },
+        "w": 900,
+        "h": 150,
+        "x": 90,
+        "y": 940
+      },
+      {
+        "id": "el3bffdbb",
+        "type": "text",
+        "name": "Stat · Exports",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an70c64c1",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.05,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an7b9a7f9",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Exports",
+          "font": "sans",
+          "size": 42,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10.08,
+          "shadowX": 0,
+          "shadowY": 2.73
+        },
+        "w": 500,
+        "h": 52,
+        "x": 150,
+        "y": 988
+      },
+      {
+        "id": "el0ef4250",
+        "type": "circle",
+        "name": "Stat · dot Exports",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an8c69388",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.1,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an6d421de",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#fbbf24",
+          "border": "none",
+          "borderW": 0
+        },
+        "w": 34,
+        "h": 34,
+        "x": 745,
+        "y": 998
+      },
+      {
+        "id": "el71cb8aa",
+        "type": "text",
+        "name": "Stat · st Exports",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an56a0509",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.15,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an10849ca",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "degraded",
+          "font": "sans",
+          "size": 28,
+          "weight": "600",
+          "color": "#fbbf24",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.72,
+          "shadowX": 0,
+          "shadowY": 1.82
+        },
+        "w": 180,
+        "h": 35,
+        "x": 800,
+        "y": 1000
+      },
+      {
+        "id": "elf73b8a4",
+        "type": "rect",
+        "name": "Stat · card Database",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7b93460",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 1.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an3c9da8d",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 26
+        },
+        "w": 900,
+        "h": 150,
+        "x": 90,
+        "y": 1130
+      },
+      {
+        "id": "ela27263d",
+        "type": "text",
+        "name": "Stat · Database",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an90685be",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.2,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an7c59938",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Database",
+          "font": "sans",
+          "size": 42,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10.08,
+          "shadowX": 0,
+          "shadowY": 2.73
+        },
+        "w": 500,
+        "h": 52,
+        "x": 150,
+        "y": 1178
+      },
+      {
+        "id": "elecf3de1",
+        "type": "circle",
+        "name": "Stat · dot Database",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an28c4de1",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.25,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an5ed7ad4",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#34d399",
+          "border": "none",
+          "borderW": 0
+        },
+        "w": 34,
+        "h": 34,
+        "x": 745,
+        "y": 1188
+      },
+      {
+        "id": "el3386bb3",
+        "type": "text",
+        "name": "Stat · st Database",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf7ac4bc",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.3,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an2ad1377",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "online",
+          "font": "sans",
+          "size": 28,
+          "weight": "600",
+          "color": "#34d399",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.72,
+          "shadowX": 0,
+          "shadowY": 1.82
+        },
+        "w": 180,
+        "h": 35,
+        "x": 800,
+        "y": 1190
+      },
+      {
+        "id": "elb710e7e",
+        "type": "text",
+        "name": "Stat · note",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anbdcef05",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.5,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "andc1ca69",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "status.overgraph.dev",
+          "font": "sans",
+          "size": 28,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.72,
+          "shadowX": 0,
+          "shadowY": 1.82
+        },
+        "w": 900,
+        "h": 35,
+        "x": 90,
+        "y": 1370
+      }
+    ]
+  }
+}

@@ -1,0 +1,578 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Stock ticker",
+  "desc": "Three ticker cards with up and down moves.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el4c0fac9",
+        "type": "text",
+        "name": "Stocks · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf1c69b4",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an51498c2",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "MARKET PULSE",
+          "font": "sans",
+          "size": 58,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 13.92,
+          "shadowX": 0,
+          "shadowY": 3.77
+        },
+        "w": 900,
+        "h": 72,
+        "x": 90,
+        "y": 236
+      },
+      {
+        "id": "el1aa6797",
+        "type": "rect",
+        "name": "Stocks · card OGRA",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4bb1276",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "anefeec94",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 28
+        },
+        "w": 900,
+        "h": 190,
+        "x": 90,
+        "y": 400
+      },
+      {
+        "id": "el6c91ed0",
+        "type": "text",
+        "name": "Stocks · OGRA",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an98d85ae",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.45,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an1e9e346",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "OGRA",
+          "font": "sans",
+          "size": 52,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 12.48,
+          "shadowX": 0,
+          "shadowY": 3.38
+        },
+        "w": 300,
+        "h": 65,
+        "x": 140,
+        "y": 458
+      },
+      {
+        "id": "el252be17",
+        "type": "text",
+        "name": "Stocks · OGRA val",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an020a3bf",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "anda369d1",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "+12.4%",
+          "font": "sans",
+          "size": 52,
+          "weight": "800",
+          "color": "#34d399",
+          "align": "right",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 12.48,
+          "shadowX": 0,
+          "shadowY": 3.38
+        },
+        "w": 340,
+        "h": 65,
+        "x": 450,
+        "y": 458
+      },
+      {
+        "id": "elda98c7b",
+        "type": "icon",
+        "name": "Stocks · OGRA icon",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anef2f12d",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an0954e5f",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "trend",
+          "color": "#34d399",
+          "strokeW": 2.5,
+          "fill": false
+        },
+        "w": 58,
+        "h": 58,
+        "x": 880,
+        "y": 466
+      },
+      {
+        "id": "ele6a59ea",
+        "type": "rect",
+        "name": "Stocks · card NTSX",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ana164d98",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "an87be716",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 28
+        },
+        "w": 900,
+        "h": 190,
+        "x": 90,
+        "y": 640
+      },
+      {
+        "id": "el0e22c4a",
+        "type": "text",
+        "name": "Stocks · NTSX",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anbc1dfb4",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.65,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "ana915b83",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "NTSX",
+          "font": "sans",
+          "size": 52,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 12.48,
+          "shadowX": 0,
+          "shadowY": 3.38
+        },
+        "w": 300,
+        "h": 65,
+        "x": 140,
+        "y": 698
+      },
+      {
+        "id": "elb55a773",
+        "type": "text",
+        "name": "Stocks · NTSX val",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an61529c4",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "anea8c985",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "-3.1%",
+          "font": "sans",
+          "size": 52,
+          "weight": "800",
+          "color": "#f87171",
+          "align": "right",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 12.48,
+          "shadowX": 0,
+          "shadowY": 3.38
+        },
+        "w": 340,
+        "h": 65,
+        "x": 450,
+        "y": 698
+      },
+      {
+        "id": "el932194a",
+        "type": "icon",
+        "name": "Stocks · NTSX icon",
+        "rot": 180,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ancdc7dfb",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.75,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an0e58905",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "trend",
+          "color": "#f87171",
+          "strokeW": 2.5,
+          "fill": false
+        },
+        "w": 58,
+        "h": 58,
+        "x": 880,
+        "y": 706
+      },
+      {
+        "id": "el67065b3",
+        "type": "rect",
+        "name": "Stocks · card PLMA",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7c88816",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "anf87050a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 28
+        },
+        "w": 900,
+        "h": 190,
+        "x": 90,
+        "y": 880
+      },
+      {
+        "id": "elf7329ff",
+        "type": "text",
+        "name": "Stocks · PLMA",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an3991c35",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.85,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an1e9a695",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "PLMA",
+          "font": "sans",
+          "size": 52,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 12.48,
+          "shadowX": 0,
+          "shadowY": 3.38
+        },
+        "w": 300,
+        "h": 65,
+        "x": 140,
+        "y": 938
+      },
+      {
+        "id": "el000b5a3",
+        "type": "text",
+        "name": "Stocks · PLMA val",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anfede024",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "anc43ae88",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "+5.8%",
+          "font": "sans",
+          "size": 52,
+          "weight": "800",
+          "color": "#34d399",
+          "align": "right",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 12.48,
+          "shadowX": 0,
+          "shadowY": 3.38
+        },
+        "w": 340,
+        "h": 65,
+        "x": 450,
+        "y": 938
+      },
+      {
+        "id": "ele12e902",
+        "type": "icon",
+        "name": "Stocks · PLMA icon",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "andb74e56",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "anb14d21a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "trend",
+          "color": "#34d399",
+          "strokeW": 2.5,
+          "fill": false
+        },
+        "w": 58,
+        "h": 58,
+        "x": 880,
+        "y": 946
+      },
+      {
+        "id": "elc861f54",
+        "type": "text",
+        "name": "Stocks · note",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an226056b",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.3,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an4ff2737",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Live quotes · 15 min delay",
+          "font": "sans",
+          "size": 28,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.72,
+          "shadowX": 0,
+          "shadowY": 1.82
+        },
+        "w": 900,
+        "h": 35,
+        "x": 90,
+        "y": 1190
+      }
+    ]
+  }
+}

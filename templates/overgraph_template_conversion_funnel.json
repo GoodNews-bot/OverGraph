@@ -1,0 +1,473 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Conversion funnel",
+  "desc": "Three-stage funnel with decreasing widths and rates.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elaf09377",
+        "type": "text",
+        "name": "Fun · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an2c82e8f",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an221adc1",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "SIGNUP FUNNEL",
+          "font": "sans",
+          "size": 56,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 13.44,
+          "shadowX": 0,
+          "shadowY": 3.64
+        },
+        "w": 900,
+        "h": 70,
+        "x": 90,
+        "y": 236
+      },
+      {
+        "id": "el8b5194a",
+        "type": "rect",
+        "name": "Fun · stage 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an450f8b2",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "ane31f6d2",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#22d3ee2e",
+          "border": "#22d3ee",
+          "borderW": 2,
+          "radius": 24
+        },
+        "w": 900,
+        "h": 170,
+        "x": 90,
+        "y": 400
+      },
+      {
+        "id": "el05ce9b2",
+        "type": "text",
+        "name": "Fun · lab 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an6e0680e",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.45,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an01f679b",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Visited site",
+          "font": "sans",
+          "size": 38,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.12,
+          "shadowX": 0,
+          "shadowY": 2.47
+        },
+        "w": 900,
+        "h": 48,
+        "x": 90,
+        "y": 430
+      },
+      {
+        "id": "elbd244a2",
+        "type": "text",
+        "name": "Fun · pct 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anfddedb6",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an9c59f65",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "100%",
+          "font": "sans",
+          "size": 40,
+          "weight": "800",
+          "color": "#22d3ee",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 900,
+        "h": 50,
+        "x": 90,
+        "y": 492
+      },
+      {
+        "id": "el58607c9",
+        "type": "rect",
+        "name": "Fun · stage 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an3a92860",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "an86a9ef9",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff2e",
+          "border": "#7c6cff",
+          "borderW": 2,
+          "radius": 24
+        },
+        "w": 700,
+        "h": 170,
+        "x": 190,
+        "y": 650
+      },
+      {
+        "id": "el5df9568",
+        "type": "text",
+        "name": "Fun · lab 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an3a99521",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an55fb063",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Created account",
+          "font": "sans",
+          "size": 38,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.12,
+          "shadowX": 0,
+          "shadowY": 2.47
+        },
+        "w": 700,
+        "h": 48,
+        "x": 190,
+        "y": 680
+      },
+      {
+        "id": "elf186eb2",
+        "type": "text",
+        "name": "Fun · pct 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4af0af1",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.75,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an0d9dae7",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "42%",
+          "font": "sans",
+          "size": 40,
+          "weight": "800",
+          "color": "#7c6cff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 700,
+        "h": 50,
+        "x": 190,
+        "y": 742
+      },
+      {
+        "id": "ele018bea",
+        "type": "rect",
+        "name": "Fun · stage 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4a26451",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.8,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "an30472a6",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#34d3992e",
+          "border": "#34d399",
+          "borderW": 2,
+          "radius": 24
+        },
+        "w": 500,
+        "h": 170,
+        "x": 290,
+        "y": 900
+      },
+      {
+        "id": "el171ddff",
+        "type": "text",
+        "name": "Fun · lab 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf3d2692",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an4b9fdab",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Subscribed",
+          "font": "sans",
+          "size": 38,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.12,
+          "shadowX": 0,
+          "shadowY": 2.47
+        },
+        "w": 500,
+        "h": 48,
+        "x": 290,
+        "y": 930
+      },
+      {
+        "id": "elf2ab046",
+        "type": "text",
+        "name": "Fun · pct 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an59805c5",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.0,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "anbd40933",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "12%",
+          "font": "sans",
+          "size": 40,
+          "weight": "800",
+          "color": "#34d399",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 500,
+        "h": 50,
+        "x": 290,
+        "y": 992
+      },
+      {
+        "id": "ele3d9b98",
+        "type": "text",
+        "name": "Fun · note",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ana016738",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.4,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an04dffc7",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "100 → 42 → 12: the biggest leak is step 2.",
+          "font": "sans",
+          "size": 32,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.68,
+          "shadowX": 0,
+          "shadowY": 2.08
+        },
+        "w": 900,
+        "h": 40,
+        "x": 90,
+        "y": 1200
+      }
+    ]
+  }
+}

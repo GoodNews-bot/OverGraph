@@ -1,0 +1,490 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Giveaway",
+  "desc": "Contest card with rules checklist and deadline badge.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el3054d2a",
+        "type": "icon",
+        "name": "Give · trophy",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an2d20340",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.15,
+            "duration": 1.0,
+            "easing": "ease"
+          },
+          {
+            "id": "anecb70ec",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "trophy",
+          "color": "#fbbf24",
+          "strokeW": 1.6,
+          "fill": false
+        },
+        "w": 190,
+        "h": 190,
+        "x": 445,
+        "y": 210
+      },
+      {
+        "id": "el33a2524",
+        "type": "text",
+        "name": "Give · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an2b5905e",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.4,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "ane584220",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "GIVEAWAY",
+          "font": "sans",
+          "size": 110,
+          "weight": "900",
+          "color": "#fbbf24",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 4,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 26.4,
+          "shadowX": 0,
+          "shadowY": 7.15
+        },
+        "w": 900,
+        "h": 138,
+        "x": 90,
+        "y": 450
+      },
+      {
+        "id": "el9d1c227",
+        "type": "text",
+        "name": "Give · prize",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anef36f35",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.65,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an5d1b452",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Win the complete studio kit",
+          "font": "sans",
+          "size": 44,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10.56,
+          "shadowX": 0,
+          "shadowY": 2.86
+        },
+        "w": 900,
+        "h": 55,
+        "x": 90,
+        "y": 620
+      },
+      {
+        "id": "el0e460e4",
+        "type": "icon",
+        "name": "Give · check 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an56bcae1",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "anfda2a5d",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "check",
+          "color": "#34d399",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 52,
+        "h": 52,
+        "x": 210,
+        "y": 760
+      },
+      {
+        "id": "el5d278c3",
+        "type": "text",
+        "name": "Give · rule 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an9ea6d8e",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an354352e",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Follow @overgraph.studio",
+          "font": "sans",
+          "size": 38,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.12,
+          "shadowX": 0,
+          "shadowY": 2.47
+        },
+        "w": 640,
+        "h": 48,
+        "x": 290,
+        "y": 768
+      },
+      {
+        "id": "ele09bc9e",
+        "type": "icon",
+        "name": "Give · check 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "aneaab67b",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.05,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an2f962e8",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "check",
+          "color": "#34d399",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 52,
+        "h": 52,
+        "x": 210,
+        "y": 870
+      },
+      {
+        "id": "eld3b030e",
+        "type": "text",
+        "name": "Give · rule 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and1a49c7",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.1,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an7a9a9cc",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Like this video",
+          "font": "sans",
+          "size": 38,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.12,
+          "shadowX": 0,
+          "shadowY": 2.47
+        },
+        "w": 640,
+        "h": 48,
+        "x": 290,
+        "y": 878
+      },
+      {
+        "id": "eldf02cbf",
+        "type": "icon",
+        "name": "Give · check 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ana09fa1e",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.2,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an3069f8b",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "check",
+          "color": "#34d399",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 52,
+        "h": 52,
+        "x": 210,
+        "y": 980
+      },
+      {
+        "id": "el6dc71bf",
+        "type": "text",
+        "name": "Give · rule 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anaf077cb",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.25,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "and53e947",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Tag a friend below",
+          "font": "sans",
+          "size": 38,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.12,
+          "shadowX": 0,
+          "shadowY": 2.47
+        },
+        "w": 640,
+        "h": 48,
+        "x": 290,
+        "y": 988
+      },
+      {
+        "id": "el1ac3f51",
+        "type": "rect",
+        "name": "Give · deadline card",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an08fbe9b",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.45,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an861fbfe",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(251,191,36,0.15)",
+          "border": "rgba(251,191,36,0.55)",
+          "borderW": 2,
+          "radius": 52
+        },
+        "w": 520,
+        "h": 104,
+        "x": 280,
+        "y": 1130
+      },
+      {
+        "id": "el0f01e7f",
+        "type": "icon",
+        "name": "Icon clock",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an77e9183",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.55,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "ana1c72b0",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "clock",
+          "color": "#fbbf24",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 48,
+        "h": 48,
+        "x": 336,
+        "y": 1158
+      },
+      {
+        "id": "ela1be20b",
+        "type": "text",
+        "name": "Give · deadline",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an70fad98",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.6,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an0f6ab0a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "ENDS SUNDAY 8 PM",
+          "font": "sans",
+          "size": 32,
+          "weight": "800",
+          "color": "#fbbf24",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 1,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.68,
+          "shadowX": 0,
+          "shadowY": 2.08
+        },
+        "w": 380,
+        "h": 40,
+        "x": 400,
+        "y": 1162
+      }
+    ]
+  }
+}

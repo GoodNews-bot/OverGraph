@@ -1,0 +1,636 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Team cards",
+  "desc": "Three profile cards with avatar circles, names and roles.",
+  "savedAt": "2026-10-02T09:00:23.658Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el46lelrm",
+        "type": "text",
+        "name": "Team · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elnhb5m2e",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "elc4ncnb6",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "MEET THE TEAM",
+          "font": "sans",
+          "size": 76,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 950,
+        "h": 95,
+        "x": 65,
+        "y": 230
+      },
+      {
+        "id": "eloj1wqtd",
+        "type": "rect",
+        "name": "Team · card 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "eljfariwh",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "elwxwh07f",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.72)",
+          "border": "#7c6cff",
+          "borderW": 3,
+          "radius": 24
+        },
+        "w": 302,
+        "h": 461,
+        "x": 44,
+        "y": 422
+      },
+      {
+        "id": "ela8c7n71",
+        "type": "circle",
+        "name": "Team · avatar 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elkouye5h",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "elurvubsr",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff2e",
+          "border": "#7c6cff",
+          "borderW": 4
+        },
+        "w": 151,
+        "h": 151,
+        "x": 120,
+        "y": 477
+      },
+      {
+        "id": "elopb23fq",
+        "type": "icon",
+        "name": "Team · icon 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elc7yqim5",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.6499999999999999,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "el13xi6op",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "user",
+          "color": "#7c6cff",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 94,
+        "h": 94,
+        "x": 148,
+        "y": 506
+      },
+      {
+        "id": "el8d3p92r",
+        "type": "text",
+        "name": "Team · name 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elmxqhnq2",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "elrdbbd2m",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Alex",
+          "font": "sans",
+          "size": 48,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 285,
+        "h": 60,
+        "x": 53,
+        "y": 708
+      },
+      {
+        "id": "elk2p0zbp",
+        "type": "text",
+        "name": "Team · role 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elcie4wnt",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.8,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "el37p7syn",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Founder",
+          "font": "sans",
+          "size": 30,
+          "weight": "600",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 285,
+        "h": 38,
+        "x": 53,
+        "y": 772
+      },
+      {
+        "id": "el0ooduqg",
+        "type": "rect",
+        "name": "Team · card 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elefdkgnb",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.63,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "el0ns3m0b",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.3,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.72)",
+          "border": "#22d3ee",
+          "borderW": 3,
+          "radius": 24
+        },
+        "w": 302,
+        "h": 461,
+        "x": 389,
+        "y": 422
+      },
+      {
+        "id": "elhc04mie",
+        "type": "circle",
+        "name": "Team · avatar 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el8mfol8i",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.78,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "elhevim4u",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.3,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#22d3ee2e",
+          "border": "#22d3ee",
+          "borderW": 4
+        },
+        "w": 151,
+        "h": 151,
+        "x": 465,
+        "y": 477
+      },
+      {
+        "id": "elg144ffb",
+        "type": "icon",
+        "name": "Team · icon 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el3dx9ckc",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.9299999999999999,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "el2vtjnxl",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.3,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "user",
+          "color": "#22d3ee",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 94,
+        "h": 94,
+        "x": 493,
+        "y": 506
+      },
+      {
+        "id": "elinihj33",
+        "type": "text",
+        "name": "Team · name 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elmva6j17",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.98,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "elzeinuch",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.3,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Sam",
+          "font": "sans",
+          "size": 48,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 285,
+        "h": 60,
+        "x": 398,
+        "y": 708
+      },
+      {
+        "id": "elwev1t2e",
+        "type": "text",
+        "name": "Team · role 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "els2y6ltg",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.08,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "elyi45nhs",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.3,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Designer",
+          "font": "sans",
+          "size": 30,
+          "weight": "600",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 285,
+        "h": 38,
+        "x": 398,
+        "y": 772
+      },
+      {
+        "id": "elr5kqktj",
+        "type": "rect",
+        "name": "Team · card 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el66xq4vj",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.91,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "elum31z42",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.35,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.72)",
+          "border": "#34d399",
+          "borderW": 3,
+          "radius": 24
+        },
+        "w": 302,
+        "h": 461,
+        "x": 734,
+        "y": 422
+      },
+      {
+        "id": "el0tcarho",
+        "type": "circle",
+        "name": "Team · avatar 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elhogq8ey",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.06,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "eljbjf1h3",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.35,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#34d3992e",
+          "border": "#34d399",
+          "borderW": 4
+        },
+        "w": 151,
+        "h": 151,
+        "x": 810,
+        "y": 477
+      },
+      {
+        "id": "elqubjw3o",
+        "type": "icon",
+        "name": "Team · icon 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elkgebgix",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.21,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "elabygz5p",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.35,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "user",
+          "color": "#34d399",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 94,
+        "h": 94,
+        "x": 838,
+        "y": 506
+      },
+      {
+        "id": "elwngd59u",
+        "type": "text",
+        "name": "Team · name 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elokhwr50",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.26,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "els55z6hl",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.35,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Robin",
+          "font": "sans",
+          "size": 48,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 285,
+        "h": 60,
+        "x": 743,
+        "y": 708
+      },
+      {
+        "id": "el0zhmba1",
+        "type": "text",
+        "name": "Team · role 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el8qqasl4",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.36,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "elfjwbcsk",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.35,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Engineer",
+          "font": "sans",
+          "size": 30,
+          "weight": "600",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 285,
+        "h": 38,
+        "x": 743,
+        "y": 772
+      }
+    ]
+  }
+}

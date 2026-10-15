@@ -1,0 +1,349 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Follower goal",
+  "desc": "Progress bar to a 100K follower milestone.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el2df0116",
+        "type": "icon",
+        "name": "Goal · icon",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an9a58007",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.15,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "an97d6eea",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "user",
+          "color": "#22d3ee",
+          "strokeW": 1.8,
+          "fill": false
+        },
+        "w": 130,
+        "h": 130,
+        "x": 475,
+        "y": 240
+      },
+      {
+        "id": "el82af610",
+        "type": "text",
+        "name": "Goal · label",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anaf128f7",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an5e95ef9",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "FOLLOWER GOAL",
+          "font": "sans",
+          "size": 46,
+          "weight": "800",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 5,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 11.04,
+          "shadowX": 0,
+          "shadowY": 2.99
+        },
+        "w": 900,
+        "h": 58,
+        "x": 90,
+        "y": 430
+      },
+      {
+        "id": "el7bef79d",
+        "type": "counter",
+        "name": "Goal · count",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and0cb8ad",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "ana77ef7b",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 87300,
+          "dec": 0,
+          "prefix": "",
+          "suffix": "",
+          "font": "sans",
+          "size": 130,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "countDur": 1.8,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 31.2,
+          "shadowX": 0,
+          "shadowY": 8.45
+        },
+        "w": 960,
+        "h": 143,
+        "x": 60,
+        "y": 510
+      },
+      {
+        "id": "el40b0e96",
+        "type": "text",
+        "name": "Goal · target",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an22f5d3e",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anc746a61",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "/ 100K",
+          "font": "sans",
+          "size": 52,
+          "weight": "700",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 12.48,
+          "shadowX": 0,
+          "shadowY": 3.38
+        },
+        "w": 960,
+        "h": 65,
+        "x": 60,
+        "y": 690
+      },
+      {
+        "id": "el77af495",
+        "type": "progress",
+        "name": "Goal · bar",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7c7cbcc",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "an0ea3066",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "dir": "h",
+          "pct": 87,
+          "track": "#3a4160",
+          "fill": "#22d3ee",
+          "fillDur": 2.0,
+          "round": true,
+          "showPct": false
+        },
+        "w": 900,
+        "h": 46,
+        "x": 90,
+        "y": 820
+      },
+      {
+        "id": "elda8c9f6",
+        "type": "text",
+        "name": "Goal · sub",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "andbf99c8",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 1.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "ane0bf506",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "87% of the way there — 12.7K to go!",
+          "font": "sans",
+          "size": 34,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 900,
+        "h": 42,
+        "x": 90,
+        "y": 920
+      },
+      {
+        "id": "el5ed4c51",
+        "type": "rect",
+        "name": "Goal · cta card",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ana385c11",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.35,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an1489203",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(34,211,238,0.14)",
+          "border": "rgba(34,211,238,0.5)",
+          "borderW": 2,
+          "radius": 50
+        },
+        "w": 360,
+        "h": 100,
+        "x": 360,
+        "y": 1080
+      },
+      {
+        "id": "el734a37b",
+        "type": "text",
+        "name": "Goal · cta",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an17b313d",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.5,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an0506e00",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "FOLLOW THE JOURNEY",
+          "font": "sans",
+          "size": 28,
+          "weight": "800",
+          "color": "#22d3ee",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.72,
+          "shadowX": 0,
+          "shadowY": 1.82
+        },
+        "w": 360,
+        "h": 35,
+        "x": 360,
+        "y": 1112
+      }
+    ]
+  }
+}

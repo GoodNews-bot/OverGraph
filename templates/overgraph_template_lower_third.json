@@ -1,0 +1,139 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Lower third",
+  "desc": "Name and role banner that slides in, then out.",
+  "savedAt": "2026-10-02T09:00:22.707Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elnnuud52",
+        "type": "rect",
+        "name": "Lower third · bar",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "eldjktjig",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "eljl6s1y7",
+            "type": "slideLeft",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.5,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.82)",
+          "border": "#7c6cff",
+          "borderW": 3,
+          "radius": 17
+        },
+        "w": 864,
+        "h": 188,
+        "x": 65,
+        "y": 1344
+      },
+      {
+        "id": "elp4lzmcz",
+        "type": "text",
+        "name": "Lower third · name",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elyzbfa4a",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "el93ggvbr",
+            "type": "slideLeft",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.5,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Alex Martin",
+          "font": "sans",
+          "size": 69,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 800,
+        "h": 86,
+        "x": 97,
+        "y": 1370
+      },
+      {
+        "id": "el9y0eolo",
+        "type": "text",
+        "name": "Lower third · role",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "els1mvzjx",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "elf4tobjv",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Product designer · Paris",
+          "font": "sans",
+          "size": 37,
+          "weight": "600",
+          "color": "#22d3ee",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 800,
+        "h": 46,
+        "x": 97,
+        "y": 1460
+      }
+    ]
+  }
+}

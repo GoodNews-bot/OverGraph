@@ -1,0 +1,208 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Testimonial",
+  "desc": "Customer quote card with avatar circle, quote and name.",
+  "savedAt": "2026-10-02T09:00:23.341Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "eleyhryxo",
+        "type": "rect",
+        "name": "Testimonial · card",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elwobs1sx",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.55,
+            "easing": "back"
+          },
+          {
+            "id": "elxkeop2j",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.8)",
+          "border": "#22d3ee",
+          "borderW": 3,
+          "radius": 26
+        },
+        "w": 950,
+        "h": 768,
+        "x": 65,
+        "y": 576
+      },
+      {
+        "id": "elv9c2asi",
+        "type": "circle",
+        "name": "Testimonial · avatar",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elw2a9vhb",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.55,
+            "easing": "back"
+          },
+          {
+            "id": "el8gh909y",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(34,211,238,0.25)",
+          "border": "#22d3ee",
+          "borderW": 4
+        },
+        "w": 162,
+        "h": 162,
+        "x": 459,
+        "y": 487
+      },
+      {
+        "id": "elsz2enzc",
+        "type": "icon",
+        "name": "Testimonial · avatar icon",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el76oul9p",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "elawefzwi",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "user",
+          "color": "#22d3ee",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 100,
+        "h": 100,
+        "x": 490,
+        "y": 518
+      },
+      {
+        "id": "el5twuqrs",
+        "type": "text",
+        "name": "Testimonial · quote",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "eltiaxv2z",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "el25kfijt",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "“This tool saved us hours of editing every single week.”",
+          "font": "sans",
+          "size": 50,
+          "weight": "600",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.35,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 812,
+        "h": 135,
+        "x": 134,
+        "y": 698
+      },
+      {
+        "id": "el1sqoej4",
+        "type": "text",
+        "name": "Testimonial · name",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elju1peht",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.05,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "el3ndcqhk",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Jamie Lee · Video Editor",
+          "font": "sans",
+          "size": 37,
+          "weight": "700",
+          "color": "#22d3ee",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 812,
+        "h": 46,
+        "x": 134,
+        "y": 1240
+      }
+    ]
+  }
+}

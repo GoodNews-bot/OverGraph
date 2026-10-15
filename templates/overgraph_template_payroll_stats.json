@@ -1,0 +1,616 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Payroll stats",
+  "desc": "Two by two grid of payroll KPIs with animated counters.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elb7cf2ab",
+        "type": "text",
+        "name": "Payroll · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an160cd7d",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "andd85bfd",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "TEAM PAYROLL 2026",
+          "font": "sans",
+          "size": 52,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 12.48,
+          "shadowX": 0,
+          "shadowY": 3.38
+        },
+        "w": 900,
+        "h": 65,
+        "x": 90,
+        "y": 236
+      },
+      {
+        "id": "el196b268",
+        "type": "rect",
+        "name": "Payroll · card 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7999155",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an6808043",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 28
+        },
+        "w": 440,
+        "h": 340,
+        "x": 90,
+        "y": 400
+      },
+      {
+        "id": "el50a039e",
+        "type": "text",
+        "name": "Payroll · lab 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an59b708c",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.4,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anbda9823",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Average salary",
+          "font": "sans",
+          "size": 30,
+          "weight": "700",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 440,
+        "h": 38,
+        "x": 90,
+        "y": 452
+      },
+      {
+        "id": "el54c2aef",
+        "type": "counter",
+        "name": "Payroll · val 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an65d5ff5",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.45,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "ana021f25",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 68,
+          "dec": 0,
+          "prefix": "$",
+          "suffix": "K",
+          "font": "sans",
+          "size": 96,
+          "weight": "900",
+          "color": "#22d3ee",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "countDur": 1.6,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 23.04,
+          "shadowX": 0,
+          "shadowY": 6.24
+        },
+        "w": 400,
+        "h": 106,
+        "x": 110,
+        "y": 528
+      },
+      {
+        "id": "ele43033c",
+        "type": "rect",
+        "name": "Payroll · card 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an21610a3",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.42,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "aned3382c",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 28
+        },
+        "w": 440,
+        "h": 340,
+        "x": 550,
+        "y": 400
+      },
+      {
+        "id": "el9919334",
+        "type": "text",
+        "name": "Payroll · lab 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7e02ecc",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.52,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "ana974e05",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Median salary",
+          "font": "sans",
+          "size": 30,
+          "weight": "700",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 440,
+        "h": 38,
+        "x": 550,
+        "y": 452
+      },
+      {
+        "id": "el4ece59d",
+        "type": "counter",
+        "name": "Payroll · val 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anc9986a5",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.57,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an3fc428f",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 61,
+          "dec": 0,
+          "prefix": "$",
+          "suffix": "K",
+          "font": "sans",
+          "size": 96,
+          "weight": "900",
+          "color": "#7c6cff",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "countDur": 1.6,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 23.04,
+          "shadowX": 0,
+          "shadowY": 6.24
+        },
+        "w": 400,
+        "h": 106,
+        "x": 570,
+        "y": 528
+      },
+      {
+        "id": "el626686d",
+        "type": "rect",
+        "name": "Payroll · card 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an6d616f8",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.54,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "ancb861cd",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 28
+        },
+        "w": 440,
+        "h": 340,
+        "x": 90,
+        "y": 800
+      },
+      {
+        "id": "eleaa449f",
+        "type": "text",
+        "name": "Payroll · lab 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anbf33663",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.64,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anb4e37fd",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "YoY growth",
+          "font": "sans",
+          "size": 30,
+          "weight": "700",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 440,
+        "h": 38,
+        "x": 90,
+        "y": 852
+      },
+      {
+        "id": "elcad01be",
+        "type": "counter",
+        "name": "Payroll · val 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an912e4f8",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.69,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an41eca77",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 9.4,
+          "dec": 1,
+          "prefix": "+",
+          "suffix": "%",
+          "font": "sans",
+          "size": 96,
+          "weight": "900",
+          "color": "#34d399",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "countDur": 1.6,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 23.04,
+          "shadowX": 0,
+          "shadowY": 6.24
+        },
+        "w": 400,
+        "h": 106,
+        "x": 110,
+        "y": 928
+      },
+      {
+        "id": "eleb4eeaf",
+        "type": "rect",
+        "name": "Payroll · card 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an945120c",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.66,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an2dfe6a7",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 28
+        },
+        "w": 440,
+        "h": 340,
+        "x": 550,
+        "y": 800
+      },
+      {
+        "id": "el267a58b",
+        "type": "text",
+        "name": "Payroll · lab 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an156be25",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.76,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "ane9c9278",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Headcount",
+          "font": "sans",
+          "size": 30,
+          "weight": "700",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 440,
+        "h": 38,
+        "x": 550,
+        "y": 852
+      },
+      {
+        "id": "elf326e99",
+        "type": "counter",
+        "name": "Payroll · val 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and53571a",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.81,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "anba29539",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 148,
+          "dec": 0,
+          "prefix": "",
+          "suffix": "",
+          "font": "sans",
+          "size": 96,
+          "weight": "900",
+          "color": "#fbbf24",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "countDur": 1.6,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 23.04,
+          "shadowX": 0,
+          "shadowY": 6.24
+        },
+        "w": 400,
+        "h": 106,
+        "x": 570,
+        "y": 928
+      },
+      {
+        "id": "el38e650c",
+        "type": "text",
+        "name": "Payroll · note",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an953fa4b",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.3,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an81004ba",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Figures net of taxes · November snapshot",
+          "font": "sans",
+          "size": 28,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6.72,
+          "shadowX": 0,
+          "shadowY": 1.82
+        },
+        "w": 900,
+        "h": 35,
+        "x": 90,
+        "y": 1280
+      }
+    ]
+  }
+}

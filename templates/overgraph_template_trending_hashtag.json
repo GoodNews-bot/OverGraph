@@ -1,0 +1,276 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Trending hashtag",
+  "desc": "Giant hashtag with ranking badge and post counter.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el8c6c7a0",
+        "type": "icon",
+        "name": "Tag · fire",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an55a16c5",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.15,
+            "duration": 0.9,
+            "easing": "ease"
+          },
+          {
+            "id": "an111a77b",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "fire",
+          "color": "#fb923c",
+          "strokeW": 1.8,
+          "fill": false
+        },
+        "w": 160,
+        "h": 160,
+        "x": 460,
+        "y": 230
+      },
+      {
+        "id": "el87a2d40",
+        "type": "text",
+        "name": "Tag · main",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an3fead60",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.4,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "anb4a4acd",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "#BUILDIPTHON",
+          "font": "sans",
+          "size": 92,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 1,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 22.08,
+          "shadowX": 0,
+          "shadowY": 5.98
+        },
+        "w": 1000,
+        "h": 115,
+        "x": 40,
+        "y": 450
+      },
+      {
+        "id": "elb61eb9e",
+        "type": "text",
+        "name": "Tag · rank",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ane59cf6c",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.65,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "andc1e945",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "TRENDING #1 IN TECH",
+          "font": "sans",
+          "size": 40,
+          "weight": "800",
+          "color": "#fb923c",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 4,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 900,
+        "h": 50,
+        "x": 90,
+        "y": 600
+      },
+      {
+        "id": "el748a335",
+        "type": "counter",
+        "name": "Tag · count",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4161004",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.85,
+            "duration": 0.55,
+            "easing": "back"
+          },
+          {
+            "id": "an37b4b06",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 47000,
+          "dec": 0,
+          "prefix": "",
+          "suffix": "",
+          "font": "sans",
+          "size": 110,
+          "weight": "900",
+          "color": "#22d3ee",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "countDur": 1.8,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 26.4,
+          "shadowX": 0,
+          "shadowY": 7.15
+        },
+        "w": 900,
+        "h": 121,
+        "x": 90,
+        "y": 720
+      },
+      {
+        "id": "el69620d6",
+        "type": "text",
+        "name": "Tag · count label",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an631072c",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.0,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an10b9d31",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "posts this week",
+          "font": "sans",
+          "size": 40,
+          "weight": "600",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 900,
+        "h": 50,
+        "x": 90,
+        "y": 870
+      },
+      {
+        "id": "el85d9b25",
+        "type": "text",
+        "name": "Tag · cta",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4a1b98f",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 1.25,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an793450c",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Join the build thread ↓",
+          "font": "sans",
+          "size": 36,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 900,
+        "h": 45,
+        "x": 90,
+        "y": 1050
+      }
+    ]
+  }
+}

@@ -1,0 +1,534 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Glossary term",
+  "desc": "Acronym broken down letter by letter.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el1f0149a",
+        "type": "text",
+        "name": "Glos · acronym",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ane7c2359",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.15,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "an92cc8a2",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "SaaS",
+          "font": "sans",
+          "size": 230,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 55.2,
+          "shadowX": 0,
+          "shadowY": 14.95
+        },
+        "w": 900,
+        "h": 288,
+        "x": 90,
+        "y": 330
+      },
+      {
+        "id": "el360abbe",
+        "type": "text",
+        "name": "Glos · phon",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an0add0fe",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.45,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an3ecd80f",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "/sæs/ · noun",
+          "font": "sans",
+          "size": 36,
+          "weight": "600",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 900,
+        "h": 45,
+        "x": 90,
+        "y": 620
+      },
+      {
+        "id": "elb75b1f3",
+        "type": "line",
+        "name": "Glos · line",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7b6b286",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an9127780",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "color": "#22d3ee",
+          "width": 8,
+          "caps": true
+        },
+        "w": 300,
+        "h": 10,
+        "x": 390,
+        "y": 700
+      },
+      {
+        "id": "el70858ac",
+        "type": "text",
+        "name": "Glos · letter 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and5b0e74",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.8,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "anf03b423",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "S",
+          "font": "sans",
+          "size": 96,
+          "weight": "900",
+          "color": "#22d3ee",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 23.04,
+          "shadowX": 0,
+          "shadowY": 6.24
+        },
+        "w": 120,
+        "h": 120,
+        "x": 150,
+        "y": 790
+      },
+      {
+        "id": "el764efea",
+        "type": "text",
+        "name": "Glos · word 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an9d6e497",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an57ee327",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Software",
+          "font": "sans",
+          "size": 52,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 12.48,
+          "shadowX": 0,
+          "shadowY": 3.38
+        },
+        "w": 280,
+        "h": 65,
+        "x": 280,
+        "y": 818
+      },
+      {
+        "id": "el9a8e024",
+        "type": "text",
+        "name": "Glos · letter 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an6b6a6c0",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an2af6c2d",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "a",
+          "font": "sans",
+          "size": 96,
+          "weight": "900",
+          "color": "#7c6cff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 23.04,
+          "shadowX": 0,
+          "shadowY": 6.24
+        },
+        "w": 120,
+        "h": 120,
+        "x": 590,
+        "y": 790
+      },
+      {
+        "id": "el346eef4",
+        "type": "text",
+        "name": "Glos · word 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ana0a5a18",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.05,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an11b62f9",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "as",
+          "font": "sans",
+          "size": 52,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 12.48,
+          "shadowX": 0,
+          "shadowY": 3.38
+        },
+        "w": 280,
+        "h": 65,
+        "x": 720,
+        "y": 818
+      },
+      {
+        "id": "eldc46da5",
+        "type": "text",
+        "name": "Glos · letter 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ane982749",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.1,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an7ccd51f",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "a",
+          "font": "sans",
+          "size": 96,
+          "weight": "900",
+          "color": "#f472b6",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 23.04,
+          "shadowX": 0,
+          "shadowY": 6.24
+        },
+        "w": 120,
+        "h": 120,
+        "x": 150,
+        "y": 1050
+      },
+      {
+        "id": "ela3ca6cb",
+        "type": "text",
+        "name": "Glos · word 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anee5198c",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.2,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an6b9c44c",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "a",
+          "font": "sans",
+          "size": 52,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 12.48,
+          "shadowX": 0,
+          "shadowY": 3.38
+        },
+        "w": 280,
+        "h": 65,
+        "x": 280,
+        "y": 1078
+      },
+      {
+        "id": "el174d59f",
+        "type": "text",
+        "name": "Glos · letter 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an2c8679a",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.25,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an730e2f3",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "S",
+          "font": "sans",
+          "size": 96,
+          "weight": "900",
+          "color": "#34d399",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 23.04,
+          "shadowX": 0,
+          "shadowY": 6.24
+        },
+        "w": 120,
+        "h": 120,
+        "x": 590,
+        "y": 1050
+      },
+      {
+        "id": "el198c877",
+        "type": "text",
+        "name": "Glos · word 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an8f307af",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.35,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an3f2b7d2",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Service",
+          "font": "sans",
+          "size": 52,
+          "weight": "700",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 12.48,
+          "shadowX": 0,
+          "shadowY": 3.38
+        },
+        "w": 280,
+        "h": 65,
+        "x": 720,
+        "y": 1078
+      },
+      {
+        "id": "el350a12e",
+        "type": "text",
+        "name": "Glos · note",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an6820297",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.55,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anae31c9d",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Software you rent instead of buying.",
+          "font": "sans",
+          "size": 32,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.68,
+          "shadowX": 0,
+          "shadowY": 2.08
+        },
+        "w": 900,
+        "h": 40,
+        "x": 90,
+        "y": 1370
+      }
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Big stat",
+  "desc": "Counting number with accent line and caption.",
+  "savedAt": "2026-10-02T09:00:22.738Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el0r1xj45",
+        "type": "counter",
+        "name": "Stat · number",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el6qdkvns",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "eli9mlk8h",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 1250000,
+          "dec": 0,
+          "prefix": "",
+          "suffix": "",
+          "font": "sans",
+          "size": 162,
+          "weight": "800",
+          "color": "#22d3ee",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 19.44,
+          "shadowX": 0,
+          "shadowY": 4.32,
+          "countDur": 2.2
+        },
+        "w": 972,
+        "h": 178,
+        "x": 54,
+        "y": 730
+      },
+      {
+        "id": "el45k7wob",
+        "type": "line",
+        "name": "Stat · accent line",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elt42gai3",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "eli0ez62z",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "color": "#7c6cff",
+          "width": 9,
+          "caps": true
+        },
+        "w": 281,
+        "h": 11,
+        "x": 400,
+        "y": 680
+      },
+      {
+        "id": "elf4u7uvp",
+        "type": "text",
+        "name": "Stat · caption",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elehwzj3t",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "eloncz6a4",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "followers gained this year",
+          "font": "sans",
+          "size": 48,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 864,
+        "h": 60,
+        "x": 108,
+        "y": 931
+      }
+    ]
+  }
+}

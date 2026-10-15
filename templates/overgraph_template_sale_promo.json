@@ -1,0 +1,222 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Sale / promo",
+  "desc": "Rotated flash-sale badge, big counting discount and call to action.",
+  "savedAt": "2026-10-02T09:00:22.939Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elss792yh",
+        "type": "rect",
+        "name": "Sale · badge",
+        "rot": -3,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el5rmfzqf",
+            "type": "rotate",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.7,
+            "easing": "back"
+          },
+          {
+            "id": "el6qyz00c",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#ef4444",
+          "border": "rgba(255,255,255,.55)",
+          "borderW": 4,
+          "radius": 19
+        },
+        "w": 713,
+        "h": 134,
+        "x": 184,
+        "y": 288
+      },
+      {
+        "id": "elfch3j72",
+        "type": "text",
+        "name": "Sale · label",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elicixu85",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.45,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "el41hww0c",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "FLASH SALE",
+          "font": "sans",
+          "size": 67,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": false,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 713,
+        "h": 84,
+        "x": 184,
+        "y": 313
+      },
+      {
+        "id": "elu06sfj5",
+        "type": "counter",
+        "name": "Sale · discount",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el92po0e0",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.7,
+            "easing": "back"
+          },
+          {
+            "id": "el2kw8rj6",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 50,
+          "dec": 0,
+          "prefix": "-",
+          "suffix": " %",
+          "font": "sans",
+          "size": 200,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 19.44,
+          "shadowX": 0,
+          "shadowY": 4.32,
+          "countDur": 1.6
+        },
+        "w": 864,
+        "h": 220,
+        "x": 108,
+        "y": 498
+      },
+      {
+        "id": "elql0239z",
+        "type": "text",
+        "name": "Sale · cta",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elk7tgkgu",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 1.05,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "elluu0pv4",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "This weekend only — shop now",
+          "font": "sans",
+          "size": 43,
+          "weight": "700",
+          "color": "#22d3ee",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 864,
+        "h": 54,
+        "x": 108,
+        "y": 750
+      },
+      {
+        "id": "elnjkr1vd",
+        "type": "line",
+        "name": "Sale · underline",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elm8s07sf",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.3,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "elcqfxvo5",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "color": "#ef4444",
+          "width": 9,
+          "caps": true
+        },
+        "w": 324,
+        "h": 11,
+        "x": 378,
+        "y": 834
+      }
+    ]
+  }
+}

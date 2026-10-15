@@ -1,0 +1,188 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Milestone",
+  "desc": "Trophy, counting big number and thank-you line for subscriber goals.",
+  "savedAt": "2026-10-02T09:00:23.737Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el77hs70n",
+        "type": "icon",
+        "name": "Milestone · trophy",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elzpvcpzm",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.9,
+            "easing": "ease"
+          },
+          {
+            "id": "elsn1ezzs",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "trophy",
+          "color": "#fbbf24",
+          "strokeW": 2.2,
+          "fill": true
+        },
+        "w": 216,
+        "h": 216,
+        "x": 432,
+        "y": 307
+      },
+      {
+        "id": "ell8gzdem",
+        "type": "counter",
+        "name": "Milestone · number",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "eldr9hwd7",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "el3h7uxjl",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 1000000,
+          "dec": 0,
+          "prefix": "",
+          "suffix": "",
+          "font": "sans",
+          "size": 136,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 19.44,
+          "shadowX": 0,
+          "shadowY": 4.32,
+          "countDur": 2.2
+        },
+        "w": 907,
+        "h": 150,
+        "x": 86,
+        "y": 599
+      },
+      {
+        "id": "elht59a6s",
+        "type": "text",
+        "name": "Milestone · label",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elv48w1qa",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 1,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "el8cgznld",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "SUBSCRIBERS",
+          "font": "sans",
+          "size": 56,
+          "weight": "800",
+          "color": "#fbbf24",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 11,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 864,
+        "h": 70,
+        "x": 108,
+        "y": 768
+      },
+      {
+        "id": "el0y4bo54",
+        "type": "text",
+        "name": "Milestone · thanks",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el4bgd4wu",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.45,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "el5l9i1fk",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Thank you for your incredible support — this community is everything.",
+          "font": "sans",
+          "size": 37,
+          "weight": "400",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 778,
+        "h": 93,
+        "x": 151,
+        "y": 881
+      }
+    ]
+  }
+}

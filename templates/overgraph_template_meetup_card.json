@@ -1,0 +1,420 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Meetup card",
+  "desc": "City meetup invite with venue and time rows.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el81db547",
+        "type": "icon",
+        "name": "Meet · pin",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anb764f8d",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.15,
+            "duration": 0.95,
+            "easing": "ease"
+          },
+          {
+            "id": "anfa282ac",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "pin",
+          "color": "#f472b6",
+          "strokeW": 1.7,
+          "fill": false
+        },
+        "w": 160,
+        "h": 160,
+        "x": 460,
+        "y": 230
+      },
+      {
+        "id": "el261e1bf",
+        "type": "text",
+        "name": "Meet · kicker",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an9b742fa",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "and8e1432",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "COMMUNITY MEETUP",
+          "font": "sans",
+          "size": 42,
+          "weight": "800",
+          "color": "#f472b6",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10.08,
+          "shadowX": 0,
+          "shadowY": 2.73
+        },
+        "w": 900,
+        "h": 52,
+        "x": 90,
+        "y": 450
+      },
+      {
+        "id": "el4f62838",
+        "type": "text",
+        "name": "Meet · city",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an65de2a5",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "anba77730",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Paris · November 8",
+          "font": "sans",
+          "size": 84,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 20.16,
+          "shadowX": 0,
+          "shadowY": 5.46
+        },
+        "w": 900,
+        "h": 105,
+        "x": 90,
+        "y": 530
+      },
+      {
+        "id": "el27c2496",
+        "type": "icon",
+        "name": "Meet · pin",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an70248aa",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.85,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "an436a3b6",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "pin",
+          "color": "#22d3ee",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 54,
+        "h": 54,
+        "x": 230,
+        "y": 790
+      },
+      {
+        "id": "elb6ce3db",
+        "type": "text",
+        "name": "Meet · row 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an39f7204",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an088d54a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Le Studio, 14 rue des Arts",
+          "font": "sans",
+          "size": 36,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 640,
+        "h": 45,
+        "x": 310,
+        "y": 798
+      },
+      {
+        "id": "ele20957c",
+        "type": "icon",
+        "name": "Meet · clock",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an9ba3871",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.0,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "ana6b4382",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "clock",
+          "color": "#22d3ee",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 54,
+        "h": 54,
+        "x": 230,
+        "y": 908
+      },
+      {
+        "id": "el688fd72",
+        "type": "text",
+        "name": "Meet · row 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an437f796",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.05,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an5e2aa9d",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Doors 18:30 · Talks 19:00",
+          "font": "sans",
+          "size": 36,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 640,
+        "h": 45,
+        "x": 310,
+        "y": 916
+      },
+      {
+        "id": "el3f3c3ac",
+        "type": "icon",
+        "name": "Meet · check",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anaf39a5e",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.15,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "anf68b044",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "check",
+          "color": "#22d3ee",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 54,
+        "h": 54,
+        "x": 230,
+        "y": 1026
+      },
+      {
+        "id": "elb9b41ed",
+        "type": "text",
+        "name": "Meet · row 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anda7c933",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.2,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an0f62c24",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Free with RSVP",
+          "font": "sans",
+          "size": 36,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 640,
+        "h": 45,
+        "x": 310,
+        "y": 1034
+      },
+      {
+        "id": "el8362818",
+        "type": "text",
+        "name": "Meet · note",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an2ac96e2",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.4,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anf1c6294",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Come say hi — first round is on us.",
+          "font": "sans",
+          "size": 32,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.68,
+          "shadowX": 0,
+          "shadowY": 2.08
+        },
+        "w": 900,
+        "h": 40,
+        "x": 90,
+        "y": 1230
+      }
+    ]
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Stat drop",
+  "desc": "Improvement stat with descending line chart.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elf0b4d2b",
+        "type": "text",
+        "name": "Drop · kicker",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an99a14a5",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "ande1504e",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "LOAD TIME",
+          "font": "sans",
+          "size": 46,
+          "weight": "800",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 4,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 11.04,
+          "shadowX": 0,
+          "shadowY": 2.99
+        },
+        "w": 900,
+        "h": 58,
+        "x": 90,
+        "y": 250
+      },
+      {
+        "id": "elbf98a4f",
+        "type": "counter",
+        "name": "Drop · number",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an3a71d8c",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.7,
+            "easing": "ease"
+          },
+          {
+            "id": "andecf700",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 78,
+          "dec": 0,
+          "prefix": "",
+          "suffix": "%",
+          "font": "sans",
+          "size": 220,
+          "weight": "900",
+          "color": "#34d399",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "countDur": 1.4,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 52.8,
+          "shadowX": 0,
+          "shadowY": 14.3
+        },
+        "w": 780,
+        "h": 242,
+        "x": 150,
+        "y": 340
+      },
+      {
+        "id": "el5c2e85a",
+        "type": "text",
+        "name": "Drop · label",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and4fbc88",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "an61a6251",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "faster than last year",
+          "font": "sans",
+          "size": 44,
+          "weight": "600",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10.56,
+          "shadowX": 0,
+          "shadowY": 2.86
+        },
+        "w": 900,
+        "h": 55,
+        "x": 90,
+        "y": 620
+      },
+      {
+        "id": "elba07a71",
+        "type": "lineChart",
+        "name": "Drop · chart",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4f93ffb",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.7,
+            "easing": "ease"
+          },
+          {
+            "id": "an0f0e884",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "data": "82, 74, 61, 48, 36, 24",
+          "color": "#34d399",
+          "width": 7,
+          "fillDur": 1.5,
+          "dots": true,
+          "area": true,
+          "areaOpacity": 16
+        },
+        "w": 900,
+        "h": 420,
+        "x": 90,
+        "y": 760
+      },
+      {
+        "id": "el3a7f41e",
+        "type": "text",
+        "name": "Drop · note",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf7f974d",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.4,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an27abe6b",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Milliseconds per page, lower is better",
+          "font": "sans",
+          "size": 30,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 900,
+        "h": 38,
+        "x": 90,
+        "y": 1270
+      }
+    ]
+  }
+}

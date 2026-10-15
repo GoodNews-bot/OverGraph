@@ -1,0 +1,334 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Birthday post",
+  "desc": "Birthday age counter with baubles and star icon.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el796e745",
+        "type": "circle",
+        "name": "Bday · ball 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an6a8f405",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.15,
+            "duration": 1.0,
+            "easing": "ease"
+          },
+          {
+            "id": "ancc9502c",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "none",
+          "border": "#f472b6",
+          "borderW": 6
+        },
+        "w": 90,
+        "h": 90,
+        "x": 135,
+        "y": 230
+      },
+      {
+        "id": "eld0b1d6c",
+        "type": "circle",
+        "name": "Bday · ball 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an3639515",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 1.0,
+            "easing": "ease"
+          },
+          {
+            "id": "an4d65249",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "none",
+          "border": "#fbbf24",
+          "borderW": 6
+        },
+        "w": 90,
+        "h": 90,
+        "x": 455,
+        "y": 230
+      },
+      {
+        "id": "ela22b381",
+        "type": "circle",
+        "name": "Bday · ball 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4cfb433",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.45,
+            "duration": 1.0,
+            "easing": "ease"
+          },
+          {
+            "id": "an2f89722",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "none",
+          "border": "#22d3ee",
+          "borderW": 6
+        },
+        "w": 90,
+        "h": 90,
+        "x": 775,
+        "y": 230
+      },
+      {
+        "id": "el01ae727",
+        "type": "text",
+        "name": "Bday · kicker",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an29dcaf4",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anfb83a0a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "I AM",
+          "font": "sans",
+          "size": 52,
+          "weight": "700",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 8,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 12.48,
+          "shadowX": 0,
+          "shadowY": 3.38
+        },
+        "w": 900,
+        "h": 65,
+        "x": 90,
+        "y": 430
+      },
+      {
+        "id": "ele91f510",
+        "type": "counter",
+        "name": "Bday · age",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf46845e",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.65,
+            "easing": "back"
+          },
+          {
+            "id": "anb416873",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 30,
+          "dec": 0,
+          "prefix": "",
+          "suffix": "",
+          "font": "sans",
+          "size": 220,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.1,
+          "ls": 0,
+          "countDur": 1.6,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 52.8,
+          "shadowX": 0,
+          "shadowY": 14.3
+        },
+        "w": 960,
+        "h": 242,
+        "x": 60,
+        "y": 480
+      },
+      {
+        "id": "el24df5de",
+        "type": "text",
+        "name": "Bday · today",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an21a3fb5",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.8,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an5fe834b",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "TODAY",
+          "font": "sans",
+          "size": 52,
+          "weight": "700",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 8,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 12.48,
+          "shadowX": 0,
+          "shadowY": 3.38
+        },
+        "w": 900,
+        "h": 65,
+        "x": 90,
+        "y": 780
+      },
+      {
+        "id": "elea13c51",
+        "type": "text",
+        "name": "Bday · joke",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an325b606",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 1.05,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "and6bd196",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Older, louder, still shipping.",
+          "font": "sans",
+          "size": 44,
+          "weight": "600",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10.56,
+          "shadowX": 0,
+          "shadowY": 2.86
+        },
+        "w": 900,
+        "h": 55,
+        "x": 90,
+        "y": 960
+      },
+      {
+        "id": "el3ecdf14",
+        "type": "icon",
+        "name": "Bday · star",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an4741092",
+            "type": "bounce",
+            "dir": "in",
+            "start": 1.3,
+            "duration": 1.0,
+            "easing": "ease"
+          },
+          {
+            "id": "ana117255",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "star",
+          "color": "#f472b6",
+          "strokeW": 1.7,
+          "fill": false
+        },
+        "w": 120,
+        "h": 120,
+        "x": 480,
+        "y": 1100
+      }
+    ]
+  }
+}

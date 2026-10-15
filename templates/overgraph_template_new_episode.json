@@ -1,0 +1,262 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "New episode",
+  "desc": "Episode release card with play button and number.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el0ae289e",
+        "type": "rect",
+        "name": "Ep · card",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ancd60234",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.15,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "an37d35eb",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(124,108,255,0.5)",
+          "borderW": 3,
+          "radius": 36
+        },
+        "w": 800,
+        "h": 500,
+        "x": 140,
+        "y": 300
+      },
+      {
+        "id": "el7db8b3d",
+        "type": "icon",
+        "name": "Ep · play",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an14ce407",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.4,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an04547c6",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "play",
+          "color": "#ffffff",
+          "strokeW": 1.5,
+          "fill": true
+        },
+        "w": 100,
+        "h": 100,
+        "x": 490,
+        "y": 420
+      },
+      {
+        "id": "el9514f43",
+        "type": "text",
+        "name": "Ep · kicker",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an615e293",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an9213126",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "NEW EPISODE OUT NOW",
+          "font": "sans",
+          "size": 36,
+          "weight": "800",
+          "color": "#22d3ee",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 800,
+        "h": 45,
+        "x": 140,
+        "y": 660
+      },
+      {
+        "id": "elcbc4e89",
+        "type": "text",
+        "name": "Ep · num",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ane155229",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.85,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "ancfd2562",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "EP 42",
+          "font": "sans",
+          "size": 150,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 36.0,
+          "shadowX": 0,
+          "shadowY": 9.75
+        },
+        "w": 900,
+        "h": 188,
+        "x": 90,
+        "y": 880
+      },
+      {
+        "id": "elb847b43",
+        "type": "text",
+        "name": "Ep · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an145f220",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 1.05,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "anb52453a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "“The one with the pivot”",
+          "font": "sans",
+          "size": 48,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 11.52,
+          "shadowX": 0,
+          "shadowY": 3.12
+        },
+        "w": 900,
+        "h": 60,
+        "x": 90,
+        "y": 1120
+      },
+      {
+        "id": "elff952d1",
+        "type": "text",
+        "name": "Ep · note",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anbe0ef59",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.3,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an99fa142",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Now streaming everywhere you listen",
+          "font": "sans",
+          "size": 32,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.68,
+          "shadowX": 0,
+          "shadowY": 2.08
+        },
+        "w": 900,
+        "h": 40,
+        "x": 90,
+        "y": 1240
+      }
+    ]
+  }
+}

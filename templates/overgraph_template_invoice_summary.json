@@ -1,0 +1,653 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Invoice summary",
+  "desc": "Line-item bill with animated total and payment terms badge.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elb2f0289",
+        "type": "rect",
+        "name": "Invoice · card",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an2801327",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.15,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "an5526f1f",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 32
+        },
+        "w": 900,
+        "h": 1120,
+        "x": 90,
+        "y": 300
+      },
+      {
+        "id": "ela18e05a",
+        "type": "text",
+        "name": "Invoice · ref",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anaa8a945",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an442b296",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "INVOICE #2041",
+          "font": "sans",
+          "size": 46,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 11.04,
+          "shadowX": 0,
+          "shadowY": 2.99
+        },
+        "w": 500,
+        "h": 58,
+        "x": 130,
+        "y": 352
+      },
+      {
+        "id": "elcd58dfd",
+        "type": "text",
+        "name": "Invoice · date",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anb5facc0",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an8c03791",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "OCTOBER 2026",
+          "font": "sans",
+          "size": 30,
+          "weight": "700",
+          "color": "#8b93b8",
+          "align": "right",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 380,
+        "h": 38,
+        "x": 560,
+        "y": 364
+      },
+      {
+        "id": "elacf783d",
+        "type": "text",
+        "name": "Invoice · row 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf91ebf1",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an5d43306",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Design work",
+          "font": "sans",
+          "size": 36,
+          "weight": "500",
+          "color": "#b9c2dd",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 520,
+        "h": 45,
+        "x": 130,
+        "y": 470
+      },
+      {
+        "id": "el7040e92",
+        "type": "text",
+        "name": "Invoice · val 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an42c2488",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anddfe072",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "$1,200",
+          "font": "sans",
+          "size": 36,
+          "weight": "700",
+          "color": "#c9d4ff",
+          "align": "right",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 300,
+        "h": 45,
+        "x": 650,
+        "y": 470
+      },
+      {
+        "id": "elda6186a",
+        "type": "text",
+        "name": "Invoice · row 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an860de8d",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.62,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an9ac56b3",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Development",
+          "font": "sans",
+          "size": 36,
+          "weight": "500",
+          "color": "#b9c2dd",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 520,
+        "h": 45,
+        "x": 130,
+        "y": 560
+      },
+      {
+        "id": "el9f805ef",
+        "type": "text",
+        "name": "Invoice · val 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anc8b0df6",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.62,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an4ae24ff",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "$3,400",
+          "font": "sans",
+          "size": 36,
+          "weight": "700",
+          "color": "#c9d4ff",
+          "align": "right",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 300,
+        "h": 45,
+        "x": 650,
+        "y": 560
+      },
+      {
+        "id": "el0e66407",
+        "type": "text",
+        "name": "Invoice · row 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an2badb99",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.74,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an98b79d1",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Hosting & tools",
+          "font": "sans",
+          "size": 36,
+          "weight": "500",
+          "color": "#b9c2dd",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 520,
+        "h": 45,
+        "x": 130,
+        "y": 650
+      },
+      {
+        "id": "elcfe530c",
+        "type": "text",
+        "name": "Invoice · val 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an1b52a03",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.74,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an30ad08c",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "$180",
+          "font": "sans",
+          "size": 36,
+          "weight": "700",
+          "color": "#c9d4ff",
+          "align": "right",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 300,
+        "h": 45,
+        "x": 650,
+        "y": 650
+      },
+      {
+        "id": "ela32ab93",
+        "type": "line",
+        "name": "Invoice · sep",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an5d1ccc7",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an7e223a8",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "color": "rgba(255,255,255,0.16)",
+          "width": 2,
+          "caps": true
+        },
+        "w": 820,
+        "h": 4,
+        "x": 130,
+        "y": 760
+      },
+      {
+        "id": "el70cb652",
+        "type": "text",
+        "name": "Invoice · total label",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anebb3b15",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.95,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "ana0e2c00",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "TOTAL DUE",
+          "font": "sans",
+          "size": 34,
+          "weight": "800",
+          "color": "#8b93b8",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 400,
+        "h": 42,
+        "x": 130,
+        "y": 810
+      },
+      {
+        "id": "el943c4c3",
+        "type": "counter",
+        "name": "Invoice · total",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anda1cf6c",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.05,
+            "duration": 0.55,
+            "easing": "back"
+          },
+          {
+            "id": "ana571a6e",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "startV": 0,
+          "endV": 4780,
+          "dec": 0,
+          "prefix": "$",
+          "suffix": "",
+          "font": "sans",
+          "size": 96,
+          "weight": "900",
+          "color": "#34d399",
+          "align": "right",
+          "lh": 1.1,
+          "ls": 0,
+          "countDur": 1.8,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 23.04,
+          "shadowX": 0,
+          "shadowY": 6.24
+        },
+        "w": 460,
+        "h": 106,
+        "x": 490,
+        "y": 790
+      },
+      {
+        "id": "el8b6b62b",
+        "type": "rect",
+        "name": "Invoice · badge",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an852ae0e",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.35,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "ane989843",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(124,108,255,0.16)",
+          "border": "rgba(124,108,255,0.5)",
+          "borderW": 2,
+          "radius": 50
+        },
+        "w": 580,
+        "h": 100,
+        "x": 250,
+        "y": 1030
+      },
+      {
+        "id": "el81d09c0",
+        "type": "text",
+        "name": "Invoice · badge txt",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an02aafbe",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.45,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "anfda61ae",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "PAID WITHIN 30 DAYS",
+          "font": "sans",
+          "size": 30,
+          "weight": "800",
+          "color": "#7c6cff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 580,
+        "h": 38,
+        "x": 250,
+        "y": 1062
+      },
+      {
+        "id": "el92650c8",
+        "type": "text",
+        "name": "Invoice · thanks",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf6f4962",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.6,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an9c59955",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Thanks for your business!",
+          "font": "sans",
+          "size": 30,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 900,
+        "h": 38,
+        "x": 90,
+        "y": 1490
+      }
+    ]
+  }
+}

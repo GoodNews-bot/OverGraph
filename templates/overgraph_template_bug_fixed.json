@@ -1,0 +1,411 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Bug fixed",
+  "desc": "Release notes card listing squashed bugs.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el3840ed6",
+        "type": "icon",
+        "name": "Bug · check",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an8680a61",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.15,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "anae79afe",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "check",
+          "color": "#34d399",
+          "strokeW": 1.5,
+          "fill": false
+        },
+        "w": 200,
+        "h": 200,
+        "x": 440,
+        "y": 230
+      },
+      {
+        "id": "el4650f8b",
+        "type": "text",
+        "name": "Bug · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an9d07103",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.4,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "ance99812",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "FIXED",
+          "font": "sans",
+          "size": 130,
+          "weight": "900",
+          "color": "#34d399",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 6,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 31.2,
+          "shadowX": 0,
+          "shadowY": 8.45
+        },
+        "w": 900,
+        "h": 162,
+        "x": 90,
+        "y": 470
+      },
+      {
+        "id": "el0a5fdac",
+        "type": "icon",
+        "name": "Bug · x 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ana5436d9",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.85,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an04ea94d",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "x",
+          "color": "#f87171",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 48,
+        "h": 48,
+        "x": 210,
+        "y": 790
+      },
+      {
+        "id": "el6d72196",
+        "type": "text",
+        "name": "Bug · item 0",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an3a5a180",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "anfdaf650",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Export getting stuck at 99%",
+          "font": "sans",
+          "size": 38,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.12,
+          "shadowX": 0,
+          "shadowY": 2.47
+        },
+        "w": 660,
+        "h": 48,
+        "x": 290,
+        "y": 798
+      },
+      {
+        "id": "el889bdd8",
+        "type": "icon",
+        "name": "Bug · x 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an72ebe6b",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.0,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "an9e42b23",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "x",
+          "color": "#f87171",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 48,
+        "h": 48,
+        "x": 210,
+        "y": 908
+      },
+      {
+        "id": "elbf4e829",
+        "type": "text",
+        "name": "Bug · item 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an63725db",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.05,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "an630fa64",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Audio drift on long clips",
+          "font": "sans",
+          "size": 38,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.12,
+          "shadowX": 0,
+          "shadowY": 2.47
+        },
+        "w": 660,
+        "h": 48,
+        "x": 290,
+        "y": 916
+      },
+      {
+        "id": "el032d23e",
+        "type": "icon",
+        "name": "Bug · x 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anc04eb7b",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.15,
+            "duration": 0.4,
+            "easing": "back"
+          },
+          {
+            "id": "anabdce76",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "x",
+          "color": "#f87171",
+          "strokeW": 3,
+          "fill": false
+        },
+        "w": 48,
+        "h": 48,
+        "x": 210,
+        "y": 1026
+      },
+      {
+        "id": "el344fe7f",
+        "type": "text",
+        "name": "Bug · item 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an0e2aab9",
+            "type": "slideRight",
+            "dir": "in",
+            "start": 1.2,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "ane6fd0e1",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Fonts not loading offline",
+          "font": "sans",
+          "size": 38,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.12,
+          "shadowX": 0,
+          "shadowY": 2.47
+        },
+        "w": 660,
+        "h": 48,
+        "x": 290,
+        "y": 1034
+      },
+      {
+        "id": "el6b1aa27",
+        "type": "rect",
+        "name": "Bug · badge",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an57c5ded",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.6,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "anbc1c4d1",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(52,211,153,0.13)",
+          "border": "rgba(52,211,153,0.5)",
+          "borderW": 2,
+          "radius": 52
+        },
+        "w": 480,
+        "h": 104,
+        "x": 300,
+        "y": 1200
+      },
+      {
+        "id": "el3c04189",
+        "type": "text",
+        "name": "Bug · version",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and1f9f2d",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.7,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "anfe93af6",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "SHIPPED IN V4.8",
+          "font": "sans",
+          "size": 32,
+          "weight": "800",
+          "color": "#34d399",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.68,
+          "shadowX": 0,
+          "shadowY": 2.08
+        },
+        "w": 480,
+        "h": 40,
+        "x": 300,
+        "y": 1231
+      }
+    ]
+  }
+}

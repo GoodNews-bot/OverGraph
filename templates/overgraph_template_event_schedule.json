@@ -1,0 +1,534 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Event schedule",
+  "desc": "Three timed rows with clock icons, times and event names.",
+  "savedAt": "2026-10-02T09:00:23.565Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elod5i0xb",
+        "type": "text",
+        "name": "Schedule · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el5tkmmav",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "elidtr1ai",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "TODAY’S SCHEDULE",
+          "font": "sans",
+          "size": 76,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 950,
+        "h": 95,
+        "x": 65,
+        "y": 250
+      },
+      {
+        "id": "elxtmhiou",
+        "type": "rect",
+        "name": "Schedule · card 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el0e5vzq3",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.4,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "elzxqpk6l",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.66)",
+          "border": "rgba(124,108,255,0.45)",
+          "borderW": 3,
+          "radius": 22
+        },
+        "w": 929,
+        "h": 162,
+        "x": 76,
+        "y": 499
+      },
+      {
+        "id": "el6ymxgxh",
+        "type": "icon",
+        "name": "Schedule · clock 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "eljiipnlj",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "el3m08s9f",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "clock",
+          "color": "#7c6cff",
+          "strokeW": 2.2,
+          "fill": false
+        },
+        "w": 97,
+        "h": 97,
+        "x": 108,
+        "y": 532
+      },
+      {
+        "id": "el4myidis",
+        "type": "text",
+        "name": "Schedule · time 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elhsq8dom",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.6000000000000001,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "elna3vvfu",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "10:00",
+          "font": "sans",
+          "size": 50,
+          "weight": "800",
+          "color": "#7c6cff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 324,
+        "h": 63,
+        "x": 229,
+        "y": 528
+      },
+      {
+        "id": "elzho5ily",
+        "type": "text",
+        "name": "Schedule · event 1",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el3rdhl8x",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "elw8r1zyk",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Opening keynote",
+          "font": "sans",
+          "size": 41,
+          "weight": "600",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 746,
+        "h": 51,
+        "x": 229,
+        "y": 588
+      },
+      {
+        "id": "el9y6vjcb",
+        "type": "rect",
+        "name": "Schedule · card 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elg62kpx9",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "elbulv3tn",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.31,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.66)",
+          "border": "rgba(124,108,255,0.45)",
+          "borderW": 3,
+          "radius": 22
+        },
+        "w": 929,
+        "h": 162,
+        "x": 76,
+        "y": 693
+      },
+      {
+        "id": "el2dx2wht",
+        "type": "icon",
+        "name": "Schedule · clock 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el1yu0wy2",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.85,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "el44kykk3",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.31,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "clock",
+          "color": "#22d3ee",
+          "strokeW": 2.2,
+          "fill": false
+        },
+        "w": 97,
+        "h": 97,
+        "x": 108,
+        "y": 726
+      },
+      {
+        "id": "el5x5zyzu",
+        "type": "text",
+        "name": "Schedule · time 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elxmr8p9k",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.8999999999999999,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "el0n53bpu",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.31,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "14:00",
+          "font": "sans",
+          "size": 50,
+          "weight": "800",
+          "color": "#22d3ee",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 324,
+        "h": 63,
+        "x": 229,
+        "y": 722
+      },
+      {
+        "id": "elbwgu6hw",
+        "type": "text",
+        "name": "Schedule · event 2",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elhakhpfx",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 1,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "elyu1hqyn",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.31,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Live product demo",
+          "font": "sans",
+          "size": 41,
+          "weight": "600",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 746,
+        "h": 51,
+        "x": 229,
+        "y": 782
+      },
+      {
+        "id": "el39wq07b",
+        "type": "rect",
+        "name": "Schedule · card 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el8sn1asa",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "elry95dho",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.37,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(14,17,26,0.66)",
+          "border": "rgba(124,108,255,0.45)",
+          "borderW": 3,
+          "radius": 22
+        },
+        "w": 929,
+        "h": 162,
+        "x": 76,
+        "y": 887
+      },
+      {
+        "id": "el5hdihg2",
+        "type": "icon",
+        "name": "Schedule · clock 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elb0ki4d2",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.15,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "el0oeuw4d",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.37,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "clock",
+          "color": "#34d399",
+          "strokeW": 2.2,
+          "fill": false
+        },
+        "w": 97,
+        "h": 97,
+        "x": 108,
+        "y": 920
+      },
+      {
+        "id": "el19qe9fj",
+        "type": "text",
+        "name": "Schedule · time 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elf4r2ic9",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.2,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "elhmoot8j",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.37,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "18:00",
+          "font": "sans",
+          "size": 50,
+          "weight": "800",
+          "color": "#34d399",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 324,
+        "h": 63,
+        "x": 229,
+        "y": 916
+      },
+      {
+        "id": "el4ek9b5h",
+        "type": "text",
+        "name": "Schedule · event 3",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elxs4mhe9",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 1.3,
+            "duration": 0.45,
+            "easing": "ease"
+          },
+          {
+            "id": "el7cp55ub",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.37,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Q&A and giveaway",
+          "font": "sans",
+          "size": 41,
+          "weight": "600",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 746,
+        "h": 51,
+        "x": 229,
+        "y": 976
+      }
+    ]
+  }
+}

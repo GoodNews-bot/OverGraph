@@ -1,0 +1,296 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Conference speaker",
+  "desc": "Keynote speaker card with avatar ring and slot badge.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el214d066",
+        "type": "text",
+        "name": "Spk · kicker",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an31b77e0",
+            "type": "slideTop",
+            "dir": "in",
+            "start": 0.1,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anbd7b518",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "KEYNOTE SPEAKER",
+          "font": "sans",
+          "size": 42,
+          "weight": "800",
+          "color": "#fbbf24",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 4,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10.08,
+          "shadowX": 0,
+          "shadowY": 2.73
+        },
+        "w": 900,
+        "h": 52,
+        "x": 90,
+        "y": 250
+      },
+      {
+        "id": "el3fbb39e",
+        "type": "circle",
+        "name": "Spk · avatar ring",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ancaf86ad",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "anf793347",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(251,191,36,0.16)",
+          "border": "#fbbf24",
+          "borderW": 5
+        },
+        "w": 300,
+        "h": 300,
+        "x": 390,
+        "y": 380
+      },
+      {
+        "id": "elc4c528e",
+        "type": "icon",
+        "name": "Spk · avatar",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an93a6949",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an028a50f",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "user",
+          "color": "#fbbf24",
+          "strokeW": 1.6,
+          "fill": false
+        },
+        "w": 150,
+        "h": 150,
+        "x": 465,
+        "y": 455
+      },
+      {
+        "id": "elb0087dc",
+        "type": "text",
+        "name": "Spk · name",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anfbc7b53",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "an0f7fa7d",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Maya Torres",
+          "font": "sans",
+          "size": 78,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 18.72,
+          "shadowX": 0,
+          "shadowY": 5.07
+        },
+        "w": 900,
+        "h": 98,
+        "x": 90,
+        "y": 750
+      },
+      {
+        "id": "eldbdb817",
+        "type": "text",
+        "name": "Spk · talk",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an88eba80",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "an830498e",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Designing for attention",
+          "font": "sans",
+          "size": 42,
+          "weight": "600",
+          "color": "#c9d4ff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10.08,
+          "shadowX": 0,
+          "shadowY": 2.73
+        },
+        "w": 900,
+        "h": 52,
+        "x": 90,
+        "y": 870
+      },
+      {
+        "id": "elf8a9f30",
+        "type": "rect",
+        "name": "Spk · badge",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an22c0130",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.25,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "anad54025",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(251,191,36,0.13)",
+          "border": "rgba(251,191,36,0.5)",
+          "borderW": 2,
+          "radius": 50
+        },
+        "w": 420,
+        "h": 100,
+        "x": 330,
+        "y": 1010
+      },
+      {
+        "id": "eld65afa6",
+        "type": "text",
+        "name": "Spk · slot",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an0025c12",
+            "type": "pop",
+            "dir": "in",
+            "start": 1.35,
+            "duration": 0.45,
+            "easing": "back"
+          },
+          {
+            "id": "anad9a8bc",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "MAIN STAGE · 10:00",
+          "font": "sans",
+          "size": 30,
+          "weight": "800",
+          "color": "#fbbf24",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 420,
+        "h": 38,
+        "x": 330,
+        "y": 1040
+      }
+    ]
+  }
+}

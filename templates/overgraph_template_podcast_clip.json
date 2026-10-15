@@ -1,0 +1,1102 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Podcast clip",
+  "desc": "Episode card with animated waveform bars.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el879159a",
+        "type": "rect",
+        "name": "Pod · card",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an2960f1f",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.15,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "an4314ba1",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 36
+        },
+        "w": 900,
+        "h": 1000,
+        "x": 90,
+        "y": 340
+      },
+      {
+        "id": "elc27235d",
+        "type": "icon",
+        "name": "Pod · music",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anb795ec7",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.35,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "anfa9a3d4",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "music",
+          "color": "#7c6cff",
+          "strokeW": 2,
+          "fill": false
+        },
+        "w": 74,
+        "h": 74,
+        "x": 150,
+        "y": 410
+      },
+      {
+        "id": "eld594a39",
+        "type": "text",
+        "name": "Pod · ep",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an7d759a5",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.4,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an67706f3",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "EPISODE 42",
+          "font": "sans",
+          "size": 40,
+          "weight": "800",
+          "color": "#7c6cff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 400,
+        "h": 50,
+        "x": 250,
+        "y": 432
+      },
+      {
+        "id": "el41de25b",
+        "type": "text",
+        "name": "Pod · title",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "and6fc5e6",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.55,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "an81da926",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Building in public:\nwhat 2 years taught us",
+          "font": "sans",
+          "size": 56,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 13.44,
+          "shadowX": 0,
+          "shadowY": 3.64
+        },
+        "w": 780,
+        "h": 140,
+        "x": 150,
+        "y": 540
+      },
+      {
+        "id": "el96060c5",
+        "type": "rect",
+        "name": "Pod · wave 0",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "anf651ac1",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.8,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an9405b3b",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#22d3ee",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 68,
+        "x": 140,
+        "y": 800
+      },
+      {
+        "id": "el11156a8",
+        "type": "rect",
+        "name": "Pod · wave 1",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "an20cade5",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.82,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an5ed9410",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 31,
+        "x": 174,
+        "y": 800
+      },
+      {
+        "id": "el6c6bf63",
+        "type": "rect",
+        "name": "Pod · wave 2",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "anb94c06f",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.84,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "ande9df01",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 46,
+        "x": 208,
+        "y": 800
+      },
+      {
+        "id": "eldb9f2ca",
+        "type": "rect",
+        "name": "Pod · wave 3",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "an54ee5cd",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.86,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an56c229f",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#22d3ee",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 43,
+        "x": 242,
+        "y": 800
+      },
+      {
+        "id": "el89bd9af",
+        "type": "rect",
+        "name": "Pod · wave 4",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "and6b3b43",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.88,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an40f6fd2",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 74,
+        "x": 276,
+        "y": 800
+      },
+      {
+        "id": "el4a12b9a",
+        "type": "rect",
+        "name": "Pod · wave 5",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "an5d962c8",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.9,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an4e6da73",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 70,
+        "x": 310,
+        "y": 800
+      },
+      {
+        "id": "el9010695",
+        "type": "rect",
+        "name": "Pod · wave 6",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "an9b69126",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.92,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "ane716949",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#22d3ee",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 83,
+        "x": 344,
+        "y": 800
+      },
+      {
+        "id": "el913eaca",
+        "type": "rect",
+        "name": "Pod · wave 7",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "an6da4104",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.94,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anecf3da5",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 35,
+        "x": 378,
+        "y": 800
+      },
+      {
+        "id": "el8db5f57",
+        "type": "rect",
+        "name": "Pod · wave 8",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "an26dee7c",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.96,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anaceb1c8",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 55,
+        "x": 412,
+        "y": 800
+      },
+      {
+        "id": "elc80b724",
+        "type": "rect",
+        "name": "Pod · wave 9",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "an3a97b09",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.98,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an7298740",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#22d3ee",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 31,
+        "x": 446,
+        "y": 800
+      },
+      {
+        "id": "el8f4e2a2",
+        "type": "rect",
+        "name": "Pod · wave 10",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "anf3f0fb0",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.0,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an9a6c492",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 43,
+        "x": 480,
+        "y": 800
+      },
+      {
+        "id": "el3bffca8",
+        "type": "rect",
+        "name": "Pod · wave 11",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "an020ea12",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.02,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anfce1e42",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 60,
+        "x": 514,
+        "y": 800
+      },
+      {
+        "id": "ela6bd50e",
+        "type": "rect",
+        "name": "Pod · wave 12",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "an801c7a5",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.04,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an433539a",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#22d3ee",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 31,
+        "x": 548,
+        "y": 800
+      },
+      {
+        "id": "elbe212e3",
+        "type": "rect",
+        "name": "Pod · wave 13",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "anb1bcc8d",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.06,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anb0a4cae",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 41,
+        "x": 582,
+        "y": 800
+      },
+      {
+        "id": "el91fbc2f",
+        "type": "rect",
+        "name": "Pod · wave 14",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "and05a526",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.08,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anac13506",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 68,
+        "x": 616,
+        "y": 800
+      },
+      {
+        "id": "elbfef31f",
+        "type": "rect",
+        "name": "Pod · wave 15",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "an1cfbd53",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.1,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an595fa4b",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#22d3ee",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 62,
+        "x": 650,
+        "y": 800
+      },
+      {
+        "id": "el61c4a9c",
+        "type": "rect",
+        "name": "Pod · wave 16",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "an478a1a3",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.12,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an18df35b",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 43,
+        "x": 684,
+        "y": 800
+      },
+      {
+        "id": "elbfe6121",
+        "type": "rect",
+        "name": "Pod · wave 17",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "an510d637",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.14,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an5d32327",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 65,
+        "x": 718,
+        "y": 800
+      },
+      {
+        "id": "el4098a7b",
+        "type": "rect",
+        "name": "Pod · wave 18",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "andbfc139",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.16,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an1105b0f",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#22d3ee",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 78,
+        "x": 752,
+        "y": 800
+      },
+      {
+        "id": "elfe84923",
+        "type": "rect",
+        "name": "Pod · wave 19",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "an0cb92b3",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.18,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "ane4edacf",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 30,
+        "x": 786,
+        "y": 800
+      },
+      {
+        "id": "el9ed162b",
+        "type": "rect",
+        "name": "Pod · wave 20",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "anaa43a24",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.2,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "anfd6026b",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 78,
+        "x": 820,
+        "y": 800
+      },
+      {
+        "id": "el465110c",
+        "type": "rect",
+        "name": "Pod · wave 21",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "an3447d4e",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.22,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an61f8f14",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#22d3ee",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 71,
+        "x": 854,
+        "y": 800
+      },
+      {
+        "id": "el523f1f6",
+        "type": "rect",
+        "name": "Pod · wave 22",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "and54b226",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.24,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "ane676d4f",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 50,
+        "x": 888,
+        "y": 800
+      },
+      {
+        "id": "el3eb9058",
+        "type": "rect",
+        "name": "Pod · wave 23",
+        "rot": 0,
+        "opacity": 90,
+        "anims": [
+          {
+            "id": "an04d6e01",
+            "type": "scale",
+            "dir": "in",
+            "start": 1.26,
+            "duration": 0.4,
+            "easing": "ease"
+          },
+          {
+            "id": "an2a20d83",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.2,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#7c6cff",
+          "border": "none",
+          "borderW": 0,
+          "radius": 9
+        },
+        "w": 18,
+        "h": 39,
+        "x": 922,
+        "y": 800
+      },
+      {
+        "id": "el9a59b68",
+        "type": "text",
+        "name": "Pod · guest",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an82c93c8",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.3,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an1b65e5b",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "with guest @sarah.builds",
+          "font": "sans",
+          "size": 34,
+          "weight": "600",
+          "color": "#b9c2dd",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 900,
+        "h": 42,
+        "x": 90,
+        "y": 950
+      },
+      {
+        "id": "el1cf0b78",
+        "type": "text",
+        "name": "Pod · note",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf810ac1",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.45,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "anb466283",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Available on every platform",
+          "font": "sans",
+          "size": 30,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 7.2,
+          "shadowX": 0,
+          "shadowY": 1.95
+        },
+        "w": 900,
+        "h": 38,
+        "x": 90,
+        "y": 1020
+      }
+    ]
+  }
+}

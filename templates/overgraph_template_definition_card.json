@@ -1,0 +1,305 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Definition card",
+  "desc": "Dictionary style card with term, definition and example.",
+  "savedAt": "2026-10-02T12:00:00.000Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "elecda821",
+        "type": "rect",
+        "name": "Def · card",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "ane26d1a2",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.15,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "an34abd84",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "rgba(15,19,31,0.82)",
+          "border": "rgba(255,255,255,0.14)",
+          "borderW": 2,
+          "radius": 36
+        },
+        "w": 900,
+        "h": 1060,
+        "x": 90,
+        "y": 300
+      },
+      {
+        "id": "el71d3ea6",
+        "type": "text",
+        "name": "Def · kicker",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an03faeec",
+            "type": "slideLeft",
+            "dir": "in",
+            "start": 0.3,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an2f5dca6",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "DEFINITION",
+          "font": "sans",
+          "size": 34,
+          "weight": "800",
+          "color": "#7c6cff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 4,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 400,
+        "h": 42,
+        "x": 140,
+        "y": 360
+      },
+      {
+        "id": "elf9a2a0a",
+        "type": "text",
+        "name": "Def · term",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anf38b94d",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "an7fb5494",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Compound interest",
+          "font": "sans",
+          "size": 66,
+          "weight": "900",
+          "color": "#ffffff",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.84,
+          "shadowX": 0,
+          "shadowY": 4.29
+        },
+        "w": 800,
+        "h": 82,
+        "x": 140,
+        "y": 440
+      },
+      {
+        "id": "el482e3b8",
+        "type": "line",
+        "name": "Def · line",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an39f43df",
+            "type": "scale",
+            "dir": "in",
+            "start": 0.7,
+            "duration": 0.5,
+            "easing": "back"
+          },
+          {
+            "id": "an952b986",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.35,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "color": "#7c6cff",
+          "width": 8,
+          "caps": true
+        },
+        "w": 300,
+        "h": 10,
+        "x": 140,
+        "y": 560
+      },
+      {
+        "id": "el9819dcd",
+        "type": "text",
+        "name": "Def · body",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "anc65d5f4",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.85,
+            "duration": 0.6,
+            "easing": "ease"
+          },
+          {
+            "id": "an9dae74a",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "Interest earned on both the initial sum\nand all the interest already accumulated.",
+          "font": "sans",
+          "size": 40,
+          "weight": "500",
+          "color": "#b9c2dd",
+          "align": "left",
+          "lh": 1.4,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 9.6,
+          "shadowX": 0,
+          "shadowY": 2.6
+        },
+        "w": 780,
+        "h": 112,
+        "x": 140,
+        "y": 640
+      },
+      {
+        "id": "elfe968ae",
+        "type": "text",
+        "name": "Def · quote",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an5e83df9",
+            "type": "slideBottom",
+            "dir": "in",
+            "start": 1.1,
+            "duration": 0.55,
+            "easing": "ease"
+          },
+          {
+            "id": "anb346081",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "“Money that makes money that makes money.”",
+          "font": "sans",
+          "size": 36,
+          "weight": "600",
+          "color": "#22d3ee",
+          "align": "left",
+          "lh": 1.35,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.64,
+          "shadowX": 0,
+          "shadowY": 2.34
+        },
+        "w": 780,
+        "h": 49,
+        "x": 140,
+        "y": 850
+      },
+      {
+        "id": "el51898ac",
+        "type": "text",
+        "name": "Def · example",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "an8f2dfe6",
+            "type": "fade",
+            "dir": "in",
+            "start": 1.35,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "an34bb28e",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "$1,000 at 7% ≈ $1,070 after one year",
+          "font": "sans",
+          "size": 34,
+          "weight": "500",
+          "color": "#8b93b8",
+          "align": "left",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8.16,
+          "shadowX": 0,
+          "shadowY": 2.21
+        },
+        "w": 760,
+        "h": 42,
+        "x": 140,
+        "y": 1010
+      }
+    ]
+  }
+}
