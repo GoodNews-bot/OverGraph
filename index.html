@@ -4,4 +4,124 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>OverGraph Studio — Animated infographics for videos (free, 100% local)</title>
-<!-- truncated for tool, will fix -->
+<meta name="description" content="OverGraph Studio: free animated overlay & infographic editor. Single HTML file, 69 templates, transparent PNG/WebM exports. 100% local, no account, no cloud.">
+<style>
+:root{--bg:#07080d;--text:#eef0f8;--muted:#9aa2ba;--vio:#7c6cff;--cya:#22d3ee;--grad:linear-gradient(120deg,#7c6cff,#22d3ee);--rad:16px;--font:system-ui,-apple-system,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font:16px/1.6 var(--font);min-height:100vh}
+.wrap{max-width:920px;margin:0 auto;padding:48px 24px}
+header{text-align:center;margin-bottom:48px}
+.logo{font-size:28px;font-weight:800;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:8px}
+.tag{color:var(--muted);font-size:15px}
+h1{font-size:clamp(28px,5vw,42px);line-height:1.2;margin:24px 0 16px}
+.sub{color:var(--muted);font-size:18px;max-width:640px;margin:0 auto 32px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-bottom:48px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 24px;border-radius:12px;font-weight:600;text-decoration:none;transition:.2s}
+.btn-primary{background:var(--grad);color:#0a0b10}
+.btn-primary:hover{filter:brightness(1.1);transform:translateY(-1px)}
+.btn-ghost{border:1px solid rgba(255,255,255,.15);color:var(--text)}
+.btn-ghost:hover{background:rgba(255,255,255,.05)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:40px 0}
+.card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:var(--rad);padding:20px}
+.card h3{font-size:15px;margin-bottom:6px;color:var(--cya)}
+.card p{font-size:14px;color:var(--muted);line-height:1.5}
+.lang{position:fixed;top:16px;right:16px;display:flex;gap:6px;z-index:10}
+.lang button{padding:6px 12px;border-radius:8px;border:1px solid rgba(255,255,255,.12);background:rgba(0,0,0,.4);color:var(--muted);cursor:pointer;font-size:13px}
+.lang button.active{background:var(--grad);color:#0a0b10;border-color:transparent}
+footer{text-align:center;margin-top:64px;padding-top:32px;border-top:1px solid rgba(255,255,255,.08);color:var(--muted);font-size:14px}
+footer a{color:var(--cya)}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<div class="lang">
+  <button id="btn-en" class="active" onclick="setLang('en')">EN</button>
+  <button id="btn-fr" onclick="setLang('fr')">FR</button>
+</div>
+<div class="wrap">
+  <header>
+    <div class="logo">OverGraph Studio</div>
+    <div class="tag" data-i18n="tag">v4.8 · Free · 100% local · No sign-up</div>
+    <h1 data-i18n="h1">Animated infographics for your videos</h1>
+    <p class="sub" data-i18n="sub">A complete overlay & infographic editor that fits in a single HTML file. Timeline, keyframes, 69 templates, transparent exports. Everything runs in your browser — nothing ever leaves your machine.</p>
+    <div class="btns">
+      <a class="btn btn-primary" href="OverGraph.html" data-i18n="cta1">Open the Studio</a>
+      <a class="btn btn-ghost" href="https://github.com/GoodNews-bot/OverGraph" data-i18n="cta2">View on GitHub</a>
+    </div>
+  </header>
+
+  <div class="grid">
+    <div class="card">
+      <h3 data-i18n="f1t">Single file</h3>
+      <p data-i18n="f1d">The entire studio is one self-contained HTML file. Zero external dependencies. Open it anywhere.</p>
+    </div>
+    <div class="card">
+      <h3 data-i18n="f2t">100% private</h3>
+      <p data-i18n="f2d">No server, no telemetry, no cookies. Your projects and exports stay on your disk.</p>
+    </div>
+    <div class="card">
+      <h3 data-i18n="f3t">69 templates</h3>
+      <p data-i18n="f3d">Stats, rankings, countdowns, quotes, dashboards, sales, how-tos… All as open .json files.</p>
+    </div>
+    <div class="card">
+      <h3 data-i18n="f4t">Pro exports</h3>
+      <p data-i18n="f4d">Standalone HTML, transparent PNG sequence (ZIP), WebM with alpha, or copy-ready code.</p>
+    </div>
+    <div class="card">
+      <h3 data-i18n="f5t">Timeline & keyframes</h3>
+      <p data-i18n="f5d">Animate entrances, exits and counters frame by frame. Video/audio tracks, loop, adjustable duration.</p>
+    </div>
+    <div class="card">
+      <h3 data-i18n="f6t">Every format</h3>
+      <p data-i18n="f6d">9:16 (TikTok/Reels/Shorts), 16:9, 1:1, 4:5 or custom. Magnetic guides, safe zones, multi-select.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p data-i18n="foot">OverGraph is free. If it helps you, a coffee helps development → <a href="https://paypal.me/OverGraphCofee">PayPal</a></p>
+    <p style="margin-top:8px">Made for creators who value privacy and simplicity.</p>
+  </footer>
+</div>
+<script>
+const i18n = {
+  en: {
+    tag: "v4.8 · Free · 100% local · No sign-up",
+    h1: "Animated infographics for your videos",
+    sub: "A complete overlay & infographic editor that fits in a single HTML file. Timeline, keyframes, 69 templates, transparent exports. Everything runs in your browser — nothing ever leaves your machine.",
+    cta1: "Open the Studio",
+    cta2: "View on GitHub",
+    f1t: "Single file", f1d: "The entire studio is one self-contained HTML file. Zero external dependencies. Open it anywhere.",
+    f2t: "100% private", f2d: "No server, no telemetry, no cookies. Your projects and exports stay on your disk.",
+    f3t: "69 templates", f3d: "Stats, rankings, countdowns, quotes, dashboards, sales, how-tos… All as open .json files.",
+    f4t: "Pro exports", f4d: "Standalone HTML, transparent PNG sequence (ZIP), WebM with alpha, or copy-ready code.",
+    f5t: "Timeline & keyframes", f5d: "Animate entrances, exits and counters frame by frame. Video/audio tracks, loop, adjustable duration.",
+    f6t: "Every format", f6d: "9:16 (TikTok/Reels/Shorts), 16:9, 1:1, 4:5 or custom. Magnetic guides, safe zones, multi-select.",
+    foot: "OverGraph is free. If it helps you, a coffee helps development → "
+  },
+  fr: {
+    tag: "v4.8 · Gratuit · 100 % local · Sans inscription",
+    h1: "Des infographies animées pour vos vidéos",
+    sub: "Un éditeur d’overlays et d’infographies complet qui tient dans un seul fichier HTML. Timeline, images-clés, 69 modèles, exports transparents. Tout tourne dans votre navigateur — rien ne quitte jamais votre machine.",
+    cta1: "Ouvrir le Studio",
+    cta2: "Voir sur GitHub",
+    f1t: "Fichier unique", f1d: "Le studio complet tient dans un seul fichier HTML. Zéro dépendance externe. Ouvrez-le partout.",
+    f2t: "100 % privé", f2d: "Pas de serveur, pas de télémétrie, pas de cookies. Vos projets restent sur votre disque.",
+    f3t: "69 modèles", f3d: "Stats, classements, compte à rebours, citations, tableaux de bord, promos, tutoriels… Tous en .json ouverts.",
+    f4t: "Exports pro", f4d: "HTML autonome, séquence PNG transparente (ZIP), WebM avec alpha, ou code prêt à coller.",
+    f5t: "Timeline & images-clés", f5d: "Animez entrées, sorties et compteurs image par image. Pistes vidéo/audio, boucle, durée ajustable.",
+    f6t: "Tous les formats", f6d: "9:16 (TikTok/Reels/Shorts), 16:9, 1:1, 4:5 ou custom. Guides magnétiques, zones sûres, multi-sélection.",
+    foot: "OverGraph est gratuit. Si l’outil vous aide, un café aide le développement → "
+  }
+};
+function setLang(l) {
+  document.getElementById('btn-en').classList.toggle('active', l==='en');
+  document.getElementById('btn-fr').classList.toggle('active', l==='fr');
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const k = el.getAttribute('data-i18n');
+    if (i18n[l][k]) el.innerHTML = i18n[l][k] + (k==='foot' ? '<a href="https://paypal.me/OverGraphCofee">PayPal</a>' : '');
+  });
+  document.documentElement.lang = l;
+}
+</script>
+</body>
+</html>
