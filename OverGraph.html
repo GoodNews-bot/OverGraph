@@ -53,7 +53,8 @@ input,select,textarea,button{font:inherit;color:inherit}
 .topbar{
   height:54px;flex:0 0 54px;display:flex;align-items:center;gap:14px;
   padding:0 14px;background:var(--panel);border-bottom:1px solid var(--border);
-  position:relative;z-index:50;
+  position:relative;z-index:200; /* above stage/drawers — Export always reachable */
+  overflow:visible; /* never clip the export dropdown menu */
 }
 .brand{display:flex;align-items:center;gap:10px;margin-right:6px;min-width:0}
 .brand .logo{width:30px;height:30px;flex:0 0 30px}
@@ -89,7 +90,7 @@ select{cursor:pointer;appearance:none;background-image:linear-gradient(45deg,tra
 .export-wrap{position:relative}
 .export-menu{
   position:absolute;top:40px;right:0;min-width:250px;background:var(--panel2);
-  border:1px solid var(--border2);border-radius:12px;padding:6px;z-index:100;
+  border:1px solid var(--border2);border-radius:12px;padding:6px;z-index:300;
   box-shadow:0 18px 50px rgba(0,0,0,.55);
 }
 .export-menu button{
@@ -671,20 +672,178 @@ select{cursor:pointer;appearance:none;background-image:linear-gradient(45deg,tra
 #modal-sub.sub-busy .sub-src,#modal-sub.sub-busy .sub-grid2,#modal-sub.sub-busy .sub-device,#modal-sub.sub-busy .sub-styles,#modal-sub.sub-busy .sub-gen-note{opacity:.45;pointer-events:none}
 
 /* ============================================================
-   9. RÉSPONSIF (optimisé desktop, dégradé progressif)
+   9. RÉSPONSIF & ERGONOMIE
    ============================================================ */
-@media (max-width:1400px){#left{width:212px}#right{width:284px}}
+
+/* Mobile drawer controls (shown ≤900px) */
+.mob-toggles{display:none;align-items:center;gap:6px;flex:0 0 auto}
+.mob-toggles .btn{height:34px;min-width:34px;padding:0 10px}
+.drawer-backdrop{
+  display:none;position:fixed;inset:0;z-index:150;
+  background:rgba(5,7,12,.55);backdrop-filter:blur(3px);
+}
+.drawer-backdrop.on{display:block}
+body.drawer-left-open #left,
+body.drawer-right-open #right{
+  transform:translateX(0)!important;
+  box-shadow:0 0 40px rgba(0,0,0,.55);
+}
+
+/* Touch-friendly targets */
+@media (pointer:coarse){
+  .btn,.add-btn,.ctx-item,.seg-add,.sub-restore,
+  .icon-grid button,.sticker-grid button,.iconpick button,
+  .p-align button,.seg button,.tl-add{min-height:36px}
+  .add-btn{padding:10px 11px}
+  input[type=number],input[type=text],select{min-height:36px}
+  .tl-transport .btn-icon{width:36px;height:36px}
+}
+
+@media (max-width:1400px){
+  #left{width:212px}
+  #right{width:284px}
+}
+
+/* Icon-only left rail */
 @media (max-width:1180px){
-  #left{width:58px}.add-btn{justify-content:center;padding:7px 0}.add-btn span{display:none}
-  .side-sec h3{justify-content:center}.side-sec h3::after{display:none}
+  #left{width:58px}
+  .add-btn{justify-content:center;padding:8px 0}
+  .add-btn span{display:none}
+  .side-sec h3{justify-content:center;font-size:0;padding-bottom:6px}
+  .side-sec h3::after{display:none}
+  .side-sec{padding:10px 6px 2px}
   .icon-grid{grid-template-columns:repeat(2,1fr)}
   .sticker-grid{grid-template-columns:repeat(2,1fr)}
   .sub-styles{grid-template-columns:repeat(2,1fr)}
-  #right{width:252px}.brand .name span{display:none}
+  #right{width:260px}
+  .brand .name span{display:none}
+  .lib-row .btn{min-width:0;padding:5px 6px;font-size:10px}
 }
-@media (max-width:900px){
-  .main{overflow-x:auto}
+
+/* Tablet */
+@media (max-width:1024px){
+  .topbar{height:auto;min-height:52px;flex-wrap:wrap;gap:8px;padding:8px 10px;flex:0 0 auto}
   .tb-group>label{display:none}
+  .tb-row{gap:4px}
+  .tb-group select{max-width:150px;font-size:12px}
+  .brand{margin-right:2px}
+  #right{width:240px}
+  .p-row{grid-template-columns:76px 1fr;gap:6px}
+  #tl-scroll{max-height:180px}
+  .tl-legend{display:none}
+}
+
+/* ≤900px : side panels become drawers BELOW the topbar */
+@media (max-width:900px){
+  .mob-toggles{display:flex}
+  .topbar .tb-spacer{flex:0 0 4px}
+  /* Keep topbar always on top of everything */
+  .topbar{z-index:250;position:relative}
+  #left,#right{
+    position:fixed;
+    top:54px; /* sit under the topbar — never cover Export */
+    bottom:0;z-index:160;
+    width:min(300px,86vw)!important;max-width:320px;
+    transition:transform .28s cubic-bezier(.32,.72,0,1);
+    box-shadow:none;border:none;
+  }
+  #left{
+    left:0;transform:translateX(-105%);
+    border-right:1px solid var(--border2);
+  }
+  #right{
+    right:0;left:auto;transform:translateX(105%);
+    border-left:1px solid var(--border2);
+  }
+  /* Readable labels when left drawer is open */
+  body.drawer-left-open #left .add-btn{justify-content:flex-start;padding:9px 12px}
+  body.drawer-left-open #left .add-btn span{display:inline}
+  body.drawer-left-open #left .side-sec h3{
+    font-size:10px;justify-content:flex-start;padding:0 4px 8px;
+  }
+  body.drawer-left-open #left .side-sec h3::after{display:block}
+  body.drawer-left-open #left .side-sec{padding:13px 12px 4px}
+  body.drawer-left-open #left .icon-grid{grid-template-columns:repeat(6,1fr)}
+  body.drawer-left-open #left .sticker-grid{grid-template-columns:repeat(3,1fr)}
+
+  .main{overflow:hidden;min-height:0}
+  #center{min-width:0;width:100%;flex:1}
+  #viewport{min-height:0}
+  .vp-hint{font-size:10px;padding:0 10px;text-align:center;max-width:90%}
+  #vref-bar{max-width:min(70%,280px);top:8px;right:8px}
+  #vref-pop{right:8px;width:min(262px,92vw);z-index:40}
+  #og-tools{right:8px;bottom:8px}
+  #og-tools-pop{width:min(262px,90vw);z-index:40}
+  .tl-row{grid-template-columns:96px 1fr}
+  .tl-label{font-size:10px;padding:0 6px}
+  .tl-transport{padding:6px 10px;gap:6px;flex-wrap:wrap}
+  #tl-time{min-width:90px;font-size:11px}
+  .loop-lbl{font-size:11px}
+  .modal{width:min(560px,96vw);padding:16px 14px;max-height:90vh;border-radius:14px}
+  .export-menu{right:0;min-width:min(250px,92vw);z-index:300}
+  .sub-styles{grid-template-columns:repeat(2,1fr)}
+  .tpl-grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+  /* When topbar wraps, drawers follow its actual height */
+  .topbar{height:auto;min-height:52px}
+}
+
+/* Phone */
+@media (max-width:600px){
+  body{font-size:12.5px}
+  .topbar{padding:6px 8px;gap:6px}
+  .brand .name b{font-size:13px}
+  .brand .logo{width:26px;height:26px;flex:0 0 26px}
+  #tb-zoom{display:none}
+  .tb-group select{max-width:118px;font-size:11.5px;height:30px;padding:4px 22px 4px 7px}
+  .custom-dims input{width:54px;height:30px}
+  .btn{height:34px;padding:0 10px;font-size:12px;gap:5px}
+  .btn-icon{width:34px;padding:0}
+  .btn svg{width:14px;height:14px}
+  #btn-open span,#btn-new span,#btn-copy span{display:none}
+  #btn-export{padding:0 12px}
+  #left,#right{width:min(280px,92vw)!important;top:0;padding-top:env(safe-area-inset-top,0)}
+  /* On very small screens drawers can be full-height under a sticky topbar overlay */
+  .vp-chip{left:8px;bottom:8px;font-size:10px;padding:4px 9px}
+  #tl-scroll{max-height:150px}
+  .tl-row{grid-template-columns:72px 1fr;height:24px}
+  .tl-row.head{height:20px}
+  .tl-block{height:15px;top:3px}
+  .mc-clip{height:28px;top:3px}
+  .tl-row.mc-row{height:36px}
+  .p-head{padding:10px 12px}
+  .p-sec{padding:9px 12px 2px}
+  .p-row{grid-template-columns:1fr;gap:3px;margin-bottom:9px}
+  .p-row>label{text-align:left;font-size:10.5px;color:var(--muted2)}
+  .p-align button{height:32px}
+  .modal{padding:14px 12px;border-radius:12px}
+  .modal-foot{flex-wrap:wrap;gap:8px}
+  .modal-foot .btn{flex:1 1 auto;justify-content:center}
+  .sub-grid2{grid-template-columns:1fr}
+  .code-area{height:180px;font-size:10px}
+}
+
+@media (max-width:380px){
+  .brand .name{display:none}
+  .mob-toggles .btn{padding:0 8px;font-size:11px}
+  #btn-help,#btn-undo,#btn-redo{display:none}
+}
+
+@media (max-height:500px) and (orientation:landscape){
+  .topbar{min-height:42px;padding:4px 8px}
+  #tl-scroll{max-height:110px}
+  .tl-transport{padding:4px 8px}
+  .vp-hint{display:none}
+}
+
+@media (prefers-reduced-motion:reduce){
+  *{transition-duration:.01ms!important;animation-duration:.01ms!important}
+}
+
+@supports (padding:max(0px)){
+  .topbar{
+    padding-left:max(10px,env(safe-area-inset-left));
+    padding-right:max(10px,env(safe-area-inset-right));
+  }
 }
 </style>
 
@@ -855,6 +1014,11 @@ select{cursor:pointer;appearance:none;background-image:linear-gradient(45deg,tra
      BARRE SUPÉRIEURE
      ============================================================ -->
 <header class="topbar">
+  <div class="mob-toggles">
+    <button class="btn" id="mob-left" type="button" title="Tools & elements" aria-label="Open tools panel">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h10M4 18h14"/></svg>
+    </button>
+  </div>
   <div class="brand">
     <svg class="logo" viewBox="0 0 32 32" fill="none">
       <rect x="1.5" y="1.5" width="29" height="29" rx="8" stroke="url(#lgn)" stroke-width="2"/>
@@ -894,7 +1058,7 @@ select{cursor:pointer;appearance:none;background-image:linear-gradient(45deg,tra
     </div>
   </div>
 
-  <div class="tb-group">
+  <div class="tb-group" id="tb-zoom">
     <label>Zoom</label>
     <div class="tb-row">
       <select id="zoom-sel">
@@ -924,6 +1088,11 @@ select{cursor:pointer;appearance:none;background-image:linear-gradient(45deg,tra
   <button class="btn" id="btn-copy" title="Copy the standalone HTML code">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>Copy code
   </button>
+  <div class="mob-toggles">
+    <button class="btn" id="mob-right" type="button" title="Properties" aria-label="Open properties panel">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+    </button>
+  </div>
   <div class="export-wrap">
     <button class="btn btn-primary" id="btn-export">Export
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
@@ -962,6 +1131,7 @@ select{cursor:pointer;appearance:none;background-image:linear-gradient(45deg,tra
     </div>
   </div>
 </header>
+<div class="drawer-backdrop" id="drawer-backdrop" aria-hidden="true"></div>
 
 <!-- ============================================================
      3 COLONNES : OUTILS | VISUALISEUR + TIMELINE | PROPRIÉTÉS
@@ -2337,6 +2507,12 @@ function selectEl(id,extend){
     state.selId=id;state.selIds=id?[id]:[];
   }
   updateSelOverlay();renderPanel();renderTimeline();
+  if(id&&window.matchMedia('(max-width:900px)').matches){
+    document.body.classList.add('drawer-right-open');
+    document.body.classList.remove('drawer-left-open');
+    const bd=$('#drawer-backdrop');
+    if(bd){bd.classList.add('on');bd.setAttribute('aria-hidden','false');}
+  }
 }
 function deselect(){if(state.selId==null&&!(state.selIds||[]).length){if(mcSelId){mcSelId=null;renderPanel();renderTimeline();}return;}state.selId=null;state.selIds=[];mcSelId=null;updateSelOverlay();renderPanel();renderTimeline();}
 
@@ -9881,6 +10057,74 @@ $('#tpl-save').addEventListener('click',()=>{
 $('#tpl-save-cancel').addEventListener('click',()=>closeModal('modal-tpl-save'));
 $('#tpl-save-go').addEventListener('click',saveCurrentTemplate);
 $('#tpl-save-name').addEventListener('keydown',e=>{if(e.key==='Enter')saveCurrentTemplate();});
+
+/* ================================================================
+   RESPONSIVE DRAWERS (≤900px) — never cover the topbar / Export
+   ================================================================ */
+(function setupDrawers(){
+  const bd=$('#drawer-backdrop');
+  function isMobile(){return window.matchMedia('(max-width:900px)').matches;}
+  function closeDrawers(){
+    document.body.classList.remove('drawer-left-open','drawer-right-open');
+    if(bd){bd.classList.remove('on');bd.setAttribute('aria-hidden','true');}
+  }
+  function openLeft(){
+    if(!isMobile())return;
+    document.body.classList.add('drawer-left-open');
+    document.body.classList.remove('drawer-right-open');
+    if(bd){bd.classList.add('on');bd.setAttribute('aria-hidden','false');}
+  }
+  function openRight(){
+    if(!isMobile())return;
+    document.body.classList.add('drawer-right-open');
+    document.body.classList.remove('drawer-left-open');
+    if(bd){bd.classList.add('on');bd.setAttribute('aria-hidden','false');}
+  }
+  const btnL=$('#mob-left'),btnR=$('#mob-right');
+  if(btnL)btnL.addEventListener('click',e=>{
+    e.stopPropagation();
+    if(document.body.classList.contains('drawer-left-open'))closeDrawers();
+    else openLeft();
+  });
+  if(btnR)btnR.addEventListener('click',e=>{
+    e.stopPropagation();
+    if(document.body.classList.contains('drawer-right-open'))closeDrawers();
+    else openRight();
+  });
+  if(bd)bd.addEventListener('click',closeDrawers);
+  document.addEventListener('keydown',e=>{
+    if(e.key==='Escape'&&(document.body.classList.contains('drawer-left-open')||document.body.classList.contains('drawer-right-open')))
+      closeDrawers();
+  });
+  const left=$('#left');
+  if(left)left.addEventListener('click',e=>{
+    if(!isMobile())return;
+    if(e.target.closest('[data-add],#btn-templates,#btn-autosub,.sticker-grid button'))
+      setTimeout(closeDrawers,180);
+  });
+  let was=isMobile();
+  window.addEventListener('resize',()=>{
+    const now=isMobile();
+    if(was&&!now)closeDrawers();
+    was=now;
+  });
+  /* Sync drawer top offset with actual topbar height when it wraps */
+  function syncDrawerTop(){
+    if(!isMobile())return;
+    const tb=document.querySelector('.topbar');
+    if(!tb)return;
+    const h=Math.ceil(tb.getBoundingClientRect().height)+'px';
+    const L=$('#left'),R=$('#right');
+    if(L)L.style.top=h;
+    if(R)R.style.top=h;
+  }
+  window.addEventListener('resize',syncDrawerTop);
+  if(window.ResizeObserver){
+    const tb=document.querySelector('.topbar');
+    if(tb)new ResizeObserver(syncDrawerTop).observe(tb);
+  }
+  setTimeout(syncDrawerTop,0);
+})();
 
 /* ================================================================
    DÉMARRAGE
