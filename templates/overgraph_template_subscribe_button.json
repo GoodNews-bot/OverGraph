@@ -1,0 +1,130 @@
+{
+  "app": "overgraph-studio",
+  "kind": "template",
+  "format": 1,
+  "name": "Subscribe button",
+  "desc": "Red pill with bell and text, pops in and out.",
+  "savedAt": "2026-10-02T09:00:22.755Z",
+  "template": {
+    "W": 1080,
+    "H": 1920,
+    "duration": 6,
+    "bg": null,
+    "elements": [
+      {
+        "id": "el8tsnmuj",
+        "type": "rect",
+        "name": "Subscribe · button",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "elhoolel5",
+            "type": "pop",
+            "dir": "in",
+            "start": 0.2,
+            "duration": 0.6,
+            "easing": "back"
+          },
+          {
+            "id": "elrj0hq2c",
+            "type": "scale",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.4,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "fill": "#ef4444",
+          "border": "rgba(255,255,255,0.4)",
+          "borderW": 3,
+          "radius": 72
+        },
+        "w": 605,
+        "h": 143,
+        "x": 238,
+        "y": 1421
+      },
+      {
+        "id": "elc1l90pa",
+        "type": "icon",
+        "name": "Subscribe · bell",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el04nkwx4",
+            "type": "bounce",
+            "dir": "in",
+            "start": 0.6,
+            "duration": 0.9,
+            "easing": "ease"
+          },
+          {
+            "id": "elkyuavqm",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "icon": "bell",
+          "color": "#ffffff",
+          "strokeW": 2.2,
+          "fill": true
+        },
+        "w": 82,
+        "h": 82,
+        "x": 275,
+        "y": 1451
+      },
+      {
+        "id": "elim0cb9z",
+        "type": "text",
+        "name": "Subscribe · text",
+        "rot": 0,
+        "opacity": 100,
+        "anims": [
+          {
+            "id": "el4pyoib8",
+            "type": "fade",
+            "dir": "in",
+            "start": 0.5,
+            "duration": 0.5,
+            "easing": "ease"
+          },
+          {
+            "id": "el0gpbksu",
+            "type": "fade",
+            "dir": "out",
+            "start": 5.25,
+            "duration": 0.3,
+            "easing": "ease"
+          }
+        ],
+        "props": {
+          "text": "SUBSCRIBE",
+          "font": "sans",
+          "size": 56,
+          "weight": "800",
+          "color": "#ffffff",
+          "align": "center",
+          "lh": 1.25,
+          "ls": 0,
+          "shadow": false,
+          "shadowColor": "#000000",
+          "shadowBlur": 15.120000000000001,
+          "shadowX": 0,
+          "shadowY": 3.24
+        },
+        "w": 443,
+        "h": 70,
+        "x": 372,
+        "y": 1458
+      }
+    ]
+  }
+}
